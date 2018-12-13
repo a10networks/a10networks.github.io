@@ -1,2 +1,2 @@
-# Index
+# FAQ Index
 

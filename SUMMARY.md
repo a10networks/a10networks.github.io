@@ -17,7 +17,7 @@
 
 ## FAQ
 
-* [Index](faq/index.md)
+* [FAQ Index](faq/index.md)
 * [A10 GUI Framework](faq/a10-gui-framework.md)
 * [A10 GUI Widgets](faq/a10-gui-widgets.md)
 * [A10 Stateful Common Library](faq/a10-stateful-common-library.md)
