@@ -1,10 +1,13 @@
 # Table of contents
 
 * [A10 Unified GUI Framework](README.md)
-* [Getting Started](getting-started.md)
-* [Generate Your App](generate-your-app.md)
-* [Main Repositories](main-repositories-1.md)
-* [Examples](examples.md)
+
+## Introduction
+
+* [Getting Started](a10-unified-gui-framework/getting-started.md)
+* [Generate Your App](a10-unified-gui-framework/generate-your-app.md)
+* [Main Repositories](a10-unified-gui-framework/main-repositories-1.md)
+* [Examples](a10-unified-gui-framework/examples.md)
 
 ## Main Repositories
 
