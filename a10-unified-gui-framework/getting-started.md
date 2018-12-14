@@ -16,11 +16,62 @@ Here are the key features on current release:
 
 ## Installation
 
-### Starter Kit
+### Using generator 
+
+The easiest way to start a project I recommend you to use UGF generator, it's a [Yeoman ](https://yeoman.io/)generator, you need first install Yeoman tool, and then follow the [Generate Your App](generate-your-app.md)  steps to generate the whole framework and it's required stuffs,  after go through those simple steps, you app is running up. 
+
+If you'd like learning deeper, then you can add your generated code into your IDE,  start from \[project name\]/index.tsx.
+
+### I would like to build blocks
+
+If you would like try to build the whole thing by yourself,  here are some prerequisites software:
+
+1. Nodejs 8.11+ 
+2. git
+3. create-react-app
+
+then here is the basic steps:
+
+* Initial a project using create-react-app
+
+```text
+$ create-react-app my-project
+```
+
+*  Adding required GUI framework components into [package.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/package.json)
+
+```text
+"dependencies": {
+    "a10-gui-framework": "git+https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git",
+    "a10-gui-widgets": "git+https://git.a10networks.com:8443/scm/guinext/a10-gui-widgets.git",
+    ...
+  },
+
+  ...
+```
+
+* Using npm tool to install all your required softwares
+
+```text
+$ npm install
+```
+
+* Create basic folder and file structure under the source folder, see [reference](https://github.com/a10networks/a10-gui-ugf-template/tree/master/src)
+* Read[ Framework book](../main-repositories/a10-gui-framework.md) and using [widgets storybook](../main-repositories/a10-gui-widgets.md) and [common library](../main-repositories/a10-stateful-common-library.md) storybook to build your app
+
+### Development Tools
+
+IDE setup
+
+Browser extensions recommend
 
 ### Basic Example
 
+
+
 ### Examples
+
+Waiting for Jason provide examples
 
 ## Learn 
 

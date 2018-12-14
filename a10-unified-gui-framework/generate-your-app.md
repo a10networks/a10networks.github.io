@@ -6,7 +6,7 @@ description: How to use generator-ugf generate your first App
 
 ## Getting Started with UGF
 
-For new users, please use [yeoman ](https://yeoman.io/)tool to generate your first app:
+For new users, please use [Yeoman ](https://yeoman.io/)tool to generate your first app:
 
 Install Yeoman and clone UGF generator
 
