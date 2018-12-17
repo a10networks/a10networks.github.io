@@ -8,16 +8,16 @@
 
 #### Install <a id="install"></a>
 
-#### 1.Add a10-gui-widgets in the dependency of package.json
+1.Add a10-gui-widgets in the dependency of package.json
 
 ```text
  "dependencies": {
     "a10-gui-widgets": "git https://git.a10networks.com:8443/scm/guinext/a10-gui-widgets.git",
 ```
 
-#### 2.Install a10-gui-widgets using npm install
+2.Install a10-gui-widgets using npm install
 
-#### 3.Using a10-gui-widgets in your app:
+3.Using a10-gui-widgets in your app:
 
 Take the simple A10Button as an example.
 
@@ -33,7 +33,7 @@ class Demo extends A10Component {
 export default Demo 
 ```
 
-#### 4.Importing widget css style
+4.Importing widget css style
 
 There is two ways to import the css of a10-gui-widget in your code.
 
