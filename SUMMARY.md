@@ -1,7 +1,5 @@
 # Table of contents
 
-* [A10 Unified GUI Framework](README.md)
-
 ## Introduction
 
 * [Getting Started](introduction/getting-started.md)
