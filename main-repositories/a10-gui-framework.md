@@ -43,7 +43,7 @@ ReactDOM.render(
 
 ## Core components 
 
-A10Provider   A10Router   A10Route
+A10Provider   A10Router   A10Route   A10Root
 
 
 
