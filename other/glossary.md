@@ -1,23 +1,46 @@
+---
+description: Main concepts about UGF
+---
+
 # Glossary
 
-## Getting Super Powers
+## UGF
 
-Becoming a super hero is a fairly straight forward process:
+Abbreviation of A10 Unified GUI Framework, used for cross team share same GUI architecture, unify Javascript code and CSS style.
 
-```
-$ give me super-powers
-```
+## A10 GUI Framework
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+It's the main repository of UGF, defined how to use React, Redux and other well-known opensource softwares.
 
-Once you're strong enough, save the world:
+The bootstrap code should use the Framework code to boot up.
 
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+## A10 GUI Widgets
+
+To keep GUI action behavior and looking as the same between team, we abstract all React UI components as widgets.
+
+## A10 GUI Common Library
+
+To save GUI  guys share business code with each other, we defined Common code especially container code into this library.
+
+## A10Provider
+
+## A10Root
+
+## A10Router
+
+## A10 Container Interface
+
+## A10 Widget Interface
+
+## A10 Redux
+
+## Redux Observable 
+
+## Redux Namespace
+
+## Redux with HTTP Request
+
+## A10 Less UI
 
 
 

@@ -36,10 +36,11 @@ $ create-react-app my-project
 
 *  Adding required GUI framework components into [package.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/package.json)
 
-```text
+```javascript
 "dependencies": {
-    "a10-gui-framework": "git+https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git",
-    "a10-gui-widgets": "git+https://git.a10networks.com:8443/scm/guinext/a10-gui-widgets.git",
+    "a10-gui-framework": "https://github.com/a10networks/a10-gui-framework.git",
+    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-framework.git",
+    "a10-gui-common": "https://github.com/a10networks/a10-gui-common.git",
     ...
   },
 
@@ -48,14 +49,14 @@ $ create-react-app my-project
 
 * Using npm tool to install all your required softwares
 
-```text
+```bash
 $ npm install
 ```
 
 * Create basic folder and file structure under the source folder, see [reference](https://github.com/a10networks/a10-gui-ugf-template/tree/master/src)
 * Setup bootstrap file using a10-gui-framework
 
-```text
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { A10Provider, A10Router } from 'a10-gui-framework'
@@ -80,7 +81,7 @@ ReactDOM.render(
 
 * Create a [Home container](https://github.com/a10networks/a10-gui-ugf-template/blob/master/src/containers/Home/Home.tsx)
 
-```text
+```jsx
 import React from 'react'
 import {
   A10Container,
@@ -102,7 +103,7 @@ export default setupA10Container(Home)
 
 * Try to import an widget from a10-gui-widgets
 
-```text
+```jsx
 import React from 'react'
 import {
   A10Container,
