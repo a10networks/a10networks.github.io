@@ -1,7 +1,3 @@
----
-description: All repositories and how to use it
----
-
 # Main Repositories
 
 ## A10 GUI Framework

@@ -1,7 +1,3 @@
----
-description: How to use generator-ugf generate your first App
----
-
 # Generate Your App
 
 ## Getting Started with UGF

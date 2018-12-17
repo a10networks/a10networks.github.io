@@ -1,7 +1,3 @@
----
-description: 'UGF: A10 Unified  GUI Framework'
----
-
 # Getting Started
 
 UGF is a GUI framework used to build A10networks GUI projects. It's composed by React.js related opensource  softwares. It's a business-adapted , higher performance, and easier debug framework.
