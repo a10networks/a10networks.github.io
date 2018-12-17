@@ -4,7 +4,7 @@ description: 'UGF: A10 Unified  GUI Framework'
 
 # Getting Started
 
-UGF is a GUI framework used to build A10networks GUI pages. It's composed by React.js related opensource  softwares. It's a business-adapted , higher performance, and easier debug framework.
+UGF is a GUI framework used to build A10networks GUI projects. It's composed by React.js related opensource  softwares. It's a business-adapted , higher performance, and easier debug framework.
 
 Here are the key features on current release:
 
@@ -57,37 +57,140 @@ $ npm install
 ```
 
 * Create basic folder and file structure under the source folder, see [reference](https://github.com/a10networks/a10-gui-ugf-template/tree/master/src)
-* Read[ Framework book](../main-repositories/a10-gui-framework.md) and using [widgets storybook](../main-repositories/a10-gui-widgets.md) and [common library](../main-repositories/a10-stateful-common-library.md) storybook to build your app
+* Setup bootstrap file using a10-gui-framework
 
-### Development Tools
+```text
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { A10Provider, A10Router } from 'a10-gui-framework'
 
-IDE setup
+import { config } from './settings'
+import appReducers from './redux/reducers'
+import './styles/main.less'
 
-Browser extensions recommend
+import { Home } from './containers/Home'
 
-### Basic Example
+const middlewares: any[] = []
 
+ReactDOM.render(
+  <A10Provider reducers={appReducers} middlewares={middlewares} CONFIG={config}>
+    <A10Router.Browser>
+      <Home />
+    </A10Router.Browser>
+  </A10Provider>,
+  document.getElementById('root') as HTMLElement,
+)
+```
 
+* Create a [Home container](https://github.com/a10networks/a10-gui-ugf-template/blob/master/src/containers/Home/Home.tsx)
 
-### Examples
+```text
+import React from 'react'
+import {
+  A10Container,
+  setupA10Container,
+} from 'a10-gui-framework'
 
-Waiting for Jason provide examples
+// ...
+class Home extends A10Container<IHomeProps, IHomeState> {
+  // ...
+  render() {
+    return (
+      <div>Hellow World!</div>
+    )
+  }
+}
+
+export default setupA10Container(Home)
+```
+
+* Try to import an widget from a10-gui-widgets
+
+```text
+import React from 'react'
+import {
+  A10Container,
+  setupA10Container,
+} from 'a10-gui-framework'
+​
+import { A10Button } from 'a10-gui-widgets'
+
+class Home extends A10Container<IHomeProps, IHomeState> {
+  // ...
+  render() {
+    return (
+      <div>Hellow World!</div>
+      <A10Button type="primary">
+        Click me!
+      </A10Button>
+    )
+  }
+}
+​
+export default setupA10Container(Home)
+```
+
+* Read[ Framework book](../main-repositories/a10-gui-framework.md) and using [widgets storybook](../main-repositories/a10-gui-widgets.md) and [common library](../main-repositories/a10-stateful-common-library.md) storybook add more stuffs.
+
+## Development Tools
+
+#### IDE setup
+
+We can use any text editor like VSCode, Sublime Text, Hbuilder, Notepad++. 
+
+A10 oxbox GUI team we used VSCode since it's lightweight , stable and higher coding performance, so in GUI git repository, we have already setup all the VSCode running environment configurations, pull it down, add it into your VSCode editor, VSCode can help you follow GUI team dev env to start your coding. The VS Code configuration files under \[your\_project\_root\]/.vscode/
+
+If you have your favorite IDE,  we suggest you install basic plugins such as eslint and tslint, for highlight your code, please install Typescript and ES6 relevant plugin.
+
+For coding style, we are using  tslint:recommended, tslint-react, for more information about this topic, please see our [tslint.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/tslint.json).
+
+#### Browser extensions recommend
+
+For debugging React and Redux, we suggest installing following two extensions on Chrome or Firefox, it can help you debug React Virtual DOM hierarchy and Redux store data.
+
+* [React developer Tools](https://github.com/facebook/react-devtools)
+* [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
+
+## Examples
+
+\[Jason\] For more examples,  please read [Examples](examples.md) page.
 
 ## Learn 
 
 #### Just the Basics
 
-#### Intermediate Concepts
+We have 3 main design docs for the basic concepts of framework, widget and container, please directly click following link to read.
+
+1. [A10 GUI Framework design doc](https://github.com/a10networks/a10networks.github.io/raw/0.7.0/design-docs/A10-GUI-Framework-Design-v1.1a.docx)
+2. [A10 GUI Container design doc](https://github.com/a10networks/a10networks.github.io/raw/0.7.0/design-docs/A10-Container-Design-v1.0a.docx)
+3. [A10 GUI Widgets design doc](https://github.com/a10networks/a10networks.github.io/raw/0.7.0/design-docs/A10-GUI-Widgets-v1.1a.docx)
+4. [A10 GUI Redux for HTTP Request design doc](https://github.com/a10networks/a10networks.github.io/raw/0.7.0/design-docs/A10ReduxHTTP_design_v1.0b.docx) 
 
 #### Real-World Usage
 
+If you'd like to learn how it works on real-world , please contact [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) to grant permissions to access production code.
+
 ## Help and Discussion
+
+You can send mail to [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) or join our [slack discussion group](https://a10webguiteam.slack.com/messages/CBJH1KJKD), 
+
+For a10-gui-framework issues, you can directly connect our framework maintainer [Roll ](mailto:stsai@a10networks.com)and [Chris](mailto:christzhusiul@a10networks.com). 
+
+For a10-gui-widgets issues, please connect [Rui](mailto:%20ruiz@a10networks.com).
+
+To access those frameworks' source code,  you need to be grant permissions, so you need connect [Yushan](mailto:yhou@a10networks.com) and above maintainers.
+
+Or you can post issues to different git repository issue boards, we will answer your questions at first time to get it.
 
 ## Should You Use
 
+This is not an open project by now, only used in A10networks Corp. If you are part of A10networks GUI developer,  welcome to use it, but please don't distribute the source code to outside of A10networks.
+
 ## Repositories Access Permission
 
-Since it's an A10 GUI internal project, if you have no permission to access the framework repositories, please contact us.
+Since it's an A10 GUI internal project, if you have no permission to access the framework repositories outside A10networks Corp.
+
+To access those frameworks' source code,  you need to be grant permissions, so you need connect [Yushan](mailto:yhou@a10networks.com) and above maintainers.
 
 
 

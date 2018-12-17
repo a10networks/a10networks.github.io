@@ -13,7 +13,7 @@
 
 * [A10 GUI Framework](main-repositories/a10-gui-framework.md)
 * [A10 GUI Widgets](main-repositories/a10-gui-widgets.md)
-* [A10 Stateful Common Library](main-repositories/a10-stateful-common-library.md)
+* [A10 GUI Stateful Common Library](main-repositories/a10-stateful-common-library.md)
 
 ## FAQ
 

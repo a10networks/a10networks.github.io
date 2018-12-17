@@ -22,7 +22,7 @@ npm link
 
 Generate your first project
 
-```text
+```bash
 # Create a new directory, and `cd` into it:
 mkdir my-new-project && cd my-new-project
 
@@ -30,15 +30,41 @@ mkdir my-new-project && cd my-new-project
 yo ugf
 ```
 
+Or you can use follow commands to boot up, build and test your project
 
+```bash
+# Start for development
+npm start # or
 
-## Generate a module prototype
+# Just build the dist version and copy static files
+npm run build
 
-Generate a container
+# Run unit tests
+npm test
+```
 
-Generate a component
+## Generate more
 
-Generate an feature
+### Generate a container
+
+```bash
+# cd my-new-project
+yo ugf:container my/namespaced/container
+```
+
+### Generate a component
+
+```text
+# cd my-new-project
+yo ugf:component my/namespaced/container
+```
+
+### Generate an feature
+
+```bash
+# TO DO: generate a dashboard or a wizard or other apps
+# yo ugf:dashboard my/namespaced/dashboard
+```
 
 ## To generate more?
 
