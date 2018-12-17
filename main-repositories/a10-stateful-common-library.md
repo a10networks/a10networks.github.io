@@ -46,7 +46,7 @@ const yourComponent = () => {
 
 ## Components <a id="core-components"></a>
 
-A10Panel   AsyncComponent   Loading   normalizeVal   normalizeTimestamp   formatDatetime   getHelpPage   prettyMs   browser
+A10Panel   SubPanel   AsyncComponent   Loading   normalizeVal   normalizeTimestamp   formatDatetime   getHelpPage   prettyMs   browser
 
 ### def <a id="def"></a>
 
