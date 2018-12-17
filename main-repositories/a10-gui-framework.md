@@ -43,7 +43,7 @@ ReactDOM.render(
 
 ## Core components 
 
-A10Provider   A10Router   A10Route   A10Root   [A10Component ](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/basicComponents/index.tsx)  [A10Container](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/basicComponents/index.tsx)
+[A10Provider](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/appComponents)   [A10Router ](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/appComponents)  [A10Route ](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/appComponents) [ A10Switch](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/appComponents)   [A10Root](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/appComponents)   [A10Component ](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/basicComponents/index.tsx)  [A10Container](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-framework/browse/src/basicComponents/index.tsx)
 
 
 
