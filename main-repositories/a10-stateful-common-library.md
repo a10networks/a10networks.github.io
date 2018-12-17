@@ -16,7 +16,29 @@
 
  _**NOTE:** `a10-gui-common` requires `a10-gui-framework` and `a10-gui-widgets`_
 
-How to use
+#### How to use
+
+```text
+import { AutoForm } from 'a10-gui-common'
+
+const yourComponent = () => {
+  return (
+    <AutoForm
+      schemaPath="config/form/virtual-server"
+      apiPrefix="/hccapi/v3"
+      defaultParams={{ provider: 'root', tenant: 't1' }}
+      interceptor={{
+        onSubmitSuccess: (sformUtils, response) => {
+          // TODO
+        },
+        onCancel: (sformUtils, error) => {
+          // TODO
+        },
+      }}
+    />
+  )
+}
+```
 
 ​
 
