@@ -66,17 +66,7 @@ return (
 
 ## Widgets  <a id="core-components"></a>
 
-A10Affix A10Alert A10Anchor A10AutoComplete A10Avatar A10BackTop A10Badge A10Breadcrumb
-
-A10Button A10Calendar A10Card A10Carousel A10Cascader A10Chart A10Checkbox A10Collapse
-
-A10CompoundConfigList A10CompoundTable A10ConfigList A10ContextMenu A10Datatable A10DatePicker
-
-A10Diff A10Divider A10Dropdown A10DropdownMenu A10Explorer A10Form A10Grid A10Icon A10Input
-
-A10InputNumber A10Label A10Layout A10Link A10List A10ListInput A10WidgetLocaleProvider A10LogFilterBar
-
-A10LogRangeBar A10LogSearchBar A10Mention A10Menu A10MenuPopover A10Message A10Modal A10MultiItem
+[A10Affix](../)   A10Alert   A10Anchor   A10AutoComplete   A10Avatar   A10BackTop   A10Badge A10Breadcrumb   A10Button   A10Calendar   A10Card   A10Carousel   A10Cascader   A10Chart A10Checkbox   A10Collapse   A10CompoundConfigList   A10CompoundTable   A10ConfigList A10ContextMenu   A10Datatable   A10DatePicker   A10Diff   A10Divider   A10Dropdown   A10DropdownMenu   A10Explorer   A10Form   A10Grid   A10Icon   A10Input   A10InputNumber   A10Label A10Layout   A10Link   A10List   A10ListInput   A10WidgetLocaleProvider   A10LogFilterBar  A10LogRangeBar   A10LogSearchBar   A10Mention   A10Menu   A10MenuPopover   A10Message A10Modal   A10MultiItem   A10MultiSearch   A10Notification   A10Pagination   A10Popconfirm   A10Popover   A10Progress   A10Radio   A10Rate   A10SearchableSelector   A10SearchBar   A10Select   A10Silder   A10SlidingPage   A10Spin   A10Steps   A10Switch   A10Table   A10Tabs   A10Timeline   A10TimePicker   A10Tooltip   A10Transfer   A10Tree   A10TreeSelect   A10Upload
 
 
 
