@@ -12,38 +12,6 @@ $ npm i -S git+https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.gi
 
 ## How to use
 
-#### Using a10-gui-framework with UGF-Generator
-
-Code Generator generator-ugf is able to create a project, component, orcontainer with standard folder and code structure.
-
-#### Installation
-
-Install Yeoman
-
-npm i -g yoInstall UGF Generator
-
-git clone https://git.a10networks.com:8443/scm/guinext/generator-ugf.gitcd generator-ugfnpm link
-
-#### Generate a project
-
-mkdir my-new-project && cd my-new-project
-
-#### Run generator-ugf
-
-yo ugf
-
-#### Generate a component
-
-yo ugf:component your/component/path
-
-#### Generate a container
-
-yo ugf:container your/container/path
-
-####  
-
-### [Storybook](https://a10-gui.gitbook.io/ugf/)
-
 ## Core components 
 
 ### abc

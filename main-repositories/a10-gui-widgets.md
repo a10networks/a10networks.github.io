@@ -49,7 +49,7 @@ import '~a10-gui-widgets/dist/widgets.bundle.css'
 
 _**NOTE**: ~ means importing the less file from node\_modules_
 
-How to use
+## How to use
 
 ```text
 import { A10WidgetLocaleProvider } from 'a10-gui-widgets'
