@@ -1,4 +1,4 @@
-# A10 GUI Stateful Common Library
+# A10 GUI Common Library
 
 ## Introduction <a id="introduction"></a>
 
