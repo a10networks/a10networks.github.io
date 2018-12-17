@@ -12,6 +12,35 @@ $ npm i -S git+https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.gi
 
 ## How to use
 
+#### Quick start for using a10-gui-framework
+
+```text
+// approot/index.ts
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { A10Provider, A10Router } from 'a10-gui-framework'
+
+import CONFIG from 'approot/configs/global'
+import middlewares from 'approot/redux/middlewares'
+import reducers from 'approot/redux/reducers'
+import APP from 'approot/containers/App'
+
+const initState = {}
+ReactDOM.render(
+  <A10Provider
+    CONFIG={CONFIG}
+    middlewares={middlewares}
+    reducers={reducers}
+    initState={initState}
+  >
+    <A10Router.Browser>
+      <APP />
+    </A10Router.Browser>
+  </A10Provider>,
+  document.getElementById('root'),
+)
+```
+
 ## Core components 
 
 ### abc
