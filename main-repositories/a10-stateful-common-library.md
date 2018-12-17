@@ -18,6 +18,8 @@
 
 #### How to use
 
+Usage of Auto-Config Form
+
 ```text
 import { AutoForm } from 'a10-gui-common'
 
