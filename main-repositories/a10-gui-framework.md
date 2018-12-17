@@ -51,7 +51,7 @@ ReactDOM.render(
 
 
 
-[Design document](https://github.com/a10networks/a10networks.github.io/blob/0.7.0/design-docs/A10-GUI-Framework-Design-v1.1a.docx)
+## 
 
 ### 
 
