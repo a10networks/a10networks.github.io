@@ -107,11 +107,41 @@ export class Form extends A10Container<IFormProps, IFormState> {
 
 Please refer[ A10 GUI Widgets](../main-repositories/a10-gui-widgets.md) to know what widgets we have. 
 
-## A10 GUI Stateful Common Library
+## A10 GUI Common Library <a id="a10-gui-common-library"></a>
 
-### What is it?
+### What is it? <a id="what-is-it-2"></a>
 
-### How to make it work?
+It's a common container library, different from widgets, it encapsulated business logic inside of it, but it's decoupled from app.
 
-### Main features
+Example, AutoForm we need provide schema JSON as it's meta data, but it's only depends on A10 CM Schema definition, we can use same code whatever the production is.
+
+### How to make it work? <a id="how-to-make-it-work-2"></a>
+
+Let's take AutoForm as the example:
+
+You need install the a10-gui-common repo first, adding following line into your package.json, and run npm install command.
+
+```text
+ "dependencies": {    "a10-gui-framework": "https://github.com/a10networks/a10-gui-framework.git",    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-framework.git",    "a10-gui-common": "https://github.com/a10networks/a10-gui-common.git",    ...  }
+```
+
+and add following code into your containers
+
+```text
+import { AutoForm } from 'a10-gui-common'​const yourComponent = () => {  return (    <AutoForm      schemaPath="config/form/virtual-server"      apiPrefix="/hccapi/v3"      defaultParams={{ provider: 'root', tenant: 't1' }}      interceptor={{        onSubmitSuccess: (sformUtils, response) => {          // TODO        },        onCancel: (sformUtils, error) => {          // TODO        },      }}    />  )}
+```
+
+For detail usage about AutoForm, see the [AutoForm usage document.](https://github.com/a10networks/a10-gui-common)​
+
+### Main Containers <a id="main-containers"></a>
+
+#### Used in production containers <a id="used-in-production-containers"></a>
+
+1. AutoForm: generate form by schema
+2. AutoLog: generate log analysis dashboard
+
+#### To be added <a id="to-be-added"></a>
+
+1. Wizard : generate wizard
+2. Dashboard : generate app dashboard
 
