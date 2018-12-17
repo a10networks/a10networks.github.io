@@ -13,7 +13,7 @@
 
 - End to End Test
    - [Where is the document for End-to-End test?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#where-is-the-document-for-end-to-end-test)
-    - [Why the DOM element didn't change after clicking it by using the .click() function to send a click command to WebDriver?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#why-the-dom-element-didnt-change-after-clicking-it-by-using-the-click-function-to-send-a-click-command-to-webdriver)
+   - [Why the DOM element didn't change after clicking it by using the .click() function to send a click command to WebDriver?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#why-the-dom-element-didnt-change-after-clicking-it-by-using-the-click-function-to-send-a-click-command-to-webdriver)
    - [How to run a certain project only?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#how-to-run-a-certain-project-only)
 
 
