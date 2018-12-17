@@ -6,19 +6,21 @@
 
 ## How to create the first hello world page
 
-     A component and container having the component
+```text
+ A component and container having the component
+```
 
 ## Write the hello world page with Redux
 
-## Introduce a form page. How to setup, import widgets, and hook APIs 
+## Introduce a form page. How to setup, import widgets, and hook APIs
 
-### How to setup, import widgets 
+### How to setup, import widgets
 
 ### Condition 1: without Redux
 
 ### Condition 2:with Redux
 
-## Show data/table. 
+## Show data/table.
 
 #### How to display it
 
@@ -32,5 +34,5 @@
 
 ## How to use A10 App Generator
 
-## Extra: Using the examples above with the A10 Generator 
+## Extra: Using the examples above with the A10 Generator
 

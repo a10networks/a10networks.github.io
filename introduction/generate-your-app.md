@@ -30,8 +30,6 @@ mkdir my-new-project && cd my-new-project
 yo ugf
 ```
 
-
-
 ## Generate a module prototype
 
 Generate a container
@@ -43,6 +41,4 @@ Generate an feature
 ## To generate more?
 
 To use the generator generate more , please read generator-ugf [Readme.md ](https://github.com/a10networks/generator-ugf)
-
-
 

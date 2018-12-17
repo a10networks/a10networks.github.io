@@ -4,7 +4,7 @@ description: 'UGF: A10 Unified  GUI Framework'
 
 # Getting Started
 
-UGF is a GUI framework used to build A10networks GUI pages. It's composed by React.js related opensource  softwares. It's a business-adapted , higher performance, and easier debug framework.
+UGF is a GUI framework used to build A10networks GUI pages. It's composed by React.js related opensource softwares. It's a business-adapted , higher performance, and easier debug framework.
 
 Here are the key features on current release:
 
@@ -16,15 +16,15 @@ Here are the key features on current release:
 
 ## Installation
 
-### Using generator 
+### Using generator
 
-The easiest way to start a project I recommend you to use UGF generator, it's a [Yeoman ](https://yeoman.io/)generator, you need first install Yeoman tool, and then follow the [Generate Your App](generate-your-app.md)  steps to generate the whole framework and it's required stuffs,  after go through those simple steps, you app is running up. 
+The easiest way to start a project I recommend you to use UGF generator, it's a [Yeoman ](https://yeoman.io/)generator, you need first install Yeoman tool, and then follow the [Generate Your App](generate-your-app.md) steps to generate the whole framework and it's required stuffs, after go through those simple steps, you app is running up.
 
-If you'd like learning deeper, then you can add your generated code into your IDE,  start from \[project name\]/index.tsx.
+If you'd like learning deeper, then you can add your generated code into your IDE, start from \[project name\]/index.tsx.
 
 ### I would like to build blocks
 
-If you would like try to build the whole thing by yourself,  here are some prerequisites software:
+If you would like try to build the whole thing by yourself, here are some prerequisites software:
 
 1. Nodejs 8.11+ 
 2. git
@@ -38,7 +38,7 @@ then here is the basic steps:
 $ create-react-app my-project
 ```
 
-*  Adding required GUI framework components into [package.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/package.json)
+* Adding required GUI framework components into [package.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/package.json)
 
 ```text
 "dependencies": {
@@ -67,13 +67,11 @@ Browser extensions recommend
 
 ### Basic Example
 
-
-
 ### Examples
 
 Waiting for Jason provide examples
 
-## Learn 
+## Learn
 
 #### Just the Basics
 
@@ -88,6 +86,4 @@ Waiting for Jason provide examples
 ## Repositories Access Permission
 
 Since it's an A10 GUI internal project, if you have no permission to access the framework repositories, please contact us.
-
-
 

@@ -12,8 +12,6 @@ description: All repositories and how to use it
 
 ### Main features
 
-
-
 ## a10-gui-widget
 
 ### What is it?

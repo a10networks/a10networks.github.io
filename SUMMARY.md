@@ -4,10 +4,10 @@
 
 ## Introduction
 
-* [Getting Started](a10-unified-gui-framework/getting-started.md)
-* [Generate Your App](a10-unified-gui-framework/generate-your-app.md)
-* [Main Repositories](a10-unified-gui-framework/main-repositories-1.md)
-* [Examples](a10-unified-gui-framework/examples.md)
+* [Getting Started](introduction/getting-started.md)
+* [Generate Your App](introduction/generate-your-app.md)
+* [Main Repositories](introduction/main-repositories-1.md)
+* [Examples](introduction/examples.md)
 
 ## Main Repositories
 
