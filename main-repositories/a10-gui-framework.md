@@ -6,11 +6,11 @@ A10 GUI Framework is based on modern web design. At the heart of it, we leverage
 
 ### Repo path: 
 
-#### [https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git](https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git)
+#### [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)
 
 ### Install
 
-$ npm i -S https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git
+$ npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)
 
 ### How to use
 
