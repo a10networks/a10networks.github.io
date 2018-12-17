@@ -2,6 +2,8 @@
 
 ## Introduction <a id="introduction"></a>
 
+ Widgets are common components that are reused across all A10 apps. This widget library is the extension of `a10-gui-framework` to facilitate the A10 GUI development process. With the sharable widgets under the same framework, different apps are using the same structure and codebase. The consistency, modularity, and maintainability of A10 apps are maximized.
+
 #### Repo path: [https://git.a10networks.com:8443/scm/guinext/a10-gui-widgets.git](https://git.a10networks.com:8443/scm/guinext/a10-gui-widgets.git) <a id="repo-path"></a>
 
 #### Install <a id="install"></a>
