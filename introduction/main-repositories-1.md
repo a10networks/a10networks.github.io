@@ -121,14 +121,37 @@ Let's take AutoForm as the example:
 
 You need install the a10-gui-common repo first, adding following line into your package.json, and run npm install command.
 
-```text
- "dependencies": {    "a10-gui-framework": "https://github.com/a10networks/a10-gui-framework.git",    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-framework.git",    "a10-gui-common": "https://github.com/a10networks/a10-gui-common.git",    ...  }
+```javascript
+ "dependencies": {
+    "a10-gui-framework": "https://github.com/a10networks/a10-gui-framework.git",
+    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-framework.git",
+    "a10-gui-common": "https://github.com/a10networks/a10-gui-common.git",
+    ...
+  }
 ```
 
 and add following code into your containers
 
-```text
-import { AutoForm } from 'a10-gui-common'​const yourComponent = () => {  return (    <AutoForm      schemaPath="config/form/virtual-server"      apiPrefix="/hccapi/v3"      defaultParams={{ provider: 'root', tenant: 't1' }}      interceptor={{        onSubmitSuccess: (sformUtils, response) => {          // TODO        },        onCancel: (sformUtils, error) => {          // TODO        },      }}    />  )}
+```jsx
+import { AutoForm } from 'a10-gui-common'
+​
+const yourComponent = () => {
+  return (
+    <AutoForm
+      schemaPath="config/form/virtual-server"
+      apiPrefix="/hccapi/v3"
+      defaultParams={{ provider: 'root', tenant: 't1' }}
+      interceptor={{
+        onSubmitSuccess: (sformUtils, response) => {
+          // TODO
+        },
+        onCancel: (sformUtils, error) => {
+          // TODO
+        },
+      }}
+    />
+  )
+}
 ```
 
 For detail usage about AutoForm, see the [AutoForm usage document.](https://github.com/a10networks/a10-gui-common)​
