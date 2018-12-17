@@ -4,13 +4,15 @@
 
 A10 GUI Framework is based on modern web design. At the heart of it, we leverage a component based front-end JavaScript framework called React.jsi. Together with Reduxii and our proposals embodied in a set of design patterns, we believe this will go a long way to providing a set of tools to build appealing, modern, and consistent web UI with relative ease and simplicity.
 
-#### Repo path: [https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git](https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git)
+### Repo path: 
 
-#### Install
+#### [https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git](https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git)
+
+### Install
 
 $ npm i -S https://git.a10networks.com:8443/scm/guinext/a10-gui-framework.git
 
-#### How to use
+### How to use
 
  Framework’s main components like A10Provider, A10Root, A10Router and A10Container are used to build a basic scaffolding. 
 
@@ -211,7 +213,7 @@ ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
 </A10Provider>, documentRoot)
 ```
 
- [A10 Widgets](https://a10-gui.gitbook.io/ugf/~/drafts/-LTvZa0LwJLFk24sVZd1/primary/main-repositories/a10-gui-widgets)
+###  [A10 Widgets](https://a10-gui.gitbook.io/ugf/~/drafts/-LTvZa0LwJLFk24sVZd1/primary/main-repositories/a10-gui-widgets)
 
 ## [FAQ](https://a10-gui.gitbook.io/ugf/faq/a10-gui-framework)
 
