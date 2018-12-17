@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2,.cls-3{stroke-linecap:round}.cls-2{stroke-dasharray:0 3}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_3" data-name="Row 3">
+                <g id="Template">
+                    <rect width="22" height="22" x=".5" y=".5" class="cls-1" rx=".92" ry=".92"/>
+                    <rect width="18.33" height="18.33" x="2.27" y="2.53" class="cls-2" rx=".73" ry=".73"/>
+                    <path d="M11.43 5.83h8.07V7.3h-8.07zM11.43 9.13h8.07v1.83h-8.07zM11.43 12.79h8.07v4.03h-8.07zM3.37 6.56H9.6M3.37 9.86H9.6" class="cls-3"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

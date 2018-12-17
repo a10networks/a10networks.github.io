@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.9 31.9">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#ffda44}.cls-3{fill:#a2001d}.cls-4{clip-path:url(#clip-path)}.cls-5{fill:#0052b4}.cls-6{fill:#496e2d}
+        </style>
+        <clipPath id="clip-path" transform="translate(0 -.02)">
+            <path d="M0 0h31.93v32H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="gd">
+            <path d="M31.9 16A16 16 0 1 1 16 0a16 16 0 0 1 16 16z" class="cls-2" transform="translate(0 -.02)"/>
+            <path d="M7 2.8a15.93 15.93 0 0 1 18 0l-9 .69z" class="cls-3" transform="translate(0 -.02)"/>
+            <g class="cls-4">
+                <path d="M16 16l-1-1-.27.48z" class="cls-5" transform="translate(0 -.02)"/>
+                <path d="M4.67 4.7a15.94 15.94 0 0 0 0 22.55L16 16zM27.23 4.7a15.94 15.94 0 0 1 0 22.55L16 16z" class="cls-6" transform="translate(0 -.02)"/>
+            </g>
+            <path d="M21.5 16a5.55 5.55 0 1 1-5.5-5.57A5.55 5.55 0 0 1 21.5 16z" class="cls-3" transform="translate(0 -.02)"/>
+            <path d="M16 10.43l1.24 3.82h4L18 16.62l1.25 3.83L16 18.08l-3.26 2.37 1.25-3.83-3.26-2.37h4z" class="cls-2" transform="translate(0 -.02)"/>
+            <path d="M16 0A15.93 15.93 0 0 0 4.67 4.7h22.56A15.93 15.93 0 0 0 16 0zM4.67 27.25a15.93 15.93 0 0 0 22.56 0z" class="cls-3" transform="translate(0 -.02)"/>
+            <path d="M16 1.76l.26.79H17l-.63.45.26.8-.63-.45-.68.49.26-.8-.67-.49h.83zM12.08 1.76l.26.79h.84L12.5 3l.26.8-.68-.49-.67.49.25-.8-.66-.45h.83zM19.82 1.76l.26.79h.83l-.67.45.25.8-.67-.49-.68.49.26-.8-.68-.49h.84zM16 28.11l.26.8H17l-.67.49.26.79-.59-.49-.68.49.26-.79-.67-.49h.83zM12.08 28.11l.26.8h.84l-.68.49.26.79-.68-.49-.67.49.25-.79-.66-.49h.83zM19.82 28.11l.26.8h.83l-.67.49.25.79-.67-.49-.68.49.26-.79-.68-.49h.84zM4.86 15.71a1.39 1.39 0 1 1-2.34 1.49 4.82 4.82 0 0 1-.32-3.09 4.85 4.85 0 0 1 2.66 1.6z" class="cls-2" transform="translate(0 -.02)"/>
+            <path d="M4.75 17a.69.69 0 1 1-.69-.69.69.69 0 0 1 .69.69z" class="cls-3" transform="translate(0 -.02)"/>
+        </g>
+    </g>
+</svg>

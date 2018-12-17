@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 15.4 22">
+    <style>
+        .st0{fill:#383838}.st1{font-family:&apos;Roboto-Regular&apos;}.st2{font-size:4.82px}.st3,.st4{fill:none;stroke:#383838}.st3{stroke-miterlimit:10}.st4{stroke-linejoin:round}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Layer_1-2">
+            <g id="NATIP">
+                <text class="st0 st1 st2" transform="translate(2.73 6.79)">
+                    N
+                </text>
+                <text class="st0 st1 st2" transform="translate(6.42 6.79)">
+                    AT
+                </text>
+                <text class="st0 st1 st2" transform="translate(5.32 12.63)">
+                    IP
+                </text>
+                <path d="M3 .5h9.4c1.4 0 2.5 1.1 2.5 2.5v9.4c0 1.4-1.1 2.5-2.5 2.5H3c-1.4 0-2.5-1.1-2.5-2.5V3C.5 1.6 1.6.5 3 .5zM7.7 15.8v2.9" class="st3"/>
+                <path d="M.3 20.3h4.4M14.9 20.3h-4.3" class="st4"/>
+                <circle cx="7.6" cy="20.3" r="1.2" class="st3"/>
+            </g>
+        </g>
+    </g>
+</svg>

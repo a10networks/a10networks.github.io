@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.5 15.97">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;stroke:#383838;}.cls-1{stroke-linejoin:round;}.cls-2{stroke-miterlimit:10;}</style>
+  </defs>
+  <title>Object Explorer 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Thunder_ADC" data-name="Thunder ADC">
+      <g id="Row_4" data-name="Row 4">
+        <g id="Object_Explorer_2" data-name="Object Explorer 2">
+          <polygon class="cls-1" points="15.5 0.5 9.01 4.25 9.01 11.75 15.37 15.47 22 11.75 22 4.25 15.5 0.5"/>
+          <polyline class="cls-1" points="9.01 4.4 15.37 8.22 22 4.4"/>
+          <line class="cls-1" x1="15.37" y1="8.22" x2="15.37" y2="15.47"/>
+          <line class="cls-2" y1="4.23" x2="7.39" y2="4.23"/>
+          <line class="cls-2" y1="8.04" x2="7.24" y2="8.04"/>
+          <line class="cls-2" y1="11.85" x2="7.24" y2="11.85"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#d80027}.cls-2{fill:#ffda44}.cls-3{fill:#0052b4}.cls-4{fill:#6da544}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="mu">
+            <path d="M2 8.35l14 1.39 14.05-1.39A16 16 0 0 0 2 8.35z" class="cls-1"/>
+            <path d="M2 23.65L16 25l14.05-1.39A15.92 15.92 0 0 0 32 16l-16-1.39L0 16a15.92 15.92 0 0 0 2 7.65z" class="cls-2"/>
+            <path d="M2 8.35A15.92 15.92 0 0 0 0 16h32a15.92 15.92 0 0 0-1.95-7.65z" class="cls-3"/>
+            <path d="M16 32a16 16 0 0 0 14.05-8.35H2A16 16 0 0 0 16 32z" class="cls-4"/>
+        </g>
+    </g>
+</svg>

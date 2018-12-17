@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 21.54">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="Chat_Support" data-name="Chat Support">
+                <path d="M19.1.5H1.31a.81.81 0 0 0-.81.81v12.5a.81.81 0 0 0 .81.81h3.41v3.88L9 14.62h10.1a.81.81 0 0 0 .81-.81V1.31A.81.81 0 0 0 19.1.5zM13.42 7.63h1.8M9.22 7.63h1.8M5.12 7.63h1.8" class="cls-1"/>
+                <path d="M20.36 10.05H22a.47.47 0 0 1 .47.46v7.2a.47.47 0 0 1-.47.47h-2v2.23l-2.45-2.23h-5.76a.47.47 0 0 1-.46-.47v-2.43" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_4" data-name="Row 4">
+                <g id="Form_Section" data-name="Form Section">
+                    <rect width="22" height="22" x=".5" y=".5" class="cls-1" rx=".92" ry=".92"/>
+                    <path d="M8.5 4.73h11V6.2h-11zM8.5 9.13h11v1.83h-11zM3.37 5.46h3.66M3.37 9.86h3.66" class="cls-2"/>
+                    <circle cx="9.42" cy="14.81" r=".92" class="cls-2"/>
+                    <path d="M11.43 14.99h7.7M11.43 17.56h5.5" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

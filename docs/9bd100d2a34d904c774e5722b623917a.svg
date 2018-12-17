@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 18.9 23">
+    <style>
+        .st0{stroke-linecap:round}.st0,.st1{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Layer_1-2">
+            <g id="license_manager">
+                <g id="deploy_3">
+                    <path id="White_Paper" d="M18.4 14.4V6L12.9.5H1.2C.8.5.5.8.5 1.2v20.3c0 .4.3.7.7.7h9.6M18 5.8h-4.1c-.4 0-.7-.3-.7-.7V.9" class="st0"/>
+                </g>
+                <path d="M3 5.3h6M3 8.4h11.8M3 11.6h11.9M3 14.5h4.9M3 17.5h4.9" class="st1"/>
+                <circle cx="16.3" cy="20.6" r="1.9" class="st1"/>
+                <path d="M15.1 19.3L12 15.7M12.9 14.9l-.9.8M14 16.1l-.9.8" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

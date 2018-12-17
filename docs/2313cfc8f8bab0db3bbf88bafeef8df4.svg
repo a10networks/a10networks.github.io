@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 23 23">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-miterlimit:10}.st1{stroke-dasharray:0,3}.st1,.st2{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Thunder_ADC">
+            <g id="Row_3">
+                <g id="Template">
+                    <path d="M1.4.5h20.2c.5 0 .9.4.9.9v20.2c0 .5-.4.9-.9.9H1.4c-.5 0-.9-.4-.9-.9V1.4c0-.5.4-.9.9-.9z" class="st0"/>
+                    <path d="M3 2.5h16.9c.4 0 .7.3.7.7v16.9c0 .4-.3.7-.7.7H3c-.4 0-.7-.3-.7-.7V3.3c0-.4.3-.8.7-.8z" class="st1"/>
+                    <path d="M11.4 5.8h8.1v1.5h-8.1zM11.4 9.1h8.1v1.8h-8.1zM11.4 12.8h8.1v4h-8.1zM3.4 6.6h6.2M3.4 9.9h6.2" class="st2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

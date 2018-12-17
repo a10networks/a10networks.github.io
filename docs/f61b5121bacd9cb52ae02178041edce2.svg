@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 21.9 17.6">
+    <style>
+        .st0{stroke-linecap:round}.st0,.st1{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Action_icons">
+            <g id="Upgrade">
+                <path d="M2.2 3.7V1.2c0-.4.3-.7.7-.7h17.8c.4 0 .7.3.7.7v12.5H4.7" class="st0"/>
+                <path d="M16.9 17.1H6.6M11.8 17.1v-3.3" class="st1"/>
+                <path id="Down_arrow" d="M.3 8.3l1.8-1.8 1.8 1.8M2.1 14V6.5" class="st1"/>
+            </g>
+        </g>
+    </g>
+</svg>

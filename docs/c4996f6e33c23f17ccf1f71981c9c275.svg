@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 21.9">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;stroke:#383838;stroke-linejoin:round;}.cls-2{stroke-linecap:round;}</style>
+  </defs>
+  <title>Network</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Network">
+        <rect class="cls-1" x="0.5" y="0.5" width="5.5" height="4.4" rx="0.33" ry="0.33" transform="translate(6.5 5.4) rotate(180)"/>
+        <rect class="cls-1" x="8.06" y="8.2" width="6.88" height="5.5" rx="0.41" ry="0.41" transform="translate(23 21.9) rotate(180)"/>
+        <rect class="cls-1" x="17" y="0.5" width="5.5" height="4.4" rx="0.33" ry="0.33" transform="translate(39.5 5.4) rotate(180)"/>
+        <rect class="cls-1" x="0.5" y="17" width="5.5" height="4.4" rx="0.33" ry="0.33" transform="translate(6.5 38.4) rotate(180)"/>
+        <rect class="cls-1" x="17" y="17" width="5.5" height="4.4" rx="0.33" ry="0.33" transform="translate(39.5 38.4) rotate(180)"/>
+        <line class="cls-2" x1="16.44" y1="19.38" x2="6.44" y2="19.38"/>
+        <line class="cls-2" x1="19.8" y1="5.5" x2="19.8" y2="16.54"/>
+        <line class="cls-2" x1="6.57" y1="2.88" x2="16.37" y2="2.88"/>
+        <line class="cls-2" x1="3.3" y1="16.44" x2="3.3" y2="5.5"/>
+        <line class="cls-2" x1="11.79" y1="8.05" x2="11.79" y2="2.93"/>
+        <line class="cls-2" x1="11.79" y1="14.24" x2="11.79" y2="19.05"/>
+        <line class="cls-2" x1="7.66" y1="10.8" x2="3.54" y2="10.8"/>
+        <line class="cls-2" x1="15.23" y1="10.8" x2="19.42" y2="10.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

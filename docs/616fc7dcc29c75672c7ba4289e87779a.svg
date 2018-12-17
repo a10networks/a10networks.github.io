@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 18.16">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-linecap:round;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Row_1" data-name="Row 1">
+            <g id="Bot_Detection" data-name="Bot Detection">
+                <rect width="17.16" height="17.16" x="2.92" y=".5" class="cls-1" rx=".92" ry=".92"/>
+                <path d="M4.84 5l5.05 1a2.36 2.36 0 0 1-2.53 2.31C4.89 8.31 4.84 5 4.84 5zM18.16 5l-5.05 1a2.36 2.36 0 0 0 2.53 2.28C18.11 8.31 18.16 5 18.16 5zM22.5 4.14v8.17M.5 4.14v8.17M6.31 13.32h10.56" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

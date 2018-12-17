@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.64 21.66">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_4" data-name="Row 4">
+                <g id="Monitor_1" data-name="Monitor 1">
+                    <path d="M8.3 11.32a3 3 0 0 1 6 0M.5 11.32V10a.39.39 0 0 1 .39-.4h2.35A8.11 8.11 0 0 1 4.4 6.81L2.74 5.15a.39.39 0 0 1 0-.55L4.6 2.74a.39.39 0 0 1 .55 0L6.81 4.4a8.23 8.23 0 0 1 2.8-1.16V.89A.4.4 0 0 1 10 .5h2.63a.39.39 0 0 1 .37.39v2.35a8.28 8.28 0 0 1 2.83 1.16l1.66-1.66a.39.39 0 0 1 .55 0L19.9 4.6a.39.39 0 0 1 0 .55l-1.66 1.66a8.17 8.17 0 0 1 1.15 2.8h2.36a.4.4 0 0 1 .39.4v1.31M.19 14.02h14.07M18.95 14.02h3.24" class="cls-1"/>
+                    <circle cx="16.79" cy="14.02" r="1.08" class="cls-1"/>
+                    <path d="M22.19 17.2H8.13M3.44 17.2H.19" class="cls-1"/>
+                    <circle cx="5.6" cy="17.2" r="1.08" class="cls-1"/>
+                    <path d="M22.19 20.08h-9.01M8.49 20.08H.19" class="cls-1"/>
+                    <circle cx="11.01" cy="20.08" r="1.08" class="cls-1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

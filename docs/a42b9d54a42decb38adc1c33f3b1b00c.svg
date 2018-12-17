@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 19.98">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="firewall">
+            <g id="post">
+                <path d="M1.25.5h20.5a.75.75 0 0 1 .75.75v2.83H.5V1.25A.75.75 0 0 1 1.25.5zM.5 5.79h22v12.94a.75.75 0 0 1-.75.75H1.25a.75.75 0 0 1-.75-.75V5.79zM2.17 2.48h.81" class="cls-1"/>
+                <path d="M9.13 9.39l-2.85 3.38 2.91 3.44M14.27 9.39l2.86 3.38-2.92 3.44M13.3 7.58l-3.12 10.26" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

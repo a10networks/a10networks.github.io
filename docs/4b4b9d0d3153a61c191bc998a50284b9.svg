@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 22 22">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff}.st0{display:none;stroke-linecap:round;stroke-linejoin:round}.st1{stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Action_icons">
+            <g id="Line_chart">
+                <path d="M21.5 21.5H1.4c-.5 0-.9-.4-.9-.9V.5" class="st0"/>
+                <path d="M20.2 9.3l-6.5 6.6-2.9-3-3.4 3.3L6 14.8l-3.4 3.3" class="st1"/>
+            </g>
+        </g>
+    </g>
+</svg>

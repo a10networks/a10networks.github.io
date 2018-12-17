@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 23 23">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff;stroke-miterlimit:10}.st1{stroke-linecap:round}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Thunder_ADC">
+            <g id="Row_4">
+                <g id="Form_Section">
+                    <path d="M1.4.5h20.2c.5 0 .9.4.9.9v20.2c0 .5-.4.9-.9.9H1.4c-.5 0-.9-.4-.9-.9V1.4c0-.5.4-.9.9-.9z" class="st0"/>
+                    <path d="M8.5 4.7h11v1.5h-11zM8.5 9.1h11v1.8h-11zM3.4 5.5H7M3.4 9.9H7" class="st1"/>
+                    <circle cx="9.4" cy="14.8" r=".9" class="st1"/>
+                    <path d="M11.4 15h7.7M11.4 17.6h5.5" class="st1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

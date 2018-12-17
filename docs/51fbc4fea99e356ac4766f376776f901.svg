@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 12.97">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-1{stroke-linecap:round}.cls-2{font-size:11px;fill:#333;font-family:MyriadPro-Regular,Myriad Pro}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_5" data-name="Row 5">
+                <g id="Credential">
+                    <path d="M16.25 8.75H1.92A1.43 1.43 0 0 1 .5 7.33V1.92A1.43 1.43 0 0 1 1.92.5h19.16a1.43 1.43 0 0 1 1.42 1.42V3.2" class="cls-1"/>
+                    <text class="cls-2" transform="translate(1.51 10.22)">
+                        *
+                    </text>
+                    <text class="cls-2" transform="translate(6.55 10.22)">
+                        *
+                    </text>
+                    <text class="cls-2" transform="translate(11.59 10.22)">
+                        *
+                    </text>
+                    <rect width="5.5" height="4.44" x="17" y="4.25" class="cls-3" rx=".6" ry=".6"/>
+                    <path d="M21.18 4.31v-.54a1.41 1.41 0 0 0-1.41-1.41 1.41 1.41 0 0 0-1.41 1.41v.54M20.41 7.51v-.93a.68.68 0 0 0 .26-.52.67.67 0 1 0-1.08.51v.94z" class="cls-3"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

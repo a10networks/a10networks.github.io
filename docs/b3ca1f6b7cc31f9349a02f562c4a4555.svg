@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.91 23">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-1{stroke:#333;stroke-miterlimit:10}.cls-2{stroke:#383838;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_7" data-name="Row 7">
+                <g id="Actions">
+                    <circle cx="5.34" cy="17.66" r="4.84" class="cls-1"/>
+                    <circle cx="5.34" cy="5.34" r="4.84" class="cls-1"/>
+                    <path d="M13.9 20.59l-2.74-2.75M13.9 20.59l5.51-5.51M13.9 8.67l-2.74-2.74M13.9 8.67l5.51-5.51" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

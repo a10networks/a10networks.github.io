@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 20.66">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{fill:#383838}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Config_Backup" data-name="Config Backup">
+                <rect width="18.18" height="5.32" x=".5" y=".5" class="cls-1" rx=".76" ry=".76"/>
+                <path d="M12.28 13h-11a.76.76 0 0 1-.76-.76V8.43a.76.76 0 0 1 .76-.76h16.65a.75.75 0 0 1 .75.76v.7M13.79 20.16H1.26a.76.76 0 0 1-.76-.76v-3.8a.76.76 0 0 1 .76-.76H12M15.26 12.38a4.26 4.26 0 1 1-1.13 4.22" class="cls-1"/>
+                <path d="M17.89 12.99l.03-.5-2.46-.16.35-2.45-.5-.06-.42 2.97 3 .2z" class="cls-2"/>
+                <path d="M18 13.3v1.93a.2.2 0 0 0 .06.14l2.23 2.22M10.46 3.3h5.98M7.87 3.3H6.03M2.82 2.98h.64v.64h-.64zM10.46 10.3h5.98M7.87 10.3H6.03M2.82 9.98h.64v.64h-.64zM10.46 17.3h.98M7.87 17.3H6.03M2.82 16.98h.64v.64h-.64z" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

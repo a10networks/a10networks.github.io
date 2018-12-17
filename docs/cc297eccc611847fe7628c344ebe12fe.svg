@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 22.2 16.2">
+    <style>
+        .st0{stroke-linecap:round}.st0,.st1{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Action_icons">
+            <g id="Uninstall">
+                <path d="M4.2 3.4V1.1c0-.3.3-.6.6-.6H21c.3 0 .6.3.6.6v11.4H4.2V8.4" class="st0"/>
+                <path d="M17.7 15.7H8.3M13 15.7v-3.1" class="st1"/>
+                <path id="Down_arrow" d="M2.3 7.4L.7 5.8l1.6-1.6m5.3 1.6H.7" class="st1"/>
+            </g>
+        </g>
+    </g>
+</svg>

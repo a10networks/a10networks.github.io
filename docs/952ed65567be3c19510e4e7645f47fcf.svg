@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.86 23">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-1{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="license_manager" data-name="license manager">
+                <g id="deploy_3" data-name="deploy 3">
+                    <path id="White_Paper" d="M18.36 14.4V6L12.82.5H1.23a.72.72 0 0 0-.73.73v20.31a.72.72 0 0 0 .73.72h9.62M18 5.76h-4.15a.72.72 0 0 1-.72-.76V.92" class="cls-1" data-name="White Paper"/>
+                </g>
+                <path d="M2.96 5.34h6.03M2.96 8.45h11.85M2.96 11.57h11.92M2.96 14.53h4.92M2.96 17.5h4.92" class="cls-2"/>
+                <circle cx="16.34" cy="20.65" r="1.85" class="cls-2"/>
+                <path d="M15.1 19.27l-3.14-3.6M12.88 14.85l-.92.82M14 16.09l-.91.83" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

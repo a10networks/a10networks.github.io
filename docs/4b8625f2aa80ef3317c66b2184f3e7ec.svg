@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.94 23">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="technical-artical">
+                <g id="White_Paper" data-name="White Paper">
+                    <path d="M16 19.36h2.83a.63.63 0 0 0 .63-.63V5.3L14.64.5h-10a.63.63 0 0 0-.64.63v2.51m15.09 1.42h-3.56a.63.63 0 0 1-.63-.63V.86" class="cls-1"/>
+                    <path d="M16 21.87V8.44l-4.8-4.8h-10a.63.63 0 0 0-.63.63v17.6a.63.63 0 0 0 .63.63h14.15a.63.63 0 0 0 .65-.63zM15.64 8.2h-3.57a.63.63 0 0 1-.63-.63V4" class="cls-1"/>
+                </g>
+                <g id="technical-artical-2" data-name="technical-artical">
+                    <g id="technical-artical-3" data-name="technical-artical">
+                        <path d="M12.86 12.88l-.31-1.16-1.12 1.12a.43.43 0 0 1-.61 0l-.76-.75a.43.43 0 0 1 0-.61l1.13-1.12-1.19-.31-1.61 1.63.24.88-.07.06-5.16 5.16a1.22 1.22 0 1 0 1.73 1.73l5.16-5.16.06-.07.88.24z" class="cls-1"/>
+                        <path d="M6.9 13.55l-1.56-1.56-.3-.77-1.82-1.06-.36.36 1.07 1.82.76.29 1.57 1.56M10.12 15.49l2.07 2.07a1.36 1.36 0 0 1 0 1.92 1.37 1.37 0 0 1-1.93 0l-2.07-2.07" class="cls-1"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

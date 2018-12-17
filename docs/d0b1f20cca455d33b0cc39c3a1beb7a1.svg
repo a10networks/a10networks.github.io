@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{stroke-dasharray:1.94 2.91}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_2" data-name="Row 2">
+                <g id="Server_group" data-name="Server group">
+                    <rect width="15.64" height="4.34" x="2.36" y="11.05" class="cls-1" rx=".69" ry=".69"/>
+                    <path d="M5.3 13.22h4.55M10.83 12.63v1.19M11.82 12.63v1.19M12.8 12.63v1.19M13.79 12.63v1.19M14.77 12.63v1.19M15.76 12.63v1.19M16.74 12.63v1.19M3.58 13.02H4v.42h-.42zM12.79 8.98v1.2M13.77 8.98v1.2M14.76 8.98v1.2M15.74 8.98v1.2M16.72 8.98v1.2M17.71 8.98v1.2M18.69 8.98v1.2M5.53 9.37h.42v.42h-.42z" class="cls-1"/>
+                    <path d="M4.32 10.94v-3a.36.36 0 0 1 .36-.36H19.5a.36.36 0 0 1 .36.36v3.83a.36.36 0 0 1-.36.36H18" class="cls-1"/>
+                    <rect id="v_Port" width="21" height="21" x=".5" y=".5" class="cls-2" data-name="v Port" rx=".88" ry=".88"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.35 22">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{font-size:4.76px;fill:#383838;font-family:Roboto-Regular,Roboto}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Help">
+                <path d="M11.84 7.09c.12-.76.25-1.74.31-2.69a3.9 3.9 0 1 0-7.79 0 33.93 33.93 0 0 0 .54 4A3.46 3.46 0 0 0 11 9.64M11.23 11.68a3.9 3.9 0 0 1-6 0 5.05 5.05 0 0 0-4.77 5v3.92a.87.87 0 0 0 .88.88H15a.87.87 0 0 0 .87-.88v-3.9a5 5 0 0 0-4.64-5.02zM13.07 4.36v1.82" class="cls-1"/>
+                <path d="M13.88 4.35v1.52S14.24 9 8.18 9" class="cls-1"/>
+                <text class="cls-2" transform="translate(4.23 19.1)">
+                    24H
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

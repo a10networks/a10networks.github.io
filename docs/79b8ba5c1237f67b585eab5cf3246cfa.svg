@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 15.99">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-1{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="change2">
+                <path d="M10.93 7.91V7.3a4.39 4.39 0 0 1 4.38-4.38h2.34M10.93 7.91v.62a4.39 4.39 0 0 1-4.38 4.37H.5M1.36 2.92h5.46a4.39 4.39 0 0 1 2.68.92M17.65 13.06h-2.57a4.32 4.32 0 0 1-2.68-.92" class="cls-1"/>
+                <circle cx="20.08" cy="2.92" r="2.42" class="cls-2"/>
+                <circle cx="20.08" cy="13.06" r="2.42" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 18.37">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3,.cls-4{fill:none;stroke:#383838}.cls-1,.cls-2,.cls-4{stroke-miterlimit:10}.cls-1{stroke-width:.92px}.cls-2,.cls-3{stroke-linecap:round}.cls-3{stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="deploy_2" data-name="deploy 2">
+                <rect width="13" height="4.8" x="5.4" y="13.1" class="cls-1" rx=".54" ry=".54"/>
+                <path d="M20.45 16.07a4.61 4.61 0 0 0-1.15-8.22 3.18 3.18 0 0 0 .33-1.41 3.13 3.13 0 0 0-3.14-3.13 3.09 3.09 0 0 0-1.59.44A6.08 6.08 0 0 0 3.44 6.58v.22a5.3 5.3 0 0 0-.27 9.36M11.54 5.25l-.04 4.6" class="cls-2"/>
+                <path d="M9.3 7.19l2.24-2.24 2.23 2.24" class="cls-3"/>
+                <path d="M14.32 15.56h2.46M11.66 15.56h-1.17M7.44 15.36h.41v.41h-.41z" class="cls-4"/>
+            </g>
+        </g>
+    </g>
+</svg>

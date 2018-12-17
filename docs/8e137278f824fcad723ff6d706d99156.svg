@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 21.2">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-linecap:round;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_5" data-name="Row 5">
+                <g id="Hit_map" data-name="Hit map">
+                    <path d="M.5 10.93H7v9.77H1a.5.5 0 0 1-.5-.5v-9.27zM1 .5h8.22v8.31H.5V1A.5.5 0 0 1 1 .5zM11.58.5H22a.5.5 0 0 1 .5.5v7.81H11.58V.5zM18.18 10.93h4.32v9.27a.5.5 0 0 1-.5.5h-3.82v-9.77zM9.38 10.93h6.52v9.77H9.38z" class="cls-1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

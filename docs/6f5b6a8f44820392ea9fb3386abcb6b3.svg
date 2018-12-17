@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#0052b4}.cls-2{fill:#f0f0f0}.cls-3{fill:#d80027}.cls-4{fill:#ffda44}.cls-5{fill:#ff9811}.cls-6{fill:#a2001d}.cls-7{fill:#6da544}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="tc">
+            <path d="M32 16a16 16 0 0 1-32 0L16 0a16 16 0 0 1 16 16z" class="cls-1"/>
+            <path d="M16 16zM16 8.35V0A16 16 0 0 0 0 16h8.35v-4.7l4.7 4.7H16v-2.95l-4.7-4.7z" class="cls-2"/>
+            <path d="M8.09 2.09a16 16 0 0 0-6 6V16h4.17V6.26H16V2.09z" class="cls-3"/>
+            <path d="M16 14l-5.68-5.65h-2L16 16z" class="cls-3"/>
+            <path d="M18.09 8.35V16c0 3.73 4.87 4.87 4.87 4.87s4.87-1.14 4.87-4.87V8.35z" class="cls-4"/>
+            <path d="M22.26 11.13c0 .77-.62 2.78-1.39 2.78s-1.39-2-1.39-2.78 1.39-1.39 1.39-1.39 1.39.62 1.39 1.39z" class="cls-5"/>
+            <path d="M26 12.65a5.63 5.63 0 0 0 .4-1.75c0-.64-.83-1.16-.83-1.16s-.84.52-.84 1.16a5.93 5.93 0 0 0 .4 1.75l-.48 1.08a2.42 2.42 0 0 0 1.83 0z" class="cls-6"/>
+            <path d="M21.91 16a7.23 7.23 0 0 0-.69 2.78h3.48A7.15 7.15 0 0 0 24 16l-1-.7z" class="cls-7"/>
+            <path d="M24 16v-.35a1 1 0 0 0-2.09 0V16z" class="cls-3"/>
+        </g>
+    </g>
+</svg>

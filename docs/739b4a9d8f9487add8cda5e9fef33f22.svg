@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 22.9 23">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff}.st0{stroke-width:.88;stroke-miterlimit:10}.st1{stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="firewall">
+            <g id="ip_traffic">
+                <path d="M1.2.4h20.4c.4 0 .8.4.8.8v16.3H.4V1.2c0-.4.4-.8.8-.8zM8.2 21.9H3.4M19.3 21.9h-4.6M11.4 21.2v-3.5" class="st0"/>
+                <path d="M17.2 5.7H5.7M7.6 3.5L5.4 5.7l2.2 2.2M5.7 12.5h11.5M15.3 14.7l2.2-2.2-2.2-2.2" class="st1"/>
+                <path d="M8.2 21.2h6.5v1.3H8.2z" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

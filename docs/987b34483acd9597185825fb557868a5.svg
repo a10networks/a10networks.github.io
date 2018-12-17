@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.94 23">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="White_Paper" data-name="White Paper">
+                <path d="M16 19.36h2.83a.63.63 0 0 0 .63-.63V5.3L14.64.5h-10a.63.63 0 0 0-.64.63v2.51m15.09 1.42h-3.56a.63.63 0 0 1-.63-.63V.86" class="cls-1"/>
+                <path d="M16 21.87V8.44l-4.8-4.8h-10a.63.63 0 0 0-.63.63v17.6a.63.63 0 0 0 .63.63h14.15a.63.63 0 0 0 .65-.63zM15.64 8.2h-3.57a.63.63 0 0 1-.63-.63V4" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

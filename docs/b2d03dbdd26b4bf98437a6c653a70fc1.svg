@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 12 11.9">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Action_icons">
+            <g id="Move-up-down">
+                <path d="M.5 11.4h11" class="st0"/>
+                <path id="Breadcrumb" d="M.7 5.9L6 .7l5.2 5.2" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

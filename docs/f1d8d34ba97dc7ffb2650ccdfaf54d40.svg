@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-1{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Remove_1" data-name="Remove 1">
+                <path d="M7.58 14.42l6.84-6.84M14.42 14.42L7.58 7.58" class="cls-1"/>
+                <circle cx="11" cy="11" r="10.5" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

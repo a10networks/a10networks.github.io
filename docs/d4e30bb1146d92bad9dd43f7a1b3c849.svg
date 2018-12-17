@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 20.28">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none;stroke:#383838}.cls-1,.cls-3{stroke-linecap:round}.cls-1,.cls-2{stroke-miterlimit:10}.cls-3{stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="Date-time">
+                <path d="M11.45 19.78H1.66A1.17 1.17 0 0 1 .5 18.62V2.78a1.16 1.16 0 0 1 1.16-1.16h17.46a1.17 1.17 0 0 1 1.16 1.16v3.3" class="cls-1"/>
+                <path d="M6.09 0v3.41M14.69 0v3.41" class="cls-2"/>
+                <path d="M.5 5.59h11.32" class="cls-1"/>
+                <path d="M4.41 9.13h.57v.57h-.57zM4.41 12.05h.57v.57h-.57zM4.41 14.97h.57v.57h-.57z" class="cls-2"/>
+                <g id="clock">
+                    <circle cx="15.91" cy="13.14" r="6.59" class="cls-2"/>
+                    <path d="M15.91 9.83v3.57l-2.95 2.95M15.87 6.75v1.48M15.87 19.59v-1.74M22.4 13.06h-1.48M9.34 13.06h1.48" class="cls-3"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

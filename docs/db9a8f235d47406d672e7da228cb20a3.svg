@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.35 10.7">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke-miterlimit:10}.cls-1{stroke:#383737}.cls-2{stroke:#383838}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Filter_UP" data-name="Filter UP">
+                <path d="M0 2.91h13.79M1.8 6.3h10.39M3.4 9.9h6.99" class="cls-1"/>
+                <path id="Down_arrow" d="M16.27 3.07L18.64.71 21 3.07m-2.37 7.63V.71" class="cls-2" data-name="Down arrow"/>
+            </g>
+        </g>
+    </g>
+</svg>

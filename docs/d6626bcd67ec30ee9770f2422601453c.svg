@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838}.cls-1{stroke-miterlimit:10}.cls-2{stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="clock">
+                <circle cx="11.5" cy="11.5" r="11" class="cls-1"/>
+                <path d="M11.5 5.99v5.95l-4.92 4.92M11.44.84v2.47M11.44 22.27v-2.91M22.34 11.37h-2.47M.54 11.37H3" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

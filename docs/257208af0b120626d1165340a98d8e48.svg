@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#338af3}.cls-2{fill:#0052b4}.cls-3{fill:#f0f0f0}.cls-4{fill:#d80027}.cls-5{fill:#f3f3f3}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="fj">
+            <path d="M32 16a16 16 0 0 1-32 0L16 0a16 16 0 0 1 16 16z" class="cls-1"/>
+            <path d="M16 7.65v5.4l-5.57-5.4zM8.35 16h4.7l-4.7-6.26-.7 4.87z" class="cls-2"/>
+            <path d="M16 16zM16 8.35V0A16 16 0 0 0 0 16h8.35v-4.7l4.7 4.7H16v-2.95l-4.7-4.7z" class="cls-3"/>
+            <path d="M8.09 2.09a16 16 0 0 0-6 6V16h4.17V6.26H16V2.09z" class="cls-4"/>
+            <path d="M16 14l-5.68-5.65h-2L16 16z" class="cls-4"/>
+            <path d="M18.09 10.43V16c0 3.73 4.87 4.87 4.87 4.87s4.87-1.14 4.87-4.87v-5.57L23 9z" class="cls-5"/>
+            <path d="M27.83 10.43V8.35h-9.74v2.08h4.17v4.18h-4.17V16h4.17v4.66c.42.14.7.21.7.21s.27-.07.69-.21V16h4.18v-1.39h-4.18v-4.18z" class="cls-4"/>
+        </g>
+    </g>
+</svg>

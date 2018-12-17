@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.94 22.88">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#383838;stroke-miterlimit:10;}</style>
+  </defs>
+  <title>firewall</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="firewall">
+      <g id="firewall-2" data-name="firewall">
+        <rect class="cls-1" x="0.5" y="0.5" width="21.94" height="21.88" rx="0.92" ry="0.92"/>
+        <line class="cls-1" x1="0.44" y1="7.75" x2="22.44" y2="7.75"/>
+        <line class="cls-1" x1="0.44" y1="15.13" x2="22.44" y2="15.13"/>
+        <line class="cls-1" x1="11.5" y1="7.75" x2="11.5" y2="0.5"/>
+        <line class="cls-1" x1="5.88" y1="14.95" x2="5.88" y2="7.69"/>
+        <line class="cls-1" x1="17.12" y1="14.95" x2="17.12" y2="7.69"/>
+        <line class="cls-1" x1="11.5" y1="22.26" x2="11.5" y2="15.01"/>
+      </g>
+    </g>
+  </g>
+</svg>

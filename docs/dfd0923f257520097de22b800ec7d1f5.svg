@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 22 21.5">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Action_icons">
+            <g id="Calendar">
+                <path d="M1.7 1.7h18.5c.7 0 1.2.6 1.2 1.2v16.8c0 .7-.6 1.2-1.2 1.2H1.7c-.7 0-1.2-.6-1.2-1.2V3c0-.7.6-1.3 1.2-1.3zM6.4 0v3.6M15.6 0v3.6M.5 5.9h21" class="st0"/>
+                <path d="M4.7 9.7h.6v.6h-.6zM8.6 9.7h.6v.6h-.6zM12.6 9.7h.6v.6h-.6zM16.6 9.7h.6v.6h-.6zM4.7 12.8h.6v.6h-.6zM8.6 12.8h.6v.6h-.6zM12.6 12.8h.6v.6h-.6zM16.6 12.8h.6v.6h-.6zM4.7 15.9h.6v.6h-.6zM8.6 15.9h.6v.6h-.6z" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

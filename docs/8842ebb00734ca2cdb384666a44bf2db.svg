@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 22.96">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838}.cls-1{stroke-miterlimit:10}.cls-2{stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_5" data-name="Row 5">
+                <g id="cluster">
+                    <path d="M13.1 15.97v3.31" class="cls-1"/>
+                    <path d="M4.65 21.05h5.04M21.43 21.05h-5" class="cls-2"/>
+                    <circle cx="13.03" cy="21.05" r="1.41" class="cls-1"/>
+                    <rect width="24" height="7.02" x=".5" y=".5" class="cls-1" rx="1" ry="1"/>
+                    <path d="M11.02 4.01h10.97M8.42 4.01H6.59M3.37 3.69h.64v.64h-.64zM11.02 12.5h10.97M8.42 12.5H6.59M3.37 12.18h.64v.64h-.64z" class="cls-1"/>
+                    <rect width="24" height="7.02" x=".5" y="8.97" class="cls-1" rx="1" ry="1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

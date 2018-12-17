@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 23 21.8">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff}.st0{stroke-miterlimit:10}.st1{stroke-linejoin:round}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Thunder_ADC">
+            <g id="Row_2">
+                <g id="Cluster_2">
+                    <path d="M11.4 14.9v3.3" class="st0"/>
+                    <path d="M3 19.9h5M19.7 19.9h-5" class="st1"/>
+                    <circle cx="11.3" cy="19.9" r="1.4" class="st0"/>
+                    <path d="M.5 10.1V5.3C.5 3.5 5.4.5 11.5.5s11 2.1 11 4.8v4.9" class="st0"/>
+                    <path d="M22.5 10c0 2.6-4.9 4.8-11 4.8S.5 12.7.5 10" class="st0"/>
+                    <path d="M22.5 5.3c0 2.6-4.9 4.8-11 4.8S.5 8 .5 5.3M3.5 10.9c-.5-.2-1-.5-1.5-.9" class="st0"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

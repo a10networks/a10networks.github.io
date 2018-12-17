@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.9 31.9">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#338af3}.cls-3{clip-path:url(#clip-path)}.cls-4{fill:#6da544}.cls-5{fill:#d80027}.cls-6{fill:#ffda44}
+        </style>
+        <clipPath id="clip-path" transform="translate(0 -.02)">
+            <path d="M0 0h31.93v32H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="er">
+            <path d="M14.56 14.59S4.68 27.26 4.67 27.25A15.95 15.95 0 0 0 31.9 16z" class="cls-2" transform="translate(0 -.02)"/>
+            <g class="cls-3">
+                <path d="M14.56 16S4.68 4.69 4.67 4.7A15.95 15.95 0 0 1 31.9 16z" class="cls-4" transform="translate(0 -.02)"/>
+                <path d="M4.67 4.7a15.94 15.94 0 0 0 0 22.55L31.9 16z" class="cls-5" transform="translate(0 -.02)"/>
+            </g>
+            <path d="M8.32 9.39a5.55 5.55 0 0 0-5.55 5.54V17a5.55 5.55 0 0 0 11.1 0v-2.07a5.55 5.55 0 0 0-5.55-5.54zM11.79 17a3.46 3.46 0 0 1-2.43 3.3v-2.24l1.47-1.48-1.47-1.47v-1.22H7.28V16l-1.47 1.45 1.47 1.47v1.4A3.47 3.47 0 0 1 4.85 17v-2.07a3.47 3.47 0 0 1 6.94 0z" class="cls-6" transform="translate(0 -.02)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.05 23.15">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#383838;stroke-miterlimit:10;}</style>
+  </defs>
+  <title>Zone</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Zone">
+        <path class="cls-1" d="M4.71,14.65.5,17.08m14.84-2.43,4.21,2.43M10,5.44V.58m5.31,14.07V8.51L10,5.44,4.71,8.51v6.14L10,17.71Zm4.21,2.43v-11L10,.58.5,6.08v11L10,22.58Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

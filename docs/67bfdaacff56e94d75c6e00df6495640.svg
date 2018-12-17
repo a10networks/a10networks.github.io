@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 21.83">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838}.cls-1{stroke-miterlimit:10}.cls-2{stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_2" data-name="Row 2">
+                <g id="Cluster_2" data-name="Cluster 2">
+                    <path d="M11.4 14.89v3.29" class="cls-1"/>
+                    <path d="M3.01 19.93h5M19.67 19.93h-4.96" class="cls-2"/>
+                    <circle cx="11.33" cy="19.93" r="1.4" class="cls-1"/>
+                    <path d="M.5 10.15V5.27C.5 3.43 5.42.5 11.5.5s11 2.13 11 4.77v4.88" class="cls-1"/>
+                    <path d="M22.5 10c0 2.64-4.92 4.77-11 4.77S.5 12.67.5 10" class="cls-1"/>
+                    <path d="M22.5 5.27c0 2.63-4.92 4.76-11 4.76S.5 7.9.5 5.27M3.54 10.94A8.31 8.31 0 0 1 2 10" class="cls-1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

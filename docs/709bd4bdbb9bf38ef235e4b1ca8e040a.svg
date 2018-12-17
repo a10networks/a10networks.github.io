@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 23.44">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none;stroke:#383838}.cls-1{stroke-linecap:round}.cls-1,.cls-2{stroke-linejoin:round}.cls-3{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_1" data-name="Row 1">
+                <g id="Shared_Object_1" data-name="Shared Object 1">
+                    <circle cx="11.65" cy="11.7" r="8.26" class="cls-1"/>
+                    <circle cx="20.72" cy="2.58" r="2.08" class="cls-1"/>
+                    <circle cx="2.06" cy="18.89" r="1.56" class="cls-1"/>
+                    <circle cx="21.44" cy="21.38" r="1.56" class="cls-1"/>
+                    <path d="M17.39 5.72l1.85-1.66M17.57 17.49l2.67 2.67M3.16 17.79l1.63-1.4" class="cls-1"/>
+                    <path d="M11.55 5.69L6.58 8.56v5.73l4.87 2.85 5.06-2.85V8.56l-4.96-2.87z" class="cls-2"/>
+                    <path d="M6.58 8.67l4.87 2.93 5.06-2.93M11.45 11.59v5.55" class="cls-3"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

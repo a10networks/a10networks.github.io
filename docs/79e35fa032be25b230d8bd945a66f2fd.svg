@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.19 22">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383737;stroke-linecap:round;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="asterisk">
+                <path d="M.5 16.25l18.19-10.5M.5 5.75l18.19 10.5M9.6.5v21" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

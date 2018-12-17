@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 19.66">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-1{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Row_1" data-name="Row 1">
+            <g id="Cookie_Security" data-name="Cookie Security">
+                <path d="M12.17 17.77a8.71 8.71 0 0 1-2.81.46A8.87 8.87 0 0 1 9.36.5h.34a2.51 2.51 0 0 0-.34 1.25A2.51 2.51 0 0 0 10.65 4v.35a3.8 3.8 0 0 0 3.8 3.8 1.87 1.87 0 0 0 .34 0" class="cls-1"/>
+                <circle cx="6.83" cy="4.3" r="1" class="cls-2"/>
+                <circle cx="4.3" cy="9.36" r="1.5" class="cls-2"/>
+                <circle cx="7.78" cy="14.58" r="1.5" class="cls-2"/>
+                <circle cx="10" cy="10" r="1" class="cls-2"/>
+                <path d="M17.21 14.96l-1.28-1.28M17.21 14.96l2.56-2.57" class="cls-1"/>
+                <path d="M21.34 9.52c-3.11 0-3.64-1.22-3.64-1.23a.15.15 0 0 0-.14-.1.15.15 0 0 0-.14.1s-.54 1.23-3.65 1.23a.16.16 0 0 0-.15.16v5.46c0 2.23 3.72 3.94 3.88 4h.13c.16-.07 3.88-1.78 3.88-4V9.68a.16.16 0 0 0-.17-.16z" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

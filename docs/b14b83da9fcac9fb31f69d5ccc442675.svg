@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 21.82">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838}.cls-1{stroke-miterlimit:10}.cls-2{stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_7" data-name="Row 7">
+                <g id="My_Apps" data-name="My Apps">
+                    <g id="_hand_" data-name="&lt;hand&gt;">
+                        <rect width="3.66" height="9.77" x=".5" y="11.55" class="cls-1" rx=".33" ry=".33"/>
+                        <path d="M15.58 14.25s1.57-.59 2.68-1 1.45-.33 1.89-.11a2.63 2.63 0 0 1 1.11 1.11c.34.56.34 1.11-.11 1.33s-6.55 3-9 4.11-3 .56-4.22 0a5.67 5.67 0 0 0-2.11-.55L4.16 19v-6a6.91 6.91 0 0 1 2.56.11c1.26.33 1.66 1.11 2.83 1.11s1.61-.44 4.27-1a2.65 2.65 0 0 1 2.18 2.1l-5.3 2.13" class="cls-1"/>
+                        <circle cx="2.22" cy="18.6" r=".61" class="cls-1"/>
+                    </g>
+                    <path d="M16.84 5.81v3.4a.38.38 0 0 1-.38.38h-3.25M11.38 9.59H8.13a.38.38 0 0 1-.38-.38V.88A.38.38 0 0 1 8.13.5h8.33a.38.38 0 0 1 .38.38V4M16.84 4a1.24 1.24 0 0 1 .91-.38 1.29 1.29 0 1 1-.91 2.2" class="cls-2"/>
+                    <path d="M11.38 9.6a1.33 1.33 0 0 1-.38-.92 1.29 1.29 0 1 1 2.21.91" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

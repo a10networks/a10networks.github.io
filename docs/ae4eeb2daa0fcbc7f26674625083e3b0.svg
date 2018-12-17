@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.21 18.86">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Log_out" data-name="Log out">
+                <path id="Down_arrow" d="M19.25 6.85L21.5 9.1l-2.25 2.25M12 9.09h9.5" class="cls-1" data-name="Down arrow"/>
+                <path id="Information" d="M17.76 12.67a8.94 8.94 0 1 1-.26-7.07" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

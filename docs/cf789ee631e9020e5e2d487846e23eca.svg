@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 20.96">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_5" data-name="Row 5">
+                <g id="Partition_Config" data-name="Partition Config">
+                    <rect width="4.28" height="4.28" x="6.14" y="16.18" class="cls-1" rx=".44" ry=".44"/>
+                    <rect width="4.28" height="4.28" x="11.78" y="16.18" class="cls-1" rx=".44" ry=".44"/>
+                    <rect width="4.28" height="4.28" x="6.14" y="10.41" class="cls-1" rx=".44" ry=".44"/>
+                    <rect width="4.28" height="4.28" x="13.37" y="6.53" class="cls-1" rx=".44" ry=".44" transform="rotate(27 15.514 8.654)"/>
+                    <rect width="4.28" height="4.28" x="8.94" y="2.81" class="cls-1" rx=".44" ry=".44" transform="rotate(27 11.076 4.94)"/>
+                    <rect width="4.28" height="4.28" x=".5" y="16.18" class="cls-1" rx=".44" ry=".44"/>
+                    <rect width="4.28" height="4.28" x=".5" y="10.41" class="cls-1" rx=".44" ry=".44"/>
+                    <rect width="4.28" height="4.28" x=".5" y="4.68" class="cls-1" rx=".44" ry=".44"/>
+                    <rect width="4.28" height="4.28" x="17.64" y="1.08" class="cls-1" rx=".44" ry=".44" transform="rotate(27 19.783 3.224)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

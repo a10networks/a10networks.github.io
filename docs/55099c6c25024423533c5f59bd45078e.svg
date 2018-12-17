@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 23 23">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff}.st0{stroke-miterlimit:10}.st1{stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Layer_1-2">
+            <g id="clock">
+                <circle cx="11.5" cy="11.5" r="11" class="st0"/>
+                <path d="M11.5 6v5.9l-4.9 5M11.4.8v2.5M11.4 22.3v-2.9M22.3 11.4h-2.4M.5 11.4H3" class="st1"/>
+            </g>
+        </g>
+    </g>
+</svg>

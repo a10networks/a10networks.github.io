@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 21.41">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#383838;stroke-linecap:round;stroke-miterlimit:10;}</style>
+  </defs>
+  <title>Dashboard</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Hermony_controler" data-name="Hermony controler">
+      <g id="Row_5" data-name="Row 5">
+        <g id="Dashboard">
+          <path class="cls-1" d="M.5,13.86h9.82a0,0,0,0,1,0,0V20.7a0,0,0,0,1,0,0H1a.5.5,0,0,1-.5-.5V13.86A0,0,0,0,1,.5,13.86Z"/>
+          <path class="cls-1" d="M1,.5h9.32a0,0,0,0,1,0,0V11.74a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V1A.5.5,0,0,1,1,.5Z"/>
+          <path class="cls-1" d="M12.68.5H22a.5.5,0,0,1,.5.5V7.34a0,0,0,0,1,0,0H12.68a0,0,0,0,1,0,0V.5A0,0,0,0,1,12.68.5Z"/>
+          <path class="cls-1" d="M12.68,9.67H22.5a0,0,0,0,1,0,0V20.41a.5.5,0,0,1-.5.5H12.68a0,0,0,0,1,0,0V9.67A0,0,0,0,1,12.68,9.67Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

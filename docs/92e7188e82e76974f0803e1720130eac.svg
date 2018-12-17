@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 21.7 23.1">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10}.st1{fill:#fff}.st2{font-family:&apos;MyriadPro-Bold&apos;}.st3{font-size:10.33px}.st4{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Row_2">
+            <g id="Brute-Force">
+                <path d="M15.3 19.1H1.8c-.7 0-1.3-.6-1.3-1.3v-5.1c0-.7.6-1.3 1.3-1.3h18c.7 0 1.3.6 1.3 1.3v1.2" class="st0"/>
+                <text class="st1 st2 st3" transform="translate(1.44 20.52)">
+                    *
+                </text>
+                <text class="st1 st2 st3" transform="translate(6.18 20.52)">
+                    *
+                </text>
+                <text class="st1 st2 st3" transform="translate(10.92 20.52)">
+                    *
+                </text>
+                <path d="M16.6 14.9h4c.3 0 .6.3.6.6v3c0 .3-.3.6-.6.6h-4c-.3 0-.6-.3-.6-.6v-3c0-.3.3-.6.6-.6z" class="st4"/>
+                <path d="M19.9 15v-.5c0-.7-.6-1.3-1.3-1.3-.7 0-1.3.6-1.3 1.3v.5M19.2 18v-.9c.2-.1.2-.3.2-.5 0-.3-.3-.6-.6-.6s-.6.3-.6.6c0 .2.1.4.2.5v.9h.8zM3.4 4.6l1.1.1.8-.8.1-1.1-1.5-1.7-.3 1.7-1.7.1zM4.7 6.1l2 2.2c.4.4 1.1.5 1.5.1l.6-.6c.4-.4.5-1.1.1-1.5l-2-2.2c-.4-.4-1.1-.4-1.5 0l-.7.6c-.4.3-.4 1 0 1.4zM10.9 4.6l1.2.1.8-.8V2.8l-1.5-1.7-.3 1.7-1.7.1zM12.2 6.1l2 2.2c.4.4 1 .5 1.4.1l.1-.1.6-.6c.4-.4.5-1 .1-1.4l-.1-.1-2-2.2c-.3-.3-.9-.4-1.3 0l-.1.1-.6.6c-.5.3-.5.9-.1 1.4-.1 0 0 0 0 0z" class="st4"/>
+            </g>
+        </g>
+    </g>
+</svg>
