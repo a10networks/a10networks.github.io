@@ -2,8 +2,6 @@
 
 ## App entry
 
-{% embed url="https://index.tsx" caption="react di" %}
-
 ## How to create the first hello world page
 
 ```text
