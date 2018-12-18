@@ -1,34 +1,35 @@
 ---
-description: Main concepts about UGF
+description: Terms of art and abbrreviations used in the A10 Unified GUI Framework.
 ---
 
 # Glossary
 
 ## UGF
 
-Abbreviation of A10 Unified GUI Framework, used for cross team share same GUI architecture, unify Javascript code and CSS style.
+Abbreviation of A10 **U**nified **G**UI **F**ramework, which is a set of projects emcompasshing a shared JavaScript library (based on React.js), coding convention, CSS styles, and testing tools for driving a consistent look and feel of modern professional web application across A10 Networks' product portfolio.
+
 
 ## A10 GUI Framework
 
-It's the main repository of UGF, defined how to use React, Redux and other well-known opensource softwares.
+It is the main repository of UGF, defines how to use React, Redux and other well-known opensource softwares.
 
 The bootstrap code should use the Framework code to boot up.
 
 ## A10 GUI Widgets
 
-To keep GUI action behavior and looking as the same between team, we abstract all React UI components as widgets.
+A set of React UI component abstracted as widgets to be shared acorss projects.
 
 ## A10 GUI Common Library
 
-To save GUI  guys share business code with each other, we defined Common code especially container code into this library.
+A set of common functions and React components with encapsulated business logic.  Widgets, on the other hand, do not have business logic encapsulated.
 
 ## A10Provider
 
-A10Provider is a wrapper for React-Redux Provider . A10Provider makes the Redux store available to redux.connect\(\) calls in the component hierarchy below it. We use this wrapper to wire up some global middleware to help system monitor global data \(theme, debug\) or to log critical information.
+A10Provider is a wrapper for React-Redux Provider.  A10Provider makes the Redux store available to redux.connect\(\) calls in the component hierarchy below it. We use this wrapper to wire up some global middleware to help system monitor global data \(theme, debug\) or to log critical information.
 
 ## A10Root
 
- place where we can define some global variables like theme, debug toggle, locale etc. and pass them to the whole Virtual-DOM context. A10Root is the ideal place to accept initial configurations defined in a JS file and sent into 1\) Redux, and 2\) component context so that every descendent can access the global variables.
+A place where we can define some global variables like theme, debug toggle, locale etc. and pass them to the whole Virtual-DOM context. A10Root is the ideal place to accept initial configurations defined in a JS file and sent into 1\) Redux, and 2\) component context so that every descendent can access the global variables.
 
 ## A10Router
 
