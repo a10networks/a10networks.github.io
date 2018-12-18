@@ -18,7 +18,7 @@ Email list:
 * Craig: chuang@a10netowkrs.com
 * Zuoping: zli@a10netowkrs.com
 * Roll: stsai@a10networks.com
-* Chris: stsai@a10networks.com
+* Chris: christzuhsiul@a10networks.com
 * Ruiz: ruiz@a10netowkrs.com
 * William: sho@a10netowkrs.com
 
