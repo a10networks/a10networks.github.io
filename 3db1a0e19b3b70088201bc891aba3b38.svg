@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 22.01">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#fff}.cls-1{stroke-linecap:round;stroke-linejoin:round}.cls-2{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="Video_Tutorial" data-name="Video Tutorial">
+                <path d="M21.68 10.32l-5 3.59v-3.54a.65.65 0 0 0-.68-.65H1.16a.65.65 0 0 0-.66.65v10.48a.66.66 0 0 0 .66.66H16a.66.66 0 0 0 .66-.66v-3.53l5 3.58c.37.28.82-.07.82-.63V11c.02-.61-.43-1-.8-.68z" class="cls-1"/>
+                <circle cx="3.72" cy="3.72" r="3.22" class="cls-2"/>
+                <circle cx="13.2" cy="3.72" r="3.22" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

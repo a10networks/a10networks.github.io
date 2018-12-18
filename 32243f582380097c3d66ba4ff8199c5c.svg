@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.5 15.97">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838}.cls-1{stroke-linejoin:round}.cls-2{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_4" data-name="Row 4">
+                <g id="Object_Explorer_2" data-name="Object Explorer 2">
+                    <path d="M15.5.5L9.01 4.25v7.5l6.36 3.72L22 11.75v-7.5L15.5.5z" class="cls-1"/>
+                    <path d="M9.01 4.4l6.36 3.82L22 4.4M15.37 8.22v7.25" class="cls-1"/>
+                    <path d="M0 4.23h7.39M0 8.04h7.24M0 11.85h7.24" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

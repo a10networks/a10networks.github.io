@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 6.1 22">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Action_icons">
+            <g id="More">
+                <path d="M3 8.4C1.6 8.4.5 9.5.5 11s1.1 2.5 2.5 2.5 2.5-1.1 2.5-2.5-1-2.6-2.5-2.6zM.5 19c0 1.4 1.2 2.5 2.6 2.5s2.5-1.2 2.5-2.6c0-1.4-1.2-2.5-2.5-2.5C1.6 16.4.5 17.5.5 19zM.5 3C.5 4.4 1.6 5.5 3 5.5s2.6-1 2.6-2.5S4.5.5 3 .5C1.6.5.5 1.6.5 3z" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

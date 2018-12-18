@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 21.55">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_6" data-name="Row 6">
+                <g id="Organization">
+                    <rect width="6.29" height="5.03" x="16.21" y="16.02" class="cls-1" rx=".38" ry=".38" transform="rotate(180 19.355 18.535)"/>
+                    <rect width="6.29" height="5.03" x=".5" y="16.02" class="cls-1" rx=".38" ry=".38" transform="rotate(180 3.645 18.535)"/>
+                    <rect width="6.29" height="5.03" x="8.36" y="16.02" class="cls-1" rx=".38" ry=".38" transform="rotate(180 11.5 18.535)"/>
+                    <path d="M19.48 15.96v-5.55H3.42v5.8M11.5 15.87V5.61" class="cls-1"/>
+                    <rect width="6.29" height="5.03" x="8.36" y=".5" class="cls-1" rx=".38" ry=".38" transform="rotate(180 11.5 3.015)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

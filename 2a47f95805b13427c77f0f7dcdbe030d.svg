@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 21.9">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{fill:none;stroke:#383838;stroke-linejoin:round}.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{stroke-linecap:round}.cls-3{stroke-dasharray:2.33 2.33}.cls-4{stroke-dasharray:2.68 2.68}.cls-5{stroke-dasharray:2.27 2.27}.cls-6{stroke-dasharray:2.65 2.65}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_5" data-name="Row 5">
+                <g id="Infrastructure_2" data-name="Infrastructure 2">
+                    <rect width="5.5" height="4.4" x=".5" y=".5" class="cls-1" rx=".33" ry=".33" transform="rotate(180 3.25 2.7)"/>
+                    <rect width="6.87" height="5.5" x="8.06" y="8.2" class="cls-1" rx=".41" ry=".41" transform="rotate(180 11.5 10.95)"/>
+                    <rect width="5.5" height="4.4" x="17" y=".5" class="cls-1" rx=".33" ry=".33" transform="rotate(180 19.75 2.7)"/>
+                    <rect width="5.5" height="4.4" x=".5" y="17" class="cls-1" rx=".33" ry=".33" transform="rotate(180 3.25 19.2)"/>
+                    <rect width="5.5" height="4.4" x="17" y="17" class="cls-1" rx=".33" ry=".33" transform="rotate(180 19.75 19.2)"/>
+                    <path d="M16.44 19.38h-1.5" class="cls-2"/>
+                    <path d="M12.61 19.38h-3.5" class="cls-3"/>
+                    <path d="M7.94 19.38h-1.5M19.8 5.5V7" class="cls-2"/>
+                    <path d="M19.8 9.68v4.02" class="cls-4"/>
+                    <path d="M19.8 15.04v1.5M6.57 2.88h1.5" class="cls-2"/>
+                    <path d="M10.34 2.88h3.4" class="cls-5"/>
+                    <path d="M14.87 2.88h1.5M3.3 16.44v-1.5" class="cls-2"/>
+                    <path d="M3.3 12.3V8.33" class="cls-6"/>
+                    <path d="M3.3 7V5.5M11.79 8.05v-1.5M11.79 5.43v-1.5M11.79 14.24v1.5M11.79 17.55v1.5M7.66 10.8h-.75M4.29 10.8h-.75M15.23 10.8h1.5M18.54 10.8h1.5" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

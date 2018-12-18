@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.06 23">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838}.cls-1{stroke-linecap:round;stroke-linejoin:round}.cls-2{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="deploy_3" data-name="deploy 3">
+                <path d="M5.95 10.56l4.08-4.08 4.08 4.08M10.03 15.86V6.48" class="cls-1"/>
+                <path id="White_Paper" d="M18.56 21.77V6.1L13 .5H1.23a.73.73 0 0 0-.73.73v20.54a.73.73 0 0 0 .73.73h16.59a.74.74 0 0 0 .74-.73zm-.4-15.95H14a.73.73 0 0 1-.73-.73V.93" class="cls-2" data-name="White Paper"/>
+                <path d="M5.76 19.17h8.16" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

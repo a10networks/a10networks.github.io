@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 21.5">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Calendar">
+                <rect width="21" height="19.28" x=".5" y="1.72" class="cls-1" rx="1.23" ry="1.23"/>
+                <path d="M6.43 0v3.62M15.57 0v3.62M.5 5.93h21M4.66 9.7h.6v.6h-.6zM8.65 9.7h.6v.6h-.6zM12.65 9.7h.6v.6h-.6zM16.64 9.7h.6v.6h-.6zM4.66 12.8h.6v.6h-.6zM8.65 12.8h.6v.6h-.6zM12.65 12.8h.6v.6h-.6zM16.64 12.8h.6v.6h-.6zM4.66 15.89h.6v.6h-.6zM8.65 15.89h.6v.6h-.6z" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 25 23">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff}.st0{stroke-miterlimit:10}.st1{stroke-linejoin:round}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Hermony_controler">
+            <g id="Row_5">
+                <g id="cluster">
+                    <path d="M13.1 16v3.3" class="st0"/>
+                    <path d="M4.7 21h5M21.4 21h-5" class="st1"/>
+                    <circle cx="13" cy="21" r="1.4" class="st0"/>
+                    <path d="M1.5.5h22c.6 0 1 .4 1 1v5c0 .6-.4 1-1 1h-22c-.6 0-1-.4-1-1v-5c0-.6.4-1 1-1zM11 4h11M8.4 4H6.6" class="st0"/>
+                    <path d="M3.4 3.7H4v.6h-.6zM11 12.5h11M8.4 12.5H6.6M3.4 12.2H4v.6h-.6z" class="st0"/>
+                    <path d="M1.5 9h22c.6 0 1 .4 1 1v5c0 .6-.4 1-1 1h-22c-.6 0-1-.4-1-1v-5c0-.6.4-1 1-1z" class="st0"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

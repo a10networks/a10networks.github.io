@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.99 23">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_4" data-name="Row 4">
+                <g id="Edit_2" data-name="Edit 2">
+                    <path d="M19.28.5h.09a2.06 2.06 0 0 1 .55.11A4.24 4.24 0 0 1 22.31 3a1.79 1.79 0 0 1 .13.46v.2a.25.25 0 0 1-.1.17L10.23 15.94a.3.3 0 0 1-.17.1l-3.39.71-.6.12.11-.52.75-3.49a.33.33 0 0 1 .07-.13l2.11-2.12 4.56-4.56c1.82-1.82 3.65-3.64 5.47-5.47.08-.07.11-.08.14-.08z" class="cls-1"/>
+                    <path d="M9.69 2.36H1.33a.83.83 0 0 0-.83.83v18.48a.83.83 0 0 0 .83.83h18.29a.83.83 0 0 0 .82-.83v-9.26" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.19 19.66">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{fill:#383838}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="restore">
+                <path d="M3.05 4.05a9.33 9.33 0 1 1 7.31 15.11 9.39 9.39 0 0 1-8.71-6" class="cls-1"/>
+                <path d="M5.56 14.08l-.28.7-3.43-1.4L.71 16.9 0 16.67l1.39-4.29 4.17 1.7z" class="cls-2"/>
+                <circle cx="10.54" cy="9.38" r="2.5" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

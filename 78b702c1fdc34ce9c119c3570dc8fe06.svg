@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 23 22.7">
+    <style>
+        .st0{fill:none;stroke:#fffdfd;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Layer_1-2">
+            <g id="service">
+                <path d="M6.1 5.8L11.2.7c.3-.3.7-.3 1 0l10.1 10.1c.3.3.3.7 0 1L12.2 22c-.3.3-.7.3-1 0l-5-5" class="st0"/>
+                <circle cx="1.5" cy="7.9" r="1" class="st0"/>
+                <circle cx="8.1" cy="11.3" r="1" class="st0"/>
+                <circle cx="3.6" cy="14.6" r="1" class="st0"/>
+                <path d="M2.5 7.9h8.7M9.1 11.3h5M4.7 14.6h6.5" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.5 16.88">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-1{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Install">
+                <path d="M3.69 3.58V1.16A.67.67 0 0 1 4.35.5h17a.67.67 0 0 1 .66.66v12H3.69V8.81" class="cls-1"/>
+                <path d="M17.78 16.38H7.91M12.84 16.38v-3.2" class="cls-2"/>
+                <path id="Down_arrow" d="M5.48 4.37l1.7 1.69-1.7 1.7M0 6.06h7.18" class="cls-2" data-name="Down arrow"/>
+            </g>
+        </g>
+    </g>
+</svg>

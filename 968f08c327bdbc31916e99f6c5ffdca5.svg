@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 23 16">
+    <style>
+        .st0{stroke-linecap:round}.st0,.st1{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Layer_1-2">
+            <g id="change2">
+                <path d="M10.9 7.9v-.6c0-2.4 2-4.4 4.4-4.4h2.3M10.9 7.9v.6c0 2.4-2 4.4-4.4 4.4h-6M1.4 2.9h5.5c1 0 1.9.3 2.7.9M17.6 13.1H15c-1 0-1.9-.3-2.7-.9" class="st0"/>
+                <circle cx="20.1" cy="2.9" r="2.4" class="st1"/>
+                <circle cx="20.1" cy="13.1" r="2.4" class="st1"/>
+            </g>
+        </g>
+    </g>
+</svg>

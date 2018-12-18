@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#0052b4}.cls-2{fill:#f0f0f0}.cls-3{fill:#d80027}.cls-4{fill:#ffda44}.cls-5{fill:#6da544}.cls-6{fill:#496e2d}.cls-7{fill:#a2001d}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="vg">
+            <path d="M32 16a16 16 0 0 1-32 0L16 0a16 16 0 0 1 16 16z" class="cls-1"/>
+            <path d="M16 16zM16 8.35V0A16 16 0 0 0 0 16h8.35v-4.7l4.7 4.7H16v-2.95l-4.7-4.7z" class="cls-2"/>
+            <path d="M8.09 2.09a16 16 0 0 0-6 6V16h4.17V6.26H16V2.09z" class="cls-3"/>
+            <path d="M23 16l-4.33 4.32a4.86 4.86 0 0 0 8.65 0z" class="cls-4"/>
+            <path d="M16 14l-5.68-5.65h-2L16 16z" class="cls-3"/>
+            <path d="M18.09 8.35V16c0 3.73 4.87 4.87 4.87 4.87s4.87-1.14 4.87-4.87V8.35z" class="cls-5"/>
+            <path d="M18.09 16z" class="cls-6"/>
+            <path d="M21.91 11.83H24v5.57h-2.09z" class="cls-2"/>
+            <circle cx="22.96" cy="11.83" r="1.04" class="cls-7"/>
+            <path d="M19.48 9.74h1.39v1.39h-1.39zM19.48 12.87h1.39v1.39h-1.39zM19.48 16h1.39v1.39h-1.39zM25.04 9.74h1.39v1.39h-1.39zM25.04 12.87h1.39v1.39h-1.39zM25.04 16h1.39v1.39h-1.39z" class="cls-4"/>
+        </g>
+    </g>
+</svg>

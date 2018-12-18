@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 22 22">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff;stroke-miterlimit:10}.st1{stroke-dasharray:1.94,2.91}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Thunder_ADC">
+            <g id="Row_2">
+                <g id="Server_group">
+                    <path d="M3 11.1h14.3c.4 0 .7.3.7.7v3c0 .4-.3.7-.7.7H3c-.4 0-.7-.3-.7-.7v-3c.1-.4.4-.7.7-.7zM5.3 13.2h4.6M10.8 12.6v1.2M11.8 12.6v1.2M12.8 12.6v1.2M13.8 12.6v1.2M14.8 12.6v1.2M15.8 12.6v1.2M16.7 12.6v1.2" class="st0"/>
+                    <path d="M3.6 13H4v.4h-.4zM12.8 9v1.2M13.8 9v1.2M14.8 9v1.2M15.7 9v1.2M16.7 9v1.2M17.7 9v1.2M18.7 9v1.2M5.5 9.4h.4v.4h-.4z" class="st0"/>
+                    <path d="M4.3 10.9v-3c0-.2.2-.4.4-.4h14.8c.2 0 .4.2.4.4v3.8c0 .2-.2.4-.4.4H18" class="st0"/>
+                    <path id="v_Port" d="M1.4.5h19.2c.5 0 .9.4.9.9v19.2c0 .5-.4.9-.9.9H1.4c-.5 0-.9-.4-.9-.9V1.4c0-.5.4-.9.9-.9z" class="st1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

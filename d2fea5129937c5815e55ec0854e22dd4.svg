@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.27 22.92">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-1{stroke-width:.93px;stroke-dasharray:3.79 1.89}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Thunder_ADC" data-name="Thunder ADC">
+            <g id="Row_2" data-name="Row 2">
+                <g id="Virtual_Servers" data-name="Virtual Servers">
+                    <rect width="20.35" height="5.95" x=".46" y=".46" class="cls-1" rx=".85" ry=".85"/>
+                    <rect width="20.35" height="5.95" x=".46" y="8.49" class="cls-1" rx=".85" ry=".85"/>
+                    <rect width="20.35" height="5.95" x=".46" y="16.51" class="cls-1" rx=".85" ry=".85"/>
+                    <path d="M11.36 3.66h6.97M8.76 3.66H6.93M3.71 3.34h.64v.64h-.64zM11.36 11.66h6.97M8.76 11.66H6.93M3.71 11.34h.64v.64h-.64zM11.36 19.66h6.97M8.76 19.66H6.93M3.71 19.34h.64v.64h-.64z" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.9 31.9">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#496e2d}.cls-4{fill:#0052b4}.cls-5{fill:#ffda44}.cls-6{fill:#f0f0f0}
+        </style>
+        <clipPath id="clip-path" transform="translate(0 -.02)">
+            <path d="M0 0h31.93v32H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="sb">
+            <g class="cls-2">
+                <path d="M27.23 27.25a15.94 15.94 0 0 0 .71-21.79L16 16 5.43 28a16 16 0 0 0 21.8-.72z" class="cls-3" transform="translate(0 -.02)"/>
+                <path d="M4.67 4.7a16 16 0 0 1 21.8-.7L16 16 4 26.49A15.94 15.94 0 0 1 4.67 4.7z" class="cls-4" transform="translate(0 -.02)"/>
+            </g>
+            <path d="M26.47 4L4 26.49c.23.26.46.52.71.76s.5.49.76.72L27.94 5.46c-.23-.26-.46-.52-.71-.76s-.5-.49-.76-.72z" class="cls-5" transform="translate(0 -.02)"/>
+            <path d="M6.72 5.57l.34 1.06h1.12l-.9.66.34 1.06-.9-.66-.9.66.34-1.06-.9-.66h1.12zM12.41 5.57l.35 1.06h1.11l-.9.66.34 1.06-.9-.66-.9.66.34-1.06-.85-.66h1.12zM6.72 11.12l.34 1.06h1.12l-.9.65.34 1.06-.9-.65-.9.65.34-1.06-.9-.65h1.12zM12.41 11.12l.35 1.06h1.11l-.9.65.34 1.06-.9-.65-.9.65.34-1.06-.9-.65h1.12zM9.57 8.35l.34 1.06H11l-.9.65.35 1.06-.9-.65-.91.65.36-1.06-.9-.65h1.12z" class="cls-6" transform="translate(0 -.02)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-linecap:round}.cls-1{stroke-linejoin:round}.cls-2{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Table_view" data-name="Table view">
+                <rect width="21" height="21" x=".5" y=".5" class="cls-1" rx=".88" ry=".88"/>
+                <path d="M.67 4.94h20.65M7.22 4.94v16.45M14.79 4.94v16.45M2.39 8.18h3M2.39 13.18h3M2.39 18.18h3M9.49 8.18h3M9.49 13.18h3M9.49 18.18h3M16.69 8.18h3M16.69 13.18h3M16.69 18.18h3" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

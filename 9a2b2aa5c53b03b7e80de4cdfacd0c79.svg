@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.21 20.89">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Export">
+                <path d="M19.8 9.79v9.6a1 1 0 0 1-1 1H1.51a1 1 0 0 1-1-1V4.55a1.07 1.07 0 0 1 .74-1h7.92" class="cls-1"/>
+                <path d="M9.55 14.37v-.61a11 11 0 0 1 11-11h.85M19 .35l2.5 2.49L19 5.32" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

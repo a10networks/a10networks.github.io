@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.88 22.98">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;stroke:#383838;}.cls-1{stroke-miterlimit:10;stroke-width:0.88px;}.cls-2{stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <title>ip traffic</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="firewall">
+      <g id="ip_traffic" data-name="ip traffic">
+        <path class="cls-1" d="M1.23.44H21.64a.8.8,0,0,1,.8.8V17.58a0,0,0,0,1,0,0H.44a0,0,0,0,1,0,0V1.23A.8.8,0,0,1,1.23.44Z"/>
+        <line class="cls-1" x1="8.19" y1="21.88" x2="3.44" y2="21.88"/>
+        <line class="cls-1" x1="19.29" y1="21.88" x2="14.73" y2="21.88"/>
+        <line class="cls-1" x1="11.44" y1="21.21" x2="11.44" y2="17.66"/>
+        <line class="cls-2" x1="17.21" y1="5.73" x2="5.65" y2="5.73"/>
+        <polyline class="cls-2" points="7.56 3.53 5.36 5.73 7.56 7.93"/>
+        <line class="cls-2" x1="5.65" y1="12.53" x2="17.21" y2="12.53"/>
+        <polyline class="cls-2" points="15.3 14.73 17.5 12.53 15.3 10.33"/>
+        <rect class="cls-1" x="8.19" y="21.21" width="6.53" height="1.33"/>
+      </g>
+    </g>
+  </g>
+</svg>

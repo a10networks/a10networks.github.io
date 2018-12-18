@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 18.7 22">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Action_icons">
+            <g id="Duplicate">
+                <path d="M.5 3.6v13.2l4.7 4.7h9.9c.3 0 .6-.3.6-.6V3.6c0-.3-.3-.6-.6-.6h-14c-.3 0-.6.3-.6.6zM.8 17h3.5c.4 0 .7.3.7.6v3.5" class="st0"/>
+                <path d="M15.7 19h1.8c.3 0 .6-.3.6-.6V1.1c0-.3-.3-.6-.6-.6h-14c-.3 0-.5.3-.5.6V3M2.9 6.7h9.9M2.9 9.4h9.9M2.9 12h9.9" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

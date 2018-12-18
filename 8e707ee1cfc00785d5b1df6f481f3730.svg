@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 22.93">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Hermony_controler" data-name="Hermony controler">
+            <g id="Row_7" data-name="Row 7">
+                <g id="Installed_Apps" data-name="Installed Apps">
+                    <path d="M11.52 6.93V11a.46.46 0 0 1-.45.46H7.13M4.92 11.5H1a.47.47 0 0 1-.48-.5V1A.47.47 0 0 1 1 .5h10.07a.46.46 0 0 1 .45.46v3.76M11.52 4.72a1.56 1.56 0 1 1 0 2.21M4.92 11.51a1.56 1.56 0 1 1 2.21 0M11.5 15.55v-3.66a.46.46 0 0 1 .46-.46h3.93M18.1 11.43H22a.46.46 0 0 1 .46.46V22a.47.47 0 0 1-.46.46H12a.47.47 0 0 1-.5-.46v-3.79M18.1 11.42a1.56 1.56 0 1 1-2.21 0" class="cls-1"/>
+                    <path d="M7.18 11.47l3.82-.05a.47.47 0 0 1 .46.46v3.94M11.5 18.72V22a.45.45 0 0 1-.46.45H1A.46.46 0 0 1 .5 22V11.88a.47.47 0 0 1 .5-.46h3.72M11.51 18.13a1.56 1.56 0 1 1 0-2.21" class="cls-1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

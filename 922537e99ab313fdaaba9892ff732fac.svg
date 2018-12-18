@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{font-size:13.37px;fill:#383838;font-family:Roboto-Light,Roboto}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="question">
+                <circle cx="11" cy="11" r="10.5" class="cls-1"/>
+                <text class="cls-2" transform="translate(7.96 15.72)">
+                    ?
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

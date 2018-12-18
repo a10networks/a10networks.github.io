@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 11.34">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#383838;stroke-miterlimit:10;}</style>
+  </defs>
+  <title>thunder</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="firewall">
+      <g id="thunder">
+        <path class="cls-1" d="M2.57,9.62H1.12A.58.58,0,0,1,.5,9.11V2.37a.58.58,0,0,1,.62-.51H2.57"/>
+        <path class="cls-1" d="M20.22,1.86h1.66a.58.58,0,0,1,.62.51V9.11a.58.58,0,0,1-.62.51H20.22"/>
+        <rect class="cls-1" x="2.64" y="0.5" width="17.51" height="10.34" rx="0.62" ry="0.62"/>
+        <line class="cls-1" x1="8.12" y1="8.42" x2="11.52" y2="8.42"/>
+        <line class="cls-1" x1="14.4" y1="8.42" x2="17.8" y2="8.42"/>
+        <circle class="cls-1" cx="5.44" cy="3.01" r="0.16"/>
+        <circle class="cls-1" cx="5.44" cy="5.62" r="0.16"/>
+        <circle class="cls-1" cx="5.44" cy="8.42" r="0.16"/>
+        <rect class="cls-1" x="8.15" y="2.86" width="3.35" height="1.7"/>
+        <rect class="cls-1" x="14.42" y="2.86" width="3.35" height="1.7"/>
+      </g>
+    </g>
+  </g>
+</svg>

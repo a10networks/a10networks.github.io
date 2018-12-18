@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 19.5 23">
+    <style>
+        .st0,.st1{fill:none;stroke:#fff}.st0{stroke-linecap:round;stroke-linejoin:round}.st1{stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Hermony_controler">
+            <g id="Row_6">
+                <g id="Triggers">
+                    <path d="M10.2 17.2H19" class="st0"/>
+                    <circle cx="5.3" cy="17.7" r="4.8" class="st1"/>
+                    <path d="M10.2 4.9H19" class="st0"/>
+                    <circle cx="5.3" cy="5.3" r="4.8" class="st1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

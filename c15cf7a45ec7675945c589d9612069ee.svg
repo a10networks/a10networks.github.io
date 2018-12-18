@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 21.3 22.9">
+    <style>
+        .st0{stroke-width:.93;stroke-dasharray:3.79,1.89}.st0,.st1{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Thunder_ADC">
+            <g id="Row_2">
+                <g id="Virtual_Servers">
+                    <path d="M1.3.5H20c.5 0 .9.4.9.9v4.3c0 .5-.4.8-.9.8H1.3C.8 6.4.5 6 .5 5.6V1.3c0-.5.3-.8.8-.8zM1.3 8.5H20c.5 0 .9.4.9.9v4.2c0 .5-.4.9-.9.9H1.3c-.5 0-.9-.4-.9-.9V9.3c.1-.4.4-.8.9-.8zM1.3 16.5H20c.5 0 .9.4.9.9v4.2c0 .5-.4.9-.9.9H1.3c-.5 0-.9-.4-.9-.9v-4.2c.1-.5.4-.9.9-.9z" class="st0"/>
+                    <path d="M11.4 3.7h6.9M8.8 3.7H6.9M3.7 3.3h.6v.6h-.6zM11.4 11.7h6.9M8.8 11.7H6.9M3.7 11.3h.6v.6h-.6zM11.4 19.7h6.9M8.8 19.7H6.9M3.7 19.3h.6v.6h-.6z" class="st1"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

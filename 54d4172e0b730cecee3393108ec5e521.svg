@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23.01">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#383838;stroke-miterlimit:10;}.cls-2{font-size:6.02px;fill:#383838;font-family:Roboto-Regular, Roboto;letter-spacing:0.02em;}</style>
+  </defs>
+  <title>applications</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="firewall">
+      <g id="applications">
+        <rect class="cls-1" x="0.5" y="4.53" width="17.97" height="17.98" rx="0.78" ry="0.78"/>
+        <path class="cls-1" d="M2.51,3.29a.78.78,0,0,1,.78-.78H19.71a.78.78,0,0,1,.78.78V19.72a.77.77,0,0,1-.78.77"/>
+        <path class="cls-1" d="M4.53,1.28A.78.78,0,0,1,5.31.5H21.72a.78.78,0,0,1,.78.78V17.7a.78.78,0,0,1-.76.78"/>
+        <text class="cls-2" transform="translate(3.49 16.14)">APP</text>
+      </g>
+    </g>
+  </g>
+</svg>

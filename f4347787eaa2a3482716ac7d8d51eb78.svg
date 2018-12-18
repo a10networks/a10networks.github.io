@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#0052b4}.cls-2{fill:#f0f0f0}.cls-3{fill:#d80027}.cls-4{fill:#acabb1}.cls-5{fill:#338af3}.cls-6{fill:#6da544}.cls-7{fill:#ffda44}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="pn">
+            <path d="M32 16a16 16 0 0 1-32 0L16 0a16 16 0 0 1 16 16z" class="cls-1"/>
+            <path d="M16 16zM16 8.35V0A16 16 0 0 0 0 16h8.35v-4.7l4.7 4.7H16v-2.95l-4.7-4.7z" class="cls-2"/>
+            <path d="M8.09 2.09a16 16 0 0 0-6 6V16h4.17V6.26H16V2.09z" class="cls-3"/>
+            <path d="M16 14l-5.68-5.65h-2L16 16z" class="cls-3"/>
+            <path d="M25 9.74l-2 .69-2.09-.69L20.17 8l.7-1.74H25L24.35 8z" class="cls-4"/>
+            <path d="M18.09 9.74v7.65c0 3.73 4.87 4.87 4.87 4.87s4.87-1.14 4.87-4.87V9.74z" class="cls-5"/>
+            <path d="M18.53 19.2c1.19 2.3 4.47 3.06 4.47 3.06s3.23-.76 4.43-3.06L23 11.83z" class="cls-6"/>
+            <path d="M27.83 17.31L23 9.74l-4.87 7.57v.08a3.76 3.76 0 0 0 .44 1.81L23 12.31l4.43 6.89a3.87 3.87 0 0 0 .44-1.81z" class="cls-7"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 21.7 22">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="Row_1">
+            <g id="Policie_Exception">
+                <path d="M17.5 12.8V2.3c0-1.5-.2-1.8-.5-1.8H1.2C.8.5.5.8.5 1.2V16l5.3 5.3h8.7m-13.6-5H5c.3 0 .5.2.5.5v4.1M3.2 4.7h11.1M3.2 7.7h11.1M3.2 10.7h11.1M19.6 16.7l-2.4 2.4-1.2-1.2" class="st0"/>
+                <circle cx="17.6" cy="17.8" r="3.7" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

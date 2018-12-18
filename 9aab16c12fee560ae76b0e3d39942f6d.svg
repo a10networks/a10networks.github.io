@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.9 31.9">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#f0f0f0}.cls-4{fill:#d80027}.cls-5{fill:#6da544}.cls-6{fill:#ffda44}
+        </style>
+        <clipPath id="clip-path" transform="translate(0 -.02)">
+            <path d="M0 0h31.93v32H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="vu">
+            <path d="M31.9 16a18 18 0 0 0-.13-2.09h-17.9L4.67 4.7a15.94 15.94 0 0 0 0 22.55l9.2-9.19h17.9A18 18 0 0 0 31.9 16z" class="cls-2" transform="translate(0 -.02)"/>
+            <path d="M31.9 16.34zM31.88 16.77zM31.86 17.12v0zM31.81 14.24v0zM31.88 15.09zM31.89 15.52zM31.85 14.69v0z" class="cls-3" transform="translate(0 -.02)"/>
+            <path d="M31.77 13.89a1 1 0 0 0 0 .17A15.95 15.95 0 0 0 4.67 4.7l9.2 9.19z" class="cls-4" transform="translate(0 -.02)"/>
+            <path d="M31.77 18.06h-17.9l-9.2 9.19a15.95 15.95 0 0 0 27.12-9.36 1 1 0 0 0 0 .17z" class="cls-5" transform="translate(0 -.02)"/>
+            <path d="M31.82 17.55v0z" class="cls-3" transform="translate(0 -.02)"/>
+            <path d="M31.86 14.83v0zM31.79 14.06a1.1 1.1 0 0 0 0 .18 1.1 1.1 0 0 1 0-.18zM31.82 14.4v.29-.29zM31.9 16zM31.88 16.87v0zM31.85 17.26v.29-.29zM31.81 17.71a1.1 1.1 0 0 0 0 .18 1.1 1.1 0 0 1 0-.18zM31.9 15.61zM31.88 15.18v0zM31.89 16.43v0z" transform="translate(0 -.02)"/>
+            <path d="M31.89 15.28H13.28L3.73 5.72a8.21 8.21 0 0 0-.85 1.11L12 16l-9.13 9.11a7.8 7.8 0 0 0 .85 1.11l9.56-9.56h18.61v-.69-.69z" class="cls-6" transform="translate(0 -.02)"/>
+            <path d="M3.87 19.38V18a2.42 2.42 0 0 0 2.42-2.42 1.71 1.71 0 0 0-1.71-1.71 1.16 1.16 0 0 0-1.16 1.17.74.74 0 0 0 .74.74.42.42 0 0 0 .42-.42h1.34a1.76 1.76 0 0 1-1.76 1.76 2.08 2.08 0 0 1-2.08-2.08 2.5 2.5 0 0 1 2.5-2.5 3 3 0 0 1 3.05 3 3.77 3.77 0 0 1-3.76 3.76z" class="cls-6" transform="translate(0 -.02)"/>
+        </g>
+    </g>
+</svg>

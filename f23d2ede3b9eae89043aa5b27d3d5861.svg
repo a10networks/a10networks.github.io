@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 22.9 22.9">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <g id="Layer_2_1_">
+        <g id="firewall">
+            <g id="firewall-2">
+                <path d="M1.4.5h20.1c.5 0 .9.4.9.9v20c0 .5-.4.9-.9.9H1.4c-.5 0-.9-.4-.9-.9v-20c0-.5.4-.9.9-.9zM.4 7.8h22M.4 15.1h22M11.5 7.8V.5M5.9 14.9V7.7M17.1 14.9V7.7M11.5 22.3V15" class="st0"/>
+            </g>
+        </g>
+    </g>
+</svg>

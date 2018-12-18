@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 18">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7ed321;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="firewall">
+            <g id="das-line">
+                <path d="M10.99 18V0M22.5 18v-7.28M.5 9.34V0" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

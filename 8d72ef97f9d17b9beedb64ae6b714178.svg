@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 22.31">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Row_1" data-name="Row 1">
+            <g id="data_leakage" data-name="data leakage">
+                <path d="M1.23.5h20.54a.73.73 0 0 1 .73.73v2.85H.5V1.23A.73.73 0 0 1 1.23.5z" class="cls-1"/>
+                <path d="M5.42 19.48H1.23a.74.74 0 0 1-.73-.74V5.79h22v13a.74.74 0 0 1-.73.74h-4.45" class="cls-2"/>
+                <path d="M2.17 2.48h.81M15 18.27a7.3 7.3 0 0 0-.91-2.73 32.83 32.83 0 0 0-1.82-3.3l-.91-1.43q-3.52 5.44-3.53 7.46a3.4 3.4 0 0 0 1.05 2.49 3.59 3.59 0 0 0 5.07 0A3.4 3.4 0 0 0 15 18.27z" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

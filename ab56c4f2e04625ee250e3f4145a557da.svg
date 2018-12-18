@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383737;stroke-miterlimit:10}.cls-2{stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Action_icons" data-name="Action icons">
+            <g id="Real_time" data-name="Real time">
+                <path d="M10.5 12a1.21 1.21 0 0 0 .88.5h.1a1.22 1.22 0 0 0 1.21-1.31 1.19 1.19 0 0 0-.5-.88L7.78 7.16a.34.34 0 0 0-.47.47z" class="cls-1"/>
+                <path d="M11 .5A10.5 10.5 0 1 1 .5 11M11 .5v4.98M19.48 17.19" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

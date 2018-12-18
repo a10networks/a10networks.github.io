@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 18.12">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="firewall">
+            <g id="email">
+                <rect width="22" height="17.12" x=".5" y=".5" class="cls-1" rx=".92" ry=".92"/>
+                <path d="M.5 3.33l10.92 6.81L22.5 3.33" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

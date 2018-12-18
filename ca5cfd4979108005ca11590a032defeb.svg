@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 19.98">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#383838;stroke-miterlimit:10}.cls-2{font-size:7px;fill:#383838;font-family:Roboto-Regular,Roboto;letter-spacing:.01em}.cls-3{letter-spacing:.03em}.cls-4{letter-spacing:.02em}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Row_2" data-name="Row 2">
+            <g id="http-protocol">
+                <path d="M1.23.5h20.54a.73.73 0 0 1 .73.73v2.85H.5V1.23A.73.73 0 0 1 1.23.5zM.5 5.79h22v13a.73.73 0 0 1-.73.73H1.23a.73.73 0 0 1-.73-.73v-13zM2.17 2.48h.81" class="cls-1"/>
+                <text class="cls-2" transform="translate(2.27 15.23)">
+                    H<tspan x="5.06" y="0" class="cls-3">T</tspan><tspan x="9.37" y="0" class="cls-4">TP</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

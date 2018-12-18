@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 20.64">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;stroke:#383838}.cls-1{stroke-miterlimit:10}.cls-2{stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="image_upgrade" data-name="image upgrade">
+                <path d="M10.42 3.18h6.05M7.79 3.18H5.94M2.68 2.86h.65v.65h-.65zM10.42 10.27h6.05M7.79 10.27H5.94M2.68 9.94h.65v.65h-.65zM10.42 17.35h.99M7.79 17.35H5.94M2.68 17.03h.65v.65h-.65z" class="cls-1"/>
+                <rect width="18.16" height="5.31" x=".5" y=".5" class="cls-1" rx=".76" ry=".76"/>
+                <path d="M12.26 13h-11a.76.76 0 0 1-.76-.75V8.42a.76.76 0 0 1 .76-.76h16.65a.76.76 0 0 1 .75.76v.7M13.77 20.14H1.26a.76.76 0 0 1-.76-.76v-3.8a.76.76 0 0 1 .76-.75H12" class="cls-1"/>
+                <path d="M15.41 15.29l3.55-3.54 3.54 3.54M18.96 19.88v-8.13" class="cls-2"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 22.69">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#383838;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <title>service</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="service">
+        <path class="cls-1" d="M6.05,5.77,11.14.71a.74.74,0,0,1,1,0l10.1,10.1a.74.74,0,0,1,0,1L12.18,22a.73.73,0,0,1-1,0l-5-5"/>
+        <circle class="cls-1" cx="1.51" cy="7.87" r="1.01"/>
+        <circle class="cls-1" cx="8.13" cy="11.25" r="1.01"/>
+        <circle class="cls-1" cx="3.61" cy="14.64" r="1.01"/>
+        <line class="cls-1" x1="2.52" y1="7.87" x2="11.17" y2="7.87"/>
+        <line class="cls-1" x1="9.14" y1="11.25" x2="14.13" y2="11.25"/>
+        <line class="cls-1" x1="4.68" y1="14.64" x2="11.18" y2="14.64"/>
+      </g>
+    </g>
+  </g>
+</svg>
