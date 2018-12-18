@@ -5,7 +5,7 @@
 Owners:
 
 * General issues or feedback: ax-web@a10networks.com
-* For new requirements, please contact Craig and Zuoping.
+* For new requirements, please contact Zuoping.
 * For the base app, please contact Chris and Roll
 * For AutoForm, please contact William, Chris or Roll.
 * For WAF log / WAF dashboard / CGN dashboard, please contact Chris and Roll.
@@ -15,7 +15,6 @@ Owners:
 
 Email list:
 
-* Craig: chuang@a10netowkrs.com
 * Zuoping: zli@a10netowkrs.com
 * Roll: stsai@a10networks.com
 * Chris: stsai@a10networks.com
