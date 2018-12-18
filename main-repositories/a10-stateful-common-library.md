@@ -2,13 +2,17 @@
 
 ## Introduction <a id="introduction"></a>
 
-#### Repo path: [https://git.a10networks.com:8443/scm/guinext/a10-gui-common.git](https://lhuo@git.a10networks.com:8443/scm/guinext/a10-gui-common.git) <a id="repo-path"></a>
+A10Container is the abstract class for all A10 containers to implement. It is based on the A10 GUI Framework to maximize modularity and maintainability. 
 
-#### Install <a id="install"></a>
+### Repo path: 
+
+[https://github.com/a10networks/a10-gui-common.git](https://github.com/a10networks/a10-gui-common.git)
+
+### Install
 
  1. Add `a10-gui-common` into your package.json.
 
-  "a10-gui-common": "[git+https://git.a10networks.com:8443/scm/guinext/a10-gui-common.git](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-common/null)"
+  "a10-gui-common": "[git+](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-common/null)[https://github.com/a10networks/a10-gui-common.git](https://github.com/a10networks/a10-gui-common.git)"
 
 2. Execute `npm i a10-gui-common` 
 
@@ -16,7 +20,7 @@
 
  _**NOTE:** `a10-gui-common` requires `a10-gui-framework` and `a10-gui-widgets`_
 
-#### How to use
+### How to use
 
 Usage of Auto-Config Form
 
@@ -44,13 +48,67 @@ const yourComponent = () => {
 
 ​
 
-## Components <a id="core-components"></a>
+## Containers
 
-A10Panel   SubPanel   AsyncComponent   Loading   normalizeVal   normalizeTimestamp   formatDatetime   getHelpPage   prettyMs   browser
+### A10Container
 
-### def <a id="def"></a>
+ A10Container is abstract class for all containers. It extends A10Component and implements IA10Container interface.
 
+#### use case
 
+```text
+export default interface IA10Container {
+
+}
+
+// A10 abstract container
+export default Class A10Container extends React.Component<IA10Container> {
+
+}
+export default setupA10Container(A10Container)
+
+```
+
+### THObjectExplorerContainer
+
+THObjectExplorerContainer extends A10Container and implemented the interface ITHObjectExplorerProps.
+
+#### use case
+
+```text
+export default interface ITHObjectExplorerContainerProps {
+
+}
+
+export default Class THObjectExplorerContainer extends A10Container<ITHObjectExplorerContainerProps> {
+
+}
+```
+
+### AutoForm
+
+AutoForm has the consistent look and feel cross multiple product line such as Harmony controller and Thunder and development teams. And Auto generate React GUI form pages using UI JSON schema files provided by CM team.
+
+#### use case
+
+```text
+import { AutoForm } from 'a10-gui-common'
+onClickNewRuleset = (event: React.SyntheticEvent) => {
+  const { actions } = this.props
+  event.preventDefault()
+  event.stopPropagation()
+  this.context.openSlidingPage(
+    <AutoForm
+      showSectionIcon={true}
+      schemaPath="config/form/rule-set"
+      params={{
+        afterActivate: actions.getActiveRuleset,
+      }}
+      interceptor={this.handleInterceptorRuleset()}
+    />,
+  )
+}
+```
 
 ## Component contribution
 
