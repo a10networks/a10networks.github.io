@@ -150,14 +150,6 @@ export default SForm.customize({
 })
 ```
 
-## Container contribution
-
-Component guideline
-
-
-
-
-
 ## To do list
 
 #### WAFForm
