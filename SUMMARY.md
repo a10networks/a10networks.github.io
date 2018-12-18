@@ -20,7 +20,7 @@
 * [FAQ Index](faq/index.md)
 * [A10 GUI Framework](faq/a10-gui-framework.md)
 * [A10 GUI Widgets](faq/a10-gui-widgets.md)
-* [A10 Stateful Common Library](faq/a10-stateful-common-library.md)
+* [A10 GUI Common Library](faq/a10-stateful-common-library.md)
 * [Unit Test](faq/unit-test.md)
 * [End to End Test](faq/end-to-end-test.md)
 * [Miscellaneous](faq/miscellaneous.md)
