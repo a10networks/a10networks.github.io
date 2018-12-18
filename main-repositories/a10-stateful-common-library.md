@@ -110,7 +110,47 @@ onClickNewRuleset = (event: React.SyntheticEvent) => {
 }
 ```
 
-## Component contribution
+### SForm
+
+Auto-config form \(SForm\) is using UI JSON schema to generate React form. The form includes layout, sections, fields, buttons and create/update functionalities. However, comparing to form mockups, certain fields might not exist in UI JSON schema. These fields are called customized fields.
+
+#### use case
+
+```text
+import { SForm } from 'a10-gui-common'
+
+export default SForm.customize({
+  onInitSchema: (schemaFields: IObject) => {
+    schemaFields['class-list.type']['cm-meta'].allowed = [
+      {
+        label: 'IPv4',
+        value: 'ipv4',
+        help: 'Make class-list type IPv4',
+      },
+      {
+        label: 'IPv6',
+        value: 'ipv6',
+        help: 'Make class-list type IPv6',
+      },
+    ]
+  },
+  onRenderSection: (interceptors: any, title: string): any => {
+    const { getFieldValue } = interceptors
+    if (title !== 'IPv4' && title !== 'IPv6' && title !== 'Basic') {
+      return null
+    } else {
+      if (getFieldValue('class-list.type') !== 'ipv4' && title === 'IPv4') {
+        return null
+      }
+      if (getFieldValue('class-list.type') !== 'ipv6' && title === 'IPv6') {
+        return null
+      }
+    }
+  },
+})
+```
+
+## Container contribution
 
 Component guideline
 
@@ -120,7 +160,7 @@ Component guideline
 
 ## To do list
 
-what-how
+#### WAFForm
 
 
 
