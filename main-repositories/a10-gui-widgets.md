@@ -42,7 +42,7 @@ There is two ways to import the css of a10-gui-widget in your code.
 
 By Less
 
-```typescript
+```jsx
 import '~a10-gui-widgets/dist/index.less'
 ```
 
@@ -50,7 +50,9 @@ _**NOTE** ~ means importing the less file from node\_modules_
 
 By css
 
+```jsx
 import '~a10-gui-widgets/dist/widgets.bundle.css'
+```
 
 _**NOTE**: ~ means importing the less file from node\_modules_
 

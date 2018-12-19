@@ -136,55 +136,30 @@ setupA10Container(component, mapStateToProps={}, mapDispatchToProps={}, options=
 
 ```jsx
 import { setupA10Container } from ‘a10-gui-framework’
-
 import { A10Button, A10Input, A10Form } from ‘a10-gui-widgets’
-
 import { THFormContainer } from ‘a10-gui-thunder-com’
-
 Class LoginContainer extends A10Container {
-
 Render() {
-
 return (
-
 <THFormContainer>
-
 <A10Form.Item><A10Input title=”username” /></A10Form.Item>
-
 <A10Form.Item><A10Input title=”password” type=”password” /><A10Form.Item>
-
 <A10Form.Item><A10Button>Submit</A10Button></A10Form.Item>
-
 </THFormContainer>
-
 )
-
 }
-
 }
-
 function mapStateToProps(state) {
-
 return { todos: state.todos }
-
 }
-
 function mapDispatchToProps(dispatch) {
-
 return bindActionCreators(Object.assign({}, todoActionCreators, counterActionCreators), dispatch)
-
 }
-
 Const options = {
-
 redux: { … },
-
 isWithRouter: true,
-
 autoPurge: true,
-
 }
-
 Export default setupA10Container(LoginContainer, mapStateToProps, mapDispatchToProps, options)
 ```
 
@@ -192,23 +167,14 @@ Export default setupA10Container(LoginContainer, mapStateToProps, mapDispatchToP
 
 ```jsx
 import { A10Router, A10Provider, A10Root } from ‘a10-gui-framework’
-
 import LoginContainer from ‘./containers/LoginContainer’
-
 const routes = {
-
 ‘login’: LoginContainer
-
 }
-
 ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
-
 <A10Root config={}>
-
 <A10Router routes={routes}/>
-
 </A10Root>
-
 </A10Provider>, documentRoot)
 ```
 
