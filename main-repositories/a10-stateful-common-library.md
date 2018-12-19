@@ -24,7 +24,7 @@ A10Container is the abstract class for all A10 containers to implement. It is ba
 
 Usage of Auto-Config Form
 
-```text
+```jsx
 import { AutoForm } from 'a10-gui-common'
 
 const yourComponent = () => {
@@ -56,7 +56,7 @@ const yourComponent = () => {
 
 #### use case
 
-```text
+```jsx
 export default interface IA10Container {
 
 }
@@ -75,7 +75,7 @@ THObjectExplorerContainer extends A10Container and implemented the interface ITH
 
 #### use case
 
-```text
+```jsx
 export default interface ITHObjectExplorerContainerProps {
 
 }
@@ -91,7 +91,7 @@ AutoForm has the consistent look and feel cross multiple product line such as Ha
 
 #### use case
 
-```text
+```jsx
 import { AutoForm } from 'a10-gui-common'
 onClickNewRuleset = (event: React.SyntheticEvent) => {
   const { actions } = this.props
@@ -116,7 +116,7 @@ Auto-config form \(SForm\) is using UI JSON schema to generate React form. The f
 
 #### use case
 
-```text
+```jsx
 import { SForm } from 'a10-gui-common'
 
 export default SForm.customize({
