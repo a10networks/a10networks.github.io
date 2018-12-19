@@ -18,11 +18,10 @@ $ npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github
 
 It's easy to use, for example,  `import A10Provider from a10-gui-framework`
 
-`import { A10Provider} from 'a10-gui-framework'`
-
 Using it as html tags in the render\(\)
 
-```text
+```jsx
+import { A10Provider} from 'a10-gui-framework'
 ReactDOM.render(
   <A10Provider
     CONFIG={CONFIG}
@@ -46,7 +45,7 @@ ReactDOM.render(
 
 #### Use Case
 
-```text
+```jsx
 import middlewares from ‘approot/redux/middlewares’
 import reducers from ‘approot/redux/reducers’
 import { A10Provider } from ‘a10-gui-framework’
@@ -67,7 +66,7 @@ A10Root is the place to accept initial configurations defined in a JS file and s
 
 #### Use Case
 
-```text
+```jsx
 import configurations from ‘approot/settings/configs’
 import { A10Root } from ‘a10-gui-framework’
 ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
@@ -81,7 +80,7 @@ ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
 
 #### Use Case
 
-```text
+```jsx
 import routes from ‘approot/settings/routes’
 import { A10Router } from ‘a10-gui-framework’
 ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
@@ -95,7 +94,7 @@ ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
 
 In this case, we imported the routes from app/settings/routes.tsx, the file looks like:
 
-```text
+```jsx
 export default {
 ‘slb’: {
 ‘virtual-server’: {
@@ -129,13 +128,13 @@ params: [‘ip’, ‘port’]
 
 ####  Create Interface
 
-```text
+```jsx
 setupA10Container(component, mapStateToProps={}, mapDispatchToProps={}, options={}) : function
 ```
 
 ####  Create Container
 
-```text
+```jsx
 import { setupA10Container } from ‘a10-gui-framework’
 
 import { A10Button, A10Input, A10Form } from ‘a10-gui-widgets’
@@ -191,7 +190,7 @@ Export default setupA10Container(LoginContainer, mapStateToProps, mapDispatchToP
 
 ####  Use Case
 
-```text
+```jsx
 import { A10Router, A10Provider, A10Root } from ‘a10-gui-framework’
 
 import LoginContainer from ‘./containers/LoginContainer’
