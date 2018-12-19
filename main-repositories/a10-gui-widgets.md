@@ -12,10 +12,10 @@
 
 1.Add a10-gui-widgets in the dependency of package.json
 
-```text
+```javascript
  "dependencies": {
     "a10-gui-widgets": "git https://github.com/a10networks/a10-gui-widgets
-",
+},
 ```
 
 2.Install a10-gui-widgets using npm install
@@ -24,7 +24,7 @@
 
 Take the simple A10Button as an example.
 
-```text
+```jsx
 import { A10Component } from 'a10-gui-framework'
 import { A10Button } from 'a10-gui-widgets'
 
@@ -42,7 +42,7 @@ There is two ways to import the css of a10-gui-widget in your code.
 
 By Less
 
-```text
+```typescript
 import '~a10-gui-widgets/dist/index.less'
 ```
 
@@ -56,7 +56,7 @@ _**NOTE**: ~ means importing the less file from node\_modules_
 
 ### How to use
 
-```text
+```jsx
 import { A10WidgetLocaleProvider } from 'a10-gui-widgets'
 ...
 
@@ -75,7 +75,7 @@ return (
 
  First, create a widget package in `src`, for example:
 
-```text
+```javascript
 src/
   +-- NewWidget/
     +-- styles/
@@ -98,7 +98,7 @@ These widgets are maintained by A10 devs. PRs are welcomed.
 
 For example, a simple widget:
 
-```text
+```jsx
 import * as React from 'react'
 import { A10Component, createWidget } from 'a10-gui-framework'
 
@@ -112,7 +112,7 @@ export default createWidget(IconButton)
 
 #### 3.  Compile Typescript into JavaScript \(ES5\)
 
-```text
+```typescript
 export * from './NewWidget'
 ```
 
@@ -124,13 +124,13 @@ export * from './NewWidget'
 
  _**NOTE:** The code of storbook is created by JavaScript \(ES6\) instead of TypeScript._
 
-```text
+```javascript
 stories/
   +-- NewWidget/
     +-- index.story.js
 ```
 
-```text
+```jsx
 import * as React from 'react'
 import { withReadme } from 'storybook-readme'
 import { Code, CodeComponent, CodeCard } from '../utils'
@@ -157,7 +157,7 @@ export default story => {
 
  Import the new story book in `stories/index.stories.js`
 
-```text
+```jsx
 import createNewWidgetStory from './NewWidget/index.story'
 
 createNewWidgetStory(widgetStory)
