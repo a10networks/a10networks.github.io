@@ -118,3 +118,11 @@ ReactDOM.render(
 )
 ```
 
+## Can I use redux-thunk?
+
+### TBD
+
+## What's the benefits in using httpRequest?
+
+### TBD
+
