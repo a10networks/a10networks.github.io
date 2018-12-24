@@ -124,5 +124,19 @@ ReactDOM.render(
 
 ## What's the benefits in using httpRequest?
 
-### TBD
+All React-Redux applications need to communicate with an HTTP server where a set of common problems frequently arise while making HTTP requests - Error handling, Request cancellation, and State data management.  For dealing with these issues there provide some proposals.
+
+**Generic Error Handling**
+
+GUI Framework will catch every HTTP error and program error at runtime. It analyzes the error, and dispatches out a Redux action with complete error information and appropriate error message \(JSON syntax or pure text\) that could be customized by app developer if needed.
+
+**Request Cancellation**
+
+Every HTTP request is able to be aborted as long as developer dispatches out a cancel action. However, if the request may affect server state change, then the server state is undefined. This cancellation facility is often used when switching pages or to stop UI operations \(mainly HTTP GET requests\).
+
+**State Data Management**
+
+Most developers may face issues arising from state data management in Redux store. Redux will not purge unused state data in the store by default, which may introduce unnecessary memory consumption.
+
+
 
