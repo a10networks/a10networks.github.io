@@ -10,7 +10,7 @@ If you can locate the DOM element correctly, but clicking it won't run the callb
 
 You can use .execute\(\) function to run a JavaScript code in browser to show the DOM element in viewable area of the browser.
 
-```text
+```typescript
   browser
     .execute(
       // this function is send to the browser and run in it, so it can not get any variable in you E2E test code.
@@ -36,7 +36,7 @@ You can use .execute\(\) function to run a JavaScript code in browser to show th
 1. Create a new config file like `nightwatch.config.dashboard.dev.js`
 2. Change the codepath and rootpath
 
-```text
+```typescript
 const codePath = path.resolve(__dirname, 'tests/e2e/dist/Dashboard/')
 const rootPath = path.resolve(__dirname, 'tests/e2e/dist/')
 
@@ -48,7 +48,7 @@ module.exports = {
 
 1. Add a new command in `package.json` to run it
 
-   ```text
+   ```typescript
     "e2e-dashboard": "rimraf ./tests/e2e/dist && babel ./tests/e2e/src --out-dir ./tests/e2e/dist && npm run dev:e2e-dashboard",
     "dev:e2e-dashboard": "nightwatch --config nightwatch.config.dashboard.dev.js",
    ```
