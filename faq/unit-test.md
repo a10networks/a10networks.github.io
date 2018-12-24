@@ -4,7 +4,7 @@
 
 Solution: use setFieldsValue to set value for fields in antform
 
-```text
+```typescript
   test('import', (done: any) => {    const testComponent = createRemoteImportForm()    const form = testComponent.root.find(      (node: any) => (node.type as any).name === 'RemoteImportForm',    )    form.instance.props.form.setFieldsValue(getFieldsValueImport)    setImmediate(() => {      form.instance.handleImport()      moxios.wait(() => {        expect(form.instance.props.onClose.mock.calls.length).toBe(1)        done()      })    })  })
 ```
 
@@ -14,7 +14,7 @@ A: RDD = readable driven development
 
 Code:
 
-```text
+```typescript
 describe("GIFW Table Test", () =>{      describe("Render the table", () =>{            it("Render Column A", () => {});            .....            it("Render Operation Actions", () => {});      });​      describe("Operate the Table", () =>{            it("Click Delete Button", () => {});            .....            it("Search Filter.", () => {});      });​});
 ```
 
@@ -27,7 +27,7 @@ describe("GIFW Table Test", () =>{      describe("Render the table", () =>{     
 
 In the function 'onUnAssociateSG', serviceGroup API is `/hccapi/v3/provider/${getItem( 'PROVIDER',)}/tenant/${tenant}/shared-object/slb/service-group/${sgName}`. Before testing the function, provider name needs to be initialized. Otherwise, moxios API won't succeed, timeout error will be returned.
 
-```text
+```typescript
   test('should call onUnassociateSg in PortList.tsx work', async (done: any) => {
     ;(global as any).sessionStorage.setItem('PROVIDER', 'root')
     ;(global as any).sessionStorage.setItem('tenant', 'test')
@@ -51,13 +51,13 @@ In the function 'onUnAssociateSG', serviceGroup API is `/hccapi/v3/provider/${ge
 
 1 Add URL in the jest config
 
-```text
+```typescript
 module.exports = {  testURL: 'http://localhost/',
 ```
 
 2 Use HTML5 history API
 
-```text
+```typescript
 window.history.pushState({}, 'Test Title', '/cluster/xyz')
 ```
 
@@ -65,7 +65,7 @@ window.history.pushState({}, 'Test Title', '/cluster/xyz')
 
 1 createState
 
-```text
+```typescript
 import { Map } from 'immutable'
 import Settings from 'src/containers/Controller/Dashboard/Settings'
 
@@ -82,7 +82,7 @@ export default () => {
 
 2 Use initState={state} in HCProvider to add data to Redux store
 
-```text
+```typescript
 const renderTestComponent = () => {
   // Init Redux Store
   const state = createState()
@@ -105,7 +105,7 @@ Solution: find it by name inside the moxios.wait function
 
 1 add it into moxios.wait function
 
-```text
+```typescript
 test('function handleItemChange', async () => {
   mockAPIResponse()
   const testComponent = createGeoListForm()
@@ -122,7 +122,7 @@ test('function handleItemChange', async () => {
 
 2 add it into setImmediate function
 
-```text
+```typescript
 test('function handleItemChange', (done: any) => {
   mockAPIResponse()
   const testComponent = createGeoListForm()
