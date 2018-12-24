@@ -2,7 +2,7 @@
 
 ## Why need use GUI framework
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+To provide consistency, reusability and cost savings for the construction of web UI across A10’s product portfolio, we need a common set of technologies, design guidelines, and software libraries. 
 
 ## Setup Issues
 
