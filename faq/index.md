@@ -1,5 +1,14 @@
 # FAQ Index
 
+* A10 GUI Framework
+  * [Why need use GUI framework? ](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#why-need-use-gui-framework)
+  * [Setup issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#setup-issues)
+  * [Coding issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#coding-issues)
+  * [How to use redux-observable in the framework?](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#how-to-use-redux-observable-in-the-framework)
+  * [What's the benefits in using httpRequest?](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#whats-the-benefits-in-using-httprequest)
+* A10 GUI Common Library
+  * [Why need this common library? ](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-stateful-common-library#why-need-this-library)
+  * [Setup issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-stateful-common-library#setup-issues)
 * Unit Test  
   * [How to set value for fields in antform because getFieldsValue is used in codes?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-set-value-for-fields-in-antform-because-getfieldsvalue-is-used-in-codes) 
   * [What is RDD and how to write?](https://a10-gui.gitbook.io/ugf/faq/unit-test#what-is-rdd-and-how-to-write)
