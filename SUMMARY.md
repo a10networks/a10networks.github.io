@@ -18,6 +18,7 @@
 ## FAQ
 
 * [FAQ Index](faq/index.md)
+* [Technology Check List](faq/technology-check-list.md)
 * [A10 GUI Framework](faq/a10-gui-framework.md)
 * [A10 GUI Widgets](faq/a10-gui-widgets.md)
 * [A10 GUI Common Library](faq/a10-stateful-common-library.md)
