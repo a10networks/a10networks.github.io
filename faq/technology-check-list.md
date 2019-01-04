@@ -4,7 +4,7 @@
 
 ### 1.When should I use  redux ?
 
-**case 1:**
+**case 1:** 
 
 If view need get data from one more data source.
 
