@@ -1,8 +1,12 @@
 # Technology Check List
 
-What technology should I use?
+## What technology should I use?
 
-1. When should I use Redux?
+### 1.When should I use  redux ?
+
+View need get data from one more data source.
+
+eg: There is a data list, which includes three types data and those data has different data source.
 
 * When should I use Observable?
 
