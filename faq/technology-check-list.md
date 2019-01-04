@@ -4,7 +4,9 @@
 
 ### 1.When should I use  redux ?
 
-View need get data from one more data source.
+**case 1:**
+
+If view need get data from one more data source.
 
 eg: There is a data list, which includes three types data and those data has different data source.
 
