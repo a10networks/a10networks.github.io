@@ -43,7 +43,42 @@ render() {
 
 ## How to update the data
 
+```jsx
+  type IOnEdit = (name: string) => () => void
+  ...
+  onEditZone: IOnEdit = (name: string) => {
+    return () => {
+      this.context.openSlidingPage(
+        <ZoneForm
+          zoneName={name}
+          onCancel={this.closeSlidingPage}
+          onSubmitSuccess={this.closeSlidingPage}
+        />,
+      )
+    }
+  }
+  ...
+```
+
 ## How to delete data
+
+```jsx
+ type IOnDelete = (name: string) => () => void
+ ...
+ onDeleteZone: IOnDelete = (name: string) => {
+    return () => {
+      A10Modal.confirm({
+        title: 'Confirmation',
+        content: 'Are you sure to delete the selected item?',
+        okText: 'Yes',
+        okType: 'danger',
+        cancelText: 'No',
+        onOk: this.deleteZone(name),
+      })
+    }
+  }
+  ...
+```
 
 ## How to use A10 GUI common: AutoLog Gen
 
