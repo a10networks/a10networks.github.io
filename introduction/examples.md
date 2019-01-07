@@ -30,6 +30,27 @@
 
 ## How to use A10 GUI common: AutoLog Gen
 
+```jsx
+import { AutoForm } from 'a10-gui-common'
+...
+ onClickNewRuleset = (event: React.SyntheticEvent) => {
+    const { actions } = this.props
+    event.preventDefault()
+    event.stopPropagation()
+    this.context.openSlidingPage(
+      <AutoForm
+        showSectionIcon={true}
+        schemaPath="config/form/rule-set"
+        params={{
+          afterActivate: actions.getActiveRuleset,
+        }}
+        interceptor={this.handleInterceptorRuleset()}
+      />,
+    )
+  }
+  ...
+```
+
 ## How to use A10 App Generator
 
 ## Extra: Using the examples above with the A10 Generator 
