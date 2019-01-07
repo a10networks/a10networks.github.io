@@ -26,7 +26,70 @@ import { A10Switch, A10Select, A10Icon, A10Notification, A10Form, A10Input,} fro
 
 **Hook APIS：**
 
+getData:
 
+```jsx
+getZone(zoneName: string) {
+    const {
+      A10Dispatchers: { httpRequest },
+    } = this.props
+
+    httpRequest({
+      namespace: namespaceZoneForm,
+      request: async (dependencies: IEpicDependencies) => {
+        return dependencies.httpClient
+          .get(`/axapi/v3/zone/${zoneName}`)
+          .then((response: IAxiosResponse) => {
+            return Map<string, any>(response.data.zone)
+          })
+          .catch((error: IAxiosError) => {
+            A10Notification.error({
+              message: 'Error!',
+              description: _.get(
+                error,
+                'response.data.response.err.msg',
+                error.message,
+              ),
+            })
+            return Map<string, any>()
+          })
+      },
+    })
+  }
+```
+
+SaveData:
+
+```jsx
+saveZone = () => {
+...
+const response = (httpClient as IAxiosInstance)
+      .post(aXAPI, {
+        zone: payload,
+      })
+      .then(() => {
+        A10Notification.success({
+          message: 'Success!',
+          description: `${zoneName} was ${
+            isUpdate ? 'updated' : 'created'
+          } successfully.`,
+        })
+        onSubmitSuccess()
+      })
+      .catch((error: IAxiosError) => {
+        A10Notification.error({
+          message: 'Error!',
+          description: _.get(
+            error,
+            'response.data.response.err.msg',
+            error.message,
+          ),
+        })
+      })
+
+    return response
+}
+```
 
 ### Condition 2:with Redux
 
