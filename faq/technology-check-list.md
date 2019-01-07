@@ -20,31 +20,23 @@ eg: There are some traffic charts, which will rendered depending on the time per
 
 The state is updated in many different ways.
 
-eg: TODO
-
 **Case4:**
 
 The state tree is not simple
-
-eg: TODO
-
-* When should I use Observable?
 
 **Case5:**
 
 Many unrelated components update state in the same way
 
-eg:TODO
-
 **Case6:**
 
 It doesn't always flow in a linear.
-
-eg: TODO
 
 **Case7:**
 
 Need to be able to undo previous user actions.
 
-eg: TODO
+### 2. When should I use Observable?
+
+TBD
 
