@@ -12,9 +12,21 @@
 
 ## Introduce a form page. How to setup, import widgets, and hook APIs 
 
-### How to setup, import widgets 
-
 ### Condition 1: without Redux
+
+**Setup:**
+
+Under the path `“containers\FW\RuleSet\ZoneForm”` create `ZoneForm.tsx`
+
+**import widgets:**
+
+```jsx
+import { A10Switch, A10Select, A10Icon, A10Notification, A10Form, A10Input,} from 'a10-gui-widgets'
+```
+
+**Hook APIS：**
+
+
 
 ### Condition 2:with Redux
 
