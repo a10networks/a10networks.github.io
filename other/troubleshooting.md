@@ -12,7 +12,7 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
+{% api-method-parameter name="id" type="boolean" %}
 ID of the cake to get, for free of course.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -64,5 +64,28 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+## Git trouble-shooting
 
+**Filename being too long**
+
+```text
+$ git reset HEAD --hard
+error: unable to create file src/metaComponents/cm/System/ResourceAccounting/ResourceAccounting.Oper/ResourceAccounting.Oper.PartitionResource/ResourceAccountingOper.Oper.ResType/ResourceAccountingOperOper.Oper.Resources/ResourceAccountingOperOper.Oper.Resources.gen.tsx: Filename too long
+fatal: Could not reset index file to revision 'HEAD'.
+```
+
+ Solution - run the following command:
+
+```text
+git config --system core.longpaths true
+```
+
+ Please note that you may need `sudo` privilege to run it.
+
+```text
+$ git config --system core.longpaths true
+error: could not lock config file C:\Program Files\Git\mingw64/etc/gitconfig: Permission denied
+```
+
+ If you see such message above in Windows, run `cmd` with system admin role.
 
