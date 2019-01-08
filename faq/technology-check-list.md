@@ -38,5 +38,17 @@ Need to be able to undo previous user actions.
 
 ### 2. When should I use Observable?
 
-TBD
+#### Case1:
+
+When your architecture has two entity classes, one dependent on the other, and you want them to be non-influential or reusable independently.
+
+#### Case2:
+
+When a changed object notifies an unknown number of objects associated with its own changes
+
+#### Case3:
+
+When a changed object notifies those objects that do not need to infer a specific type
+
+refer to: [https://cn.rx.js.org/manual/overview.html\#h12](https://cn.rx.js.org/manual/overview.html#h12)
 
