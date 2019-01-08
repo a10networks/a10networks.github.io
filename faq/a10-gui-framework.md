@@ -120,7 +120,7 @@ ReactDOM.render(
 
 ## Can I use redux-thunk?
 
-### TBD
+Yes, redux-thunk is an asynchronous action middleware.
 
 ## What's the benefits in using httpRequest?
 
