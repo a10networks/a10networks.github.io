@@ -8,6 +8,31 @@
 
      A component and container having the component
 
+component
+
+```jsx
+class HelloWorld extends A10Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>
+  }
+}
+
+export default HelloWorld
+```
+
+container
+
+```jsx
+class HelloWorldContainer extends A10Containder {
+  render() {
+    return (
+      <HelloWorld name="World" />
+    )
+  }
+}
+export default setupA10Container(HelloWorldContainer)
+```
+
 ## Write the hello world page with Redux
 
 ## Introduce a form page. How to setup, import widgets, and hook APIs 
