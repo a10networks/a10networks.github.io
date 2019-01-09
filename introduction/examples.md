@@ -202,7 +202,7 @@ export default setupA10Container(HelloWorldContainer)
 
 ## Write the hello world page with Redux
 
-## Introduce a form page. How to setup, import widgets, and hook APIs
+## Introduce a form page. How to setup, import widgets, and hook up APIs
 
 ### Condition 1: without Redux
 
