@@ -1,5 +1,8 @@
 # FAQ Index
 
+* Technology Check List            
+  * [When should I use  redux ?](https://a10-gui.gitbook.io/ugf/~/drafts/-LVgQReqvMRQCWiSWAzE/primary/faq/technology-check-list#1-when-should-i-use-redux)
+  * [When should I use Observable?](https://a10-gui.gitbook.io/ugf/~/drafts/-LVgQReqvMRQCWiSWAzE/primary/faq/technology-check-list#2-when-should-i-use-observable)          
 * A10 GUI Framework
   * [Why need use GUI framework? ](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#why-need-use-gui-framework)
   * [Setup issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#setup-issues)

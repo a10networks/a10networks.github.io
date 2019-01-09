@@ -173,6 +173,33 @@ export default InputName
 
 ```
 
+component
+
+```jsx
+import { A10Component } from 'a10-gui-framework'
+class HelloWorld extends A10Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>
+  }
+}
+
+export default HelloWorld
+```
+
+container
+
+```jsx
+import {A10Container, setupA10Container} from 'a10-gui-framework'
+class HelloWorldContainer extends A10Containder {
+  render() {
+    return (
+      <HelloWorld name="World" />
+    )
+  }
+}
+export default setupA10Container(HelloWorldContainer)
+```
+
 ## Write the hello world page with Redux
 
 ## Introduce a form page. How to setup, import widgets, and hook APIs

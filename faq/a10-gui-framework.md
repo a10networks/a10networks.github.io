@@ -24,7 +24,228 @@ This project code are following `Prettier` coding style. Developers do not need 
 
 ## How to use Redux with the framework?
 
-### TBD
+### 1. Create action function
+
+```jsx
+import invariant from 'invariant'
+
+import { A10ACTION_TYPES } from '../actionTypes'
+
+export interface IDataSetOptions {
+  namespace: string | string[]
+  data: any
+  containerID: string
+}
+export interface IDataSetAction extends IDataSetOptions {
+  type: string
+}
+
+export const setData = (options: IDataSetOptions) => {
+  invariant(options.namespace, 'options.namespace is required')
+  invariant(options.hasOwnProperty('data'), 'options.data is required')
+  invariant(options.containerID, 'options.containerID is required')
+  return {
+    type: A10ACTION_TYPES.DATA.SET,
+    ...options,
+  }
+}
+
+export interface IDataRemoveOptions {
+  namespace: string | string[]
+  containerID?: string
+}
+export interface IDataRemoveAction extends IDataRemoveOptions {
+  type: string
+}
+
+export const removeData = (options: IDataRemoveOptions) => {
+  invariant(options.namespace, 'options.namespace is required')
+  return {
+    type: A10ACTION_TYPES.DATA.REMOVE,
+    ...options,
+  }
+}
+```
+
+### 2. Create the reducer function
+
+```jsx
+import { Map, Set } from 'immutable'
+
+import { A10ACTION_TYPES } from '../actionTypes'
+import { IDataSetAction, IDataRemoveAction} from '../actions/data'
+
+export const A10Data = (state = Map(), action: any) => {
+  switch (action.type) {
+    case A10ACTION_TYPES.DATA.SET: {
+      const { data, namespace } = action as IDataSetAction
+      const namespaceArray = Array.isArray(namespace)
+        ? namespace
+        : namespace.split('.')
+      return state.setIn(namespaceArray, data)
+    }
+    case A10ACTION_TYPES.DATA.REMOVE: {
+      let { namespace } = action as IDataRemoveAction
+      namespace = Array.isArray(namespace) ? namespace : [namespace]
+      namespace.forEach((ns: string) => {
+        const nsArray = ns.split('.')
+        state = state.deleteIn(nsArray)
+        nsArray.pop()
+        while (nsArray.length) {
+          const node = state.getIn(nsArray)
+          if (Map.isMap(node) && node.isEmpty()) {
+            state = state.deleteIn(nsArray)
+          }
+          nsArray.pop()
+        }
+      })
+      return state
+    }
+    default:
+      return state
+  }
+}
+
+
+```
+
+### 3. Store call the reducer
+
+```jsx
+
+  import {
+  Store,
+  createStore as reduxCreateStore,
+  compose,
+  bindActionCreators as reduxBindActionCreators,
+  Dispatch,
+  ActionCreator,
+  Action,
+} from 'redux'
+import { createEpicMiddleware, combineEpics, Epic } from 'redux-observable'
+import _ from 'lodash'
+
+import { A10Epics } from './epics'
+import * as A10Reducers from './reducers'
+
+export interface IA10ReduxProps {
+  reducers?: IObject
+  initState?: IObject
+}
+export interface IA10ReduxPlugin {
+  plug?(): IA10ReduxProps
+  play?(store?: Store<any>): void
+}
+
+export type Plugins = Array<IA10ReduxPlugin | IA10ReduxPlugin[]>
+
+export const createStore = (
+  appReducers: IObject = {},
+  data: IObject = {},
+  pluginsList: Plugins = [],
+) => {
+  const plugins = pluginsList.reduce((list: IA10ReduxPlugin[], item) => {
+    const plugin = Array.isArray(item) ? item : item ? [item] : []
+    return [...list, ...plugin]
+  }, [])
+  const reduxProps = invokePlugins(plugins as IA10ReduxPlugin[], 'plug')
+  const rootReducer = combineReducers({
+    ...appReducers,
+    ...A10Reducers,
+    ...reduxProps.reducers,
+  })
+  const store = reduxCreateStore(
+    rootReducer,
+    {
+      ...data,
+      ...reduxProps.initState,
+    },
+  )
+  return store
+
+}
+```
+
+### 4. Using  in the component
+
+```jsx
+import React from 'react'
+import { Store } from 'redux'
+import { Provider as ReduxProvider } from 'react-redux'
+import _ from 'lodash'
+
+import { A10Root } from './A10Root'
+import { CONFIG, IGlobalConfig } from '../settings/config'
+import { createStore, checkNamespaces, IA10ReduxProps, Plugins } from '../redux'
+import { getHTTPManager } from '../libs'
+
+export interface IA10ProviderProps extends IA10ReduxProps {
+  CONFIG: IGlobalConfig
+  store?: Store<any>
+  plugins?: Plugins
+}
+
+export interface IEpicDependencies {
+  httpClient: IGlobalConfig['httpClient']
+  HTTPManager: ReturnType<typeof getHTTPManager>
+  [dependency: string]: any
+}
+
+export class A10Provider extends React.Component<IA10ProviderProps> {
+  static defaultProps = {
+    CONFIG,
+  }
+  render() {
+    const {
+      reducers,
+      middlewares,
+      initState,
+      epics,
+      epicDependencies,
+      plugins,
+      children,
+      CONFIG: APP_CONFIG,
+      store: providedStore,
+    } = this.props
+    // make GLOBAL_CONFIG and CONFIG are same reference for global imported getNS()
+    const GLOBAL_CONFIG = Object.assign(CONFIG, APP_CONFIG)
+    GLOBAL_CONFIG.EPIC_DEPENDENCIES = GLOBAL_CONFIG.EPIC_DEPENDENCIES || {}
+    const { EPIC_DEPENDENCIES } = GLOBAL_CONFIG
+    // backward compatibility support
+    if (!GLOBAL_CONFIG.httpClient && EPIC_DEPENDENCIES.httpClient) {
+      GLOBAL_CONFIG.httpClient = EPIC_DEPENDENCIES.httpClient
+    } else {
+      EPIC_DEPENDENCIES.httpClient = GLOBAL_CONFIG.httpClient
+    }
+    if (GLOBAL_CONFIG.DEBUG && _.isPlainObject(GLOBAL_CONFIG.REDUX_DATA_NS)) {
+      checkNamespaces(GLOBAL_CONFIG.REDUX_DATA_NS)
+    }
+    Object.assign(EPIC_DEPENDENCIES, epicDependencies)
+    const { httpClient } = GLOBAL_CONFIG
+    const HTTPManager = getHTTPManager(httpClient)
+    EPIC_DEPENDENCIES.HTTPManager = EPIC_DEPENDENCIES.HTTPManager || HTTPManager
+    const store =
+      providedStore ||
+      createStore(
+        reducers,
+        middlewares,
+        epics,
+        initState,
+        EPIC_DEPENDENCIES,
+        plugins,
+      )
+    return (
+      <ReduxProvider store={store} {...this.props}>
+        <A10Root CONFIG={GLOBAL_CONFIG} store={store} HTTPManager={HTTPManager}>
+          {children}
+        </A10Root>
+      </ReduxProvider>
+    )
+  }
+}
+
+export default A10Provider
+```
 
 ## How to use redux-observable in the framework?
 
@@ -120,7 +341,7 @@ ReactDOM.render(
 
 ## Can I use redux-thunk?
 
-### TBD
+Yes, redux-thunk is an asynchronous action middleware.
 
 ## What's the benefits in using httpRequest?
 
