@@ -15,6 +15,7 @@ eg: There is a data list that includes three types of data, each with a differen
 If the UI can vary significantly depending on the state of the application.
 
 eg: There are some traffic charts that will be rendered depending on the time period.
+
 **Case3:**
 
 The state is updated in many different ways.
@@ -29,7 +30,7 @@ Many unrelated components update state in the same way
 
 **Case6:**
 
-It doesn't always flow in a linear.
+It doesn't always flow in a linear fashion.
 
 **Case7:**
 
