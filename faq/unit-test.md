@@ -1,6 +1,6 @@
 # Unit Test
 
-## How do I set the values for fields in antform because getFieldsValue is used in the code?
+## How do I set the values for fields in antform if getFieldsValue is used in the code?
 
 Solution: use setFieldsValue to set value for fields in antform
 
