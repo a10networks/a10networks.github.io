@@ -2,9 +2,9 @@
 
 ## Getting Started with UGF
 
-For new users, please use [Yeoman ](https://yeoman.io/)tool to generate your first app:
+For new users, please use the [Yeoman ](https://yeoman.io/)tool to generate your first app:
 
-Install Yeoman and clone UGF generator
+To install Yeoman and clone the UGF generator
 
 ```bash
 #Install Yeoman
@@ -16,7 +16,7 @@ cd generator-ugf
 npm link
 ```
 
-Generate your first project
+To generate your first project
 
 ```bash
 # Create a new directory, and `cd` into it:
@@ -26,7 +26,7 @@ mkdir my-new-project && cd my-new-project
 yo ugf
 ```
 
-Or you can use follow commands to boot up, build and test your project
+Or you can use follow commands to boot up, build, and test your project
 
 ```bash
 # Start for development
@@ -55,16 +55,16 @@ yo ugf:container my/namespaced/container
 yo ugf:component my/namespaced/container
 ```
 
-### Generate an feature
+### Generate a feature
 
 ```bash
 # TO DO: generate a dashboard or a wizard or other apps
 # yo ugf:dashboard my/namespaced/dashboard
 ```
 
-## To generate more?
+## Want to generate more?
 
-To use the generator generate more , please read generator-ugf [Readme.md ](https://github.com/a10networks/generator-ugf)
+To use more of the generator, please read generator-ugf [Readme.md ](https://github.com/a10networks/generator-ugf)
 
 
 
