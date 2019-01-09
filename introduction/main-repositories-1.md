@@ -4,7 +4,7 @@
 
 ### What is it?
 
-It's the base of our framework.
+A10 GUI Framework is the base of our framework.
 
 It's also a HOC library for React.js and Redux, where our framework has encapsulated some core concepts like containers, components, widgets, and also some frequently used features like i18n, a feature debugger. 
 
