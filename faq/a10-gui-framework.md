@@ -22,7 +22,7 @@ This project code follows the `Prettier` coding style. Developers do not need to
 }
 ```
 
-## How to use Redux with the framework?
+## How do I use Redux with the framework?
 
 ### 1. Create action function
 
@@ -166,7 +166,7 @@ export const createStore = (
 }
 ```
 
-### 4. Using  in the component
+### 4. Using the component
 
 ```jsx
 import React from 'react'
