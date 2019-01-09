@@ -25,7 +25,7 @@ describe("GIFW Table Test", () =>{      describe("Render the table", () =>{     
 
 ## Timeout issue on SubGlobalServerList.text.tsx?
 
-In the function 'onUnAssociateSG', serviceGroup API is `/hccapi/v3/provider/${getItem( 'PROVIDER',)}/tenant/${tenant}/shared-object/slb/service-group/${sgName}`. Before testing the function, a provider name needs to be initialized. Otherwise, moxios API will not succeed, and timeout error will be returned.
+In the function 'onUnAssociateSG', serviceGroup API is `/hccapi/v3/provider/${getItem( 'PROVIDER',)}/tenant/${tenant}/shared-object/slb/service-group/${sgName}`. Before testing the function, a provider name needs to be initialized. Otherwise, moxios API will not succeed, and a timeout error will be returned.
 
 ```typescript
   test('should call onUnassociateSg in PortList.tsx work', async (done: any) => {
@@ -49,7 +49,7 @@ In the function 'onUnAssociateSG', serviceGroup API is `/hccapi/v3/provider/${ge
 
 ## How to test if the code has window.location.href?
 
-1 Add URL to the jest config
+1 Add a URL to the jest config
 
 ```typescript
 module.exports = {  testURL: 'http://localhost/',
@@ -61,7 +61,7 @@ module.exports = {  testURL: 'http://localhost/',
 window.history.pushState({}, 'Test Title', '/cluster/xyz')
 ```
 
-## Using Redux state, ignoring A10Theme issue, and cannot run a10-gui-framework store procedure
+## If you are using Redux state, ignoring A10Theme issue, and cannot run a10-gui-framework store procedure
 
 1 createState
 
@@ -99,7 +99,7 @@ const renderTestComponent = () => {
 
 Use a try cach block for the source code.
 
-## How to find your component in the customzied form?
+## How to find your component in the customized form?
 
 Solution: find it by name inside the moxios.wait function
 
