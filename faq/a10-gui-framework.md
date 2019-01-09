@@ -1,6 +1,6 @@
 # A10 GUI Framework
 
-## Why need use GUI framework
+## Why do need to use A10's GUI framework
 
 To provide consistency, reusability and cost savings for the construction of web UI across A10’s product portfolio, we need a common set of technologies, design guidelines, and software libraries. 
 
@@ -14,7 +14,7 @@ To provide consistency, reusability and cost savings for the construction of web
 
 ### 1.Coding Style
 
-This project code are following `Prettier` coding style. Developers do not need to care of coding style consistency as long as using `VSCode` editor and installed `Prettier` plugin. `VScode` will format your code automatically through Prettier when saving file due to `.vscode/settings.json`.
+This project code follows the `Prettier` coding style. Developers do not need to care of coding style consistency as long as they are using `VSCode` editor and have installed `Prettier` plugin. `VScode` will format your code automatically through Prettier when saving file due to `.vscode/settings.json`.
 
 ```typescript
 {
@@ -109,7 +109,7 @@ export const A10Data = (state = Map(), action: any) => {
 
 ```
 
-### 3. Store call the reducer
+### 3. Store / call the reducer
 
 ```jsx
 
@@ -343,9 +343,9 @@ ReactDOM.render(
 
 Yes, redux-thunk is an asynchronous action middleware.
 
-## What's the benefits in using httpRequest?
+## What are the benefits of using httpRequest?
 
-All React-Redux applications need to communicate with an HTTP server where a set of common problems frequently arise while making HTTP requests - Error handling, Request cancellation, and State data management.  For dealing with these issues there provide some proposals.
+All React-Redux applications need to communicate with an HTTP server. A set of common problems frequently arise while making HTTP requests: error handling, request cancellation, and state data management.  Here are some proposals for dealing with this problems.
 
 ### **Generic Error Handling**
 
