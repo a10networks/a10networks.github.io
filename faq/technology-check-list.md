@@ -2,20 +2,19 @@
 
 ## What technology should I use?
 
-### 1.When should I use  redux ?
+### 1.When should I use redux?
 
 **case 1:** 
 
-If view need get data from one more data source.
+If view needs to get data from more than one data source.
 
-eg: There is a data list, which includes three types data and those data has different data source.
+eg: There is a data list that includes three types of data, each with a different data source. 
 
 **Case2:**
 
 If the UI can vary significantly depending on the state of the application.
 
-eg: There are some traffic charts, which will rendered depending on the time period.
-
+eg: There are some traffic charts that will be rendered depending on the time period.
 **Case3:**
 
 The state is updated in many different ways.
@@ -34,7 +33,7 @@ It doesn't always flow in a linear.
 
 **Case7:**
 
-Need to be able to undo previous user actions.
+Allow undo for previous user actions.
 
 ### 2. When should I use Observable?
 
@@ -48,7 +47,7 @@ When a changed object notifies an unknown number of objects associated with its 
 
 #### Case3:
 
-When a changed object notifies those objects that do not need to infer a specific type
+When a changed object notifies objects that do not need to infer a specific type
 
 refer to: [https://cn.rx.js.org/manual/overview.html\#h12](https://cn.rx.js.org/manual/overview.html#h12)
 
