@@ -4,11 +4,11 @@
 
 * [End-to-End test document](https://teams.microsoft.com/_#/docx/viewer/teams/https%3A~2F~2Fa10networks.sharepoint.com~2Fsites~2FGUIFuture~2FShared%20Documents~2FGeneral~2Fauto-test~2Fe2etest_handbook.docx?threadId=19%3Ae81ccb01ec2e48f9b6f4fd21da53fad6%40thread.skype&baseUrl=https%3A~2F~2Fa10networks.sharepoint.com~2Fsites~2FGUIFuture&fileId=CC8F2496-CCCB-4CCF-AA05-CCFE5F8922F7&ctx=files&viewerAction=view)​
 
-## Why the DOM element didn't change after clicking it by using the .click\(\) function to send a click command to WebDriver?
+## Why did the DOM element not change after clicking it by using the .click\(\) function to send a click command to WebDriver?
 
-If you can locate the DOM element correctly, but clicking it won't run the callback function. It may be because the element is not shown in the viewable area of the browser.
+If you can locate the DOM element correctly, but cannot access the callback function by clicking on it, it may be because the element is not shown in the viewable area of the browser.
 
-You can use .execute\(\) function to run a JavaScript code in browser to show the DOM element in viewable area of the browser.
+You can use .execute\(\) function to run a JavaScript code in browser to show the DOM element in a viewable area of the browser.
 
 ```typescript
   browser
@@ -31,7 +31,7 @@ You can use .execute\(\) function to run a JavaScript code in browser to show th
     )
 ```
 
-## How to run a certain project only?
+## How to run a specific project?
 
 1. Create a new config file like `nightwatch.config.dashboard.dev.js`
 2. Change the codepath and rootpath
