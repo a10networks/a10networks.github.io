@@ -14,7 +14,7 @@
   * [Setup issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-stateful-common-library#setup-issues)
 * Unit Test  
   * [How to set value for fields in antform because getFieldsValue is used in code?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-set-value-for-fields-in-antform-because-getfieldsvalue-is-used-in-codes) 
-  * [What is RDD and how to write it?](https://a10-gui.gitbook.io/ugf/faq/unit-test#what-is-rdd-and-how-to-write)
+  * [What is RDD and how do you write it?](https://a10-gui.gitbook.io/ugf/faq/unit-test#what-is-rdd-and-how-to-write)
   * [Where is the document for End-to-End and unit test?](https://a10-gui.gitbook.io/ugf/faq/unit-test#where-is-the-document-for-end-to-end-and-unit-test)
   * [Timeout issue on SubGlobalServerList.text.tsx?](https://a10-gui.gitbook.io/ugf/faq/unit-test#timeout-issue-on-subglobalserverlist-text-tsx) 
   * [How to test if the code has window.location.href?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-test-the-code-having-window-location-href)
