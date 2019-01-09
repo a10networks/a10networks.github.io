@@ -4,11 +4,11 @@
 
 ### What is it?
 
-It's the framework base.
+It's the base of our framework.
 
-Basically it's a HOC library for React.js and Redux, we encapsulated some core conceptions like container, component and widget,  also some general used features like i18n, feature debugger.
+This is also a HOC library for React.js and Redux, where our framework has encapsulated some core concepts like containers, components, widgets, and also some frequently used features like i18n, a feature debugger. 
 
-If you want to write your own components and containers, please refer this repository, and include relevant interfaces, example, to contribute an widgets, you can write the code as below
+If you want to write your own component or container, please refer to this repository while including relevant interfaces and examples to contribute to a widget. You can write the code as below.
 
 ```jsx
 import { createA10Widget, A10Component } from 'a10-gui-framework'
@@ -21,7 +21,7 @@ To read more, please see[ A10 GUI Framework.](../main-repositories/a10-gui-frame
 
 ### How to make it work?
 
-Since it's not a public repo, you have to add the repository git path to your package.json 
+Since this is not a public repository, you have to add the repository git path to your package.json 
 
 ```text
  "dependencies": {
@@ -30,42 +30,43 @@ Since it's not a public repo, you have to add the repository git path to your pa
 }
 ```
 
-Then use npm install to install it, if meet troubles on installation, please see FAQ of [A10 GUI Framework](../faq/a10-gui-framework.md).
+Then use npm install to install it. If you come across any installation issues, please see the FAQ of [A10 GUI Framework](../faq/a10-gui-framework.md).
 
-To setup the bootstrap code, please refer[ a10-gui-ugf-template bootstrap code](https://github.com/a10networks/a10-gui-ugf-template/blob/master/src/index.tsx).
+To setup the bootstrap code, please refer to [ a10-gui-ugf-template bootstrap code](https://github.com/a10networks/a10-gui-ugf-template/blob/master/src/index.tsx).
 
 ### Main features
 
-1. A10 Root , store some React context variables
-2. A10 Router , a React Router Wrapper
+1. A10 Root, stores some React context variables
+2. A10 Router, a React Router Wrapper
 3. A10 Container interface
 4. A10 Widget interface
 5. Redux Wrapper for HTTP Request
-6. CSS infrastructure, we created a unified Less framework, defined colors, font size etc.
+6. CSS infrastructure, we created a unified Less framework, defined colors, font size, etc.
 
 ## A10 GUI widget
 
 ### What is it?
 
-It's a GUI smallest blocks, it's a kind of React Component,  but we defined it's stateless.
+It's a GUI consisting of small buildable widgets; somewhat like a React Component,  but all stateless.
 
-80% of it's component based on [Ant Design](https://ant.design/) widgets,  it integrated Ant style and A10 customized UI style. We added A10 Widget Interface to extend it. 
+80% of the components are based on [Ant Design](https://ant.design/) widgets. It has integrated Ant style and A10 customized UI style. We added A10 Widget Interface to extend Ant's widgets. 
 
 ### How to make it work?
 
-You need install it first like what a10-gui-framework do, generally these two lines are twins.
+You need to first install it similarly to how you installed a10-gui-framework. 
+Generally these two lines are like fraternal twins. Refer below: 
 
 ```javascript
   "dependencies": {
     "a10-gui-framework": "https://github.com/a10networks/a10-gui-framework.git",
-    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-framework.git",
+    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-widgets.git",
     ...
   }
 ```
 
-Then use npm install to install it, if meet troubles on installation, please see FAQ of [A10 GUI Widgets. ](../faq/a10-gui-widgets.md)
+Then call npm install to install it. If you come across any issues during installation, please see the FAQ of [A10 GUI Widgets. ](../faq/a10-gui-widgets.md)
 
-and then import it from your React Container
+and then import it to your React Container
 
 ```jsx
 import { A10Form, A10Button, A10Input } from 'a10-gui-widgets'
@@ -105,21 +106,22 @@ export class Form extends A10Container<IFormProps, IFormState> {
 
 ### Widgets List
 
-Please refer[ A10 GUI Widgets](../main-repositories/a10-gui-widgets.md) to know what widgets we have. 
+Please refer to [ A10 GUI Widgets](../main-repositories/a10-gui-widgets.md) to see what widgets we have. 
 
 ## A10 GUI Common Library <a id="a10-gui-common-library"></a>
 
 ### What is it? <a id="what-is-it-2"></a>
 
-It's a common container library, different from widgets, it encapsulated business logic inside of it, but it's decoupled from app.
+A10 Gui Common Library is a common container library. It's different from our widgets library because it has encapsulated business logic inside of it, and it is also decoupled from the app. 
 
-Example, AutoForm we need provide schema JSON as it's meta data, but it's only depends on A10 CM Schema definition, we can use same code whatever the production is.
+For example, we have decoupling in AutoForm. In AutoForm we need to provide a JSON schema as it's meta data, but since it only depends on A10 CM Schema's definition, we can use the same code for any type of production. 
+
 
 ### How to make it work? <a id="how-to-make-it-work-2"></a>
 
 Let's take AutoForm as the example:
 
-You need install the a10-gui-common repo first, adding following line into your package.json, and run npm install command.
+You need to install the a10-gui-common repository first, add the following lines to your package.json, and run npm install command.
 
 ```javascript
  "dependencies": {
@@ -130,7 +132,7 @@ You need install the a10-gui-common repo first, adding following line into your 
   }
 ```
 
-and add following code into your containers
+... and then add the following code into your containers
 
 ```jsx
 import { AutoForm } from 'a10-gui-common'
@@ -154,7 +156,7 @@ const yourComponent = () => {
 }
 ```
 
-For detail usage about AutoForm, see the [AutoForm usage document.](https://github.com/a10networks/a10-gui-common)​
+For detailed usage about AutoForm, see the [AutoForm usage document.](https://github.com/a10networks/a10-gui-common)​
 
 ### Main Containers <a id="main-containers"></a>
 
