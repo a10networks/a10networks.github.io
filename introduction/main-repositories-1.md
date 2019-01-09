@@ -126,7 +126,7 @@ You need to install the a10-gui-common repository first, add the following lines
 ```javascript
  "dependencies": {
     "a10-gui-framework": "https://github.com/a10networks/a10-gui-framework.git",
-    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-framework.git",
+    "a10-gui-widgets": "https://github.com/a10networks/a10-gui-widgets.git",
     "a10-gui-common": "https://github.com/a10networks/a10-gui-common.git",
     ...
   }
