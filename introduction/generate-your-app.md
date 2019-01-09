@@ -26,7 +26,7 @@ mkdir my-new-project && cd my-new-project
 yo ugf
 ```
 
-Or you can use follow commands to boot up, build, and test your project
+Or you can use the following commands to boot up, build, and test your project
 
 ```bash
 # Start for development
