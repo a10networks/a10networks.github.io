@@ -2,7 +2,7 @@
 
 ## Why do I need this library?
 
-To have the consistent look and feel cross multiple product line such as Harmony Controller, Thunder, and development teams. 
+To have a consistent look and feel across multiple product line such as Harmony Controller, Thunder, and development teams. 
 
 Auto-generate React GUI form pages using UI JSON schema files provided by the CM team. CM uses CM schema files to generate UI JSON schema files.
 
