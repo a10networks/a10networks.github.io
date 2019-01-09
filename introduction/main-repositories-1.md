@@ -6,7 +6,7 @@
 
 It's the base of our framework.
 
-This is also a HOC library for React.js and Redux, where our framework has encapsulated some core concepts like containers, components, widgets, and also some frequently used features like i18n, a feature debugger. 
+It's also a HOC library for React.js and Redux, where our framework has encapsulated some core concepts like containers, components, widgets, and also some frequently used features like i18n, a feature debugger. 
 
 If you want to write your own component or container, please refer to this repository while including relevant interfaces and examples to contribute to a widget. You can write the code as below.
 
