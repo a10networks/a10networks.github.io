@@ -6,7 +6,7 @@ To provide consistency, reusability and cost savings for the construction of web
 
 ## Setup Issues
 
-### How to install?
+### How do I install?
 
  npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)​
 
@@ -247,7 +247,7 @@ export class A10Provider extends React.Component<IA10ProviderProps> {
 export default A10Provider
 ```
 
-## How to use redux-observable in the framework?
+## How do I use redux-observable in the framework?
 
 ### 1.install `rxjs` and `redux-observable`.
 
