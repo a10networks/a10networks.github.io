@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
- Widgets are common components that are reused across all A10 apps. This widget library is an extension of our `a10-gui-framework` that facilitates the A10 GUI development process. With the sharable widgets under the same framework, different apps can utilize the same structure and codebase. The consistency, modularity, and maintainability of A10 apps are maximized.
+ Widgets are common components that are reused across all A10 applications. This widget library is an extension of our `a10-gui-framework` that facilitates the A10 GUI development process. With the sharable widgets under the same framework, different apps can utilize the same structure and codebase. This promotes the maximization of consistency, modularity, and maintainability of A10 applications.
 
 ### Repository path:
 
@@ -118,13 +118,13 @@ export default createWidget(IconButton)
 export * from './NewWidget'
 ```
 
- _**NOTE**: Please wirte the code in alphabetical order._
+ _**NOTE**: Please write the code in alphabetical order._
 
 #### 4.  Write storybook for the widget
 
  Add `NewWidget` folder in stories, and create `index.story.js` file in `NewWidget` folder
 
- _**NOTE:** The code of storbook is created by JavaScript \(ES6\) instead of TypeScript._
+ _**NOTE:** The code of storybook is created by JavaScript \(ES6\) instead of TypeScript._
 
 ```javascript
 stories/
