@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-A10Container is an abstract class that all A10 containers implement. It is based on A10 GUI Framework for maximizing modularity and maintainability. 
+A10Container is an abstract class that all A10 containers implement. It is based on A10 GUI Framework and aids in maximizing modularity and maintainability. 
 
 ### Repository path: 
 
@@ -54,7 +54,7 @@ const yourComponent = () => {
 
  A10Container is abstract class for all containers. It extends A10Component and implements IA10Container interface.
 
-#### use case
+#### Use case
 
 ```jsx
 export default interface IA10Container {
@@ -87,7 +87,7 @@ export default Class THObjectExplorerContainer extends A10Container<ITHObjectExp
 
 ### AutoForm
 
-AutoForm has a consistent look and feel across multiple product line such as Harmony controller, Thunder, and development teams. Auto generate React GUI forms pages using UI JSON schema files provided by the CM team.
+AutoForm has a consistent look and feel across multiple product line such as Harmony Controller, Thunder, and development teams. We can auto generate React GUI forms pages using UI JSON schema files provided by the CM team.
 
 #### use case
 
@@ -112,7 +112,7 @@ onClickNewRuleset = (event: React.SyntheticEvent) => {
 
 ### SForm
 
-Auto-config form \(SForm\) uses the UI JSON schema to generate a React form. This form includes layout, sections, fields, buttons and create/update functionalities. However, comparing to form mockups, certain fields might not exist in UI JSON schema. These fields are called customized fields.
+Auto-config form \(SForm\) uses the UI JSON schema to generate a React form. This form includes layout, sections, fields, buttons, and create/update functionalities. However, compared to form mockups, certain fields might not exist in UI JSON schema. These fields are called customized fields.
 
 #### use case
 
