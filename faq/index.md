@@ -8,7 +8,7 @@
   * [Setup issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#setup-issues)
   * [Coding issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#coding-issues)
   * [How to use redux-observable in the framework?](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#how-to-use-redux-observable-in-the-framework)
-  * [What's the benefits of using httpRequest?](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#whats-the-benefits-in-using-httprequest)
+  * [What are the benefits of using httpRequest?](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-gui-framework#whats-the-benefits-in-using-httprequest)
 * A10 GUI Common Library
   * [Why do I need this common library? ](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-stateful-common-library#why-need-this-library)
   * [Setup issues.](https://a10-gui.gitbook.io/ugf/~/drafts/-LUZH8tTrcvt6Wcvw_Gd/primary/faq/a10-stateful-common-library#setup-issues)
@@ -20,9 +20,9 @@
   * [How to test if the code has window.location.href?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-test-the-code-having-window-location-href)
   * [Using Redux state, ignoring A10Theme issue, but cannot run a10-gui-framework store procedure](https://a10-gui.gitbook.io/ugf/faq/unit-test#use-redux-state-and-ignore-a-10-theme-issue-and-cannot-run-a-10-gui-framework-store-procedure)
   * [How to prevent a 'Network Issue' error when running unit test code?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-prevent-network-issue-error-when-running-unit-testing-code)
-  * [How to find your component in the customized form?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-find-your-component-in-the-customzied-form)
+  * [How to find your component in a customized form?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-find-your-component-in-the-customzied-form)
 * End to End Test (E2E Test)
   * [Where is the document for End-to-End test?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#where-is-the-document-for-end-to-end-test)
-  * [Why did the DOM element not change after clicking it by using the .click\(\) function to send a click command to WebDriver?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#why-the-dom-element-didnt-change-after-clicking-it-by-using-the-click-function-to-send-a-click-command-to-webdriver)
+  * [Why did the DOM element not change after clicking the .click\(\) function to send a click command to WebDriver?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#why-the-dom-element-didnt-change-after-clicking-it-by-using-the-click-function-to-send-a-click-command-to-webdriver)
   * [How to run a specific project?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#how-to-run-a-certain-project-only)
 
