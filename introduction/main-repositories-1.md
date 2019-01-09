@@ -64,9 +64,9 @@ Generally these two lines are like fraternal twins. Refer below:
   }
 ```
 
-Then call npm install to install it. If you come across any issues during installation, please see the FAQ of [A10 GUI Widgets. ](../faq/a10-gui-widgets.md)
+Then call npm install to install. If you come across any issues during installation, please see [A10 GUI Widgets. ](../faq/a10-gui-widgets.md)'s FAQ
 
-and then import it to your React Container
+Import the widget to your React Container as follows: 
 
 ```jsx
 import { A10Form, A10Button, A10Input } from 'a10-gui-widgets'
