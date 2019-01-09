@@ -1,34 +1,40 @@
 # Getting Started
 
-UGF is a GUI framework used to build A10networks GUI projects. It's composed by React.js related opensource  softwares. It's a business-adapted , higher performance, and easier debug framework.
+UGF is a GUI framework used to build A10networks GUI projects, and is composed of open source softwares coded in React.js. Our framework promotes for easier debugging, higher performance, and is business-adapted. 
 
-Here are the key features on current release:
+Here are the key features from our current release:
 
-1. Using some design pattern seamlessly integrated GUI team required technologies like React.js, Redux+Observable, Immutable.js, add GUI team general used logic.
-2. A separate widget library we named a10-gui-widgets, all the components inside this are stateless, means it can only accept data to display.
-3. A stateful components library we called a10-gui-common, it stored many stateful components, it's a kind of small app component, example, a Log Auto Gen component, plugin to framework, fill some parameters, then it's an awesome feature.
-4. Generator can help you easily integrate all things together, it can generate framework in one key, also can generate your module containers and components initial model.
-5. Integrated UT framework Jest and E2E test framework Nightwatch,  developer's can follow the examples easily write your own cases under your modules.
+1. Design patterns are seamlessly integrated using essential front-end technologies such as React.js, Redux+Observable, Immutable.js, and general logic used by the GUI team. 
+2. A separate widgets library called a10-gui-widgets, where all the components inside this library are stateless. Thus, these components can only accept data to display. 
+3. A stateful components library called a10-gui-common. Our many stateful components in this library result in a small app components of sorts. For example, a Log Auto Gen component, combined with our framework and some parameters, result in an awesome feature!
+4. A generator that can help you easily integrate everything together. It can generate frameworks in one key, and can also generate your module containers with your components initial model.  
+5. Using our integrated UT framework Jest and E2E testing framework, Nightwatch, developer's can follow examples easily to write your own test cases under your modules!
 
 ## Installation
 
 ### Using generator 
 
-The easiest way to start a project I recommend you to use UGF generator, it's a [Yeoman ](https://yeoman.io/)generator, you need first install Yeoman tool, and then follow the [Generate Your App](generate-your-app.md)  steps to generate the whole framework and it's required stuffs,  after go through those simple steps, you app is running up. 
+To quick start a project, we recommend using a UGF generator--a [Yeoman ](https://yeoman.io/)generator). 
 
-If you'd like learning deeper, then you can add your generated code into your IDE,  start from \[project name\]/index.tsx.
+Follow these steps:
+
+1. First install Yeoman tool
+2. Then follow the steps from [Generate Your App](generate-your-app.md) to generate the whole framework and its required items.
+3. Your app should be running! 
+
+If you'd like to learn more, you can add your generated code into your IDE, and start from \[project name\]/index.tsx.
 
 ### I would like to build blocks
 
-If you would like try to build the whole thing by yourself,  here are some prerequisites software:
+If you would like try to build the whole thing by yourself,  here are the required technologies:
 
 1. Nodejs 8.11+ 
 2. git
 3. create-react-app
 
-then here is the basic steps:
+After you have acquired the required technologies, follow these steps: 
 
-* Initial a project using create-react-app
+* Initialize a project using create-react-app
 
 ```text
 $ create-react-app my-project
@@ -53,7 +59,7 @@ $ create-react-app my-project
 $ npm install
 ```
 
-* Create basic folder and file structure under the source folder, see [reference](https://github.com/a10networks/a10-gui-ugf-template/tree/master/src)
+* Create the basic folder and file structure under the source folder, see [reference](https://github.com/a10networks/a10-gui-ugf-template/tree/master/src)
 * Setup bootstrap file using a10-gui-framework
 
 ```jsx
@@ -101,7 +107,7 @@ class Home extends A10Container<IHomeProps, IHomeState> {
 export default setupA10Container(Home)
 ```
 
-* Try to import an widget from a10-gui-widgets
+* Try to import a widget from a10-gui-widgets
 
 ```jsx
 import React from 'react'
@@ -127,23 +133,23 @@ class Home extends A10Container<IHomeProps, IHomeState> {
 export default setupA10Container(Home)
 ```
 
-* Read[ Framework book](../main-repositories/a10-gui-framework.md) and using [widgets storybook](../main-repositories/a10-gui-widgets.md) and [common library](../main-repositories/a10-stateful-common-library.md) storybook add more stuffs.
+* Read our [ Framework book](../main-repositories/a10-gui-framework.md) and use [widgets storybook](../main-repositories/a10-gui-widgets.md) and our [common library](../main-repositories/a10-stateful-common-library.md) storybook to add more functionalities.
 
 ## Development Tools
 
 #### IDE setup
 
-We can use any text editor like VSCode, Sublime Text, Hbuilder, Notepad++. 
+Use any text editor like VSCode, Sublime Text, Hbuilder, Notepad++. 
 
-A10 oxbox GUI team we used VSCode since it's lightweight , stable and higher coding performance, so in GUI git repository, we have already setup all the VSCode running environment configurations, pull it down, add it into your VSCode editor, VSCode can help you follow GUI team dev env to start your coding. The VS Code configuration files under \[your\_project\_root\]/.vscode/
+A10 Onbox GUI team uses VSCode since it's lightweight , stable, and has higher code performance. In our GUI git repository, we have already setup all the VSCode running environment configurations, so all you need to do is to pull it down, add it into your VSCode editor, and VSCode will help you startup GUI team's dev environment. The VS Code configuration files are under \[your\_project\_root\]/.vscode/
 
-If you have your favorite IDE,  we suggest you install basic plugins such as eslint and tslint, for highlight your code, please install Typescript and ES6 relevant plugin.
+If you have your favorite IDE,  we suggest you install basic plugins such as eslint and tslint. To highlight your code, please install Typescript and ES6 relevant plugin.
 
-For coding style, we are using  tslint:recommended, tslint-react, for more information about this topic, please see our [tslint.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/tslint.json).
+For coding style, we are using  tslint:recommended and tslint-react. For more information about this topic, please see [tslint.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/tslint.json).
 
 #### Browser extensions recommend
 
-For debugging React and Redux, we suggest installing following two extensions on Chrome or Firefox, it can help you debug React Virtual DOM hierarchy and Redux store data.
+For debugging React and Redux, we suggest installing the following two extensions on Chrome or Firefox, as it can help you debug React's Virtual DOM hierarchy and Redux store data.
 
 * [React developer Tools](https://github.com/facebook/react-devtools)
 * [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
@@ -156,7 +162,7 @@ For debugging React and Redux, we suggest installing following two extensions on
 
 #### Just the Basics
 
-We have 3 main design docs for the basic concepts of framework, widget and container, please directly click following link to read.
+We have 3 main design documents that include the basic concepts of our framework, widget, and container, please click the following links to read.
 
 1. [A10 GUI Framework design doc](https://github.com/a10networks/a10networks.github.io/raw/0.7.0/design-docs/A10-GUI-Framework-Design-v1.1a.docx)
 2. [A10 GUI Container design doc](https://github.com/a10networks/a10networks.github.io/raw/0.7.0/design-docs/A10-Container-Design-v1.0a.docx)
@@ -165,29 +171,29 @@ We have 3 main design docs for the basic concepts of framework, widget and conta
 
 #### Real-World Usage
 
-If you'd like to learn how it works on real-world , please contact [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) to grant permissions to access production code.
+If you'd like to learn how it works in the real-world , please contact [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) to gain permission to access the production code.
 
 ## Help and Discussion
 
-You can send mail to [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) or join our [slack discussion group](https://a10webguiteam.slack.com/messages/CBJH1KJKD), 
+You can send an e-mail to [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) or join our [slack discussion group](https://a10webguiteam.slack.com/messages/CBJH1KJKD), 
 
-For a10-gui-framework issues, you can directly connect our framework maintainer [Roll ](mailto:stsai@a10networks.com)and [Chris](mailto:christzhusiul@a10networks.com). 
+For a10-gui-framework issues, you can directly connect our framework maintainer [Roll ](mailto:stsai@a10networks.com) and [Chris](mailto:christzhusiul@a10networks.com). 
 
 For a10-gui-widgets issues, please connect [Rui](mailto:%20ruiz@a10networks.com).
 
-To access those frameworks' source code,  you need to be grant permissions, so you need connect [Yushan](mailto:yhou@a10networks.com) and above maintainers.
+Permissions needs to be granted in order to access the frameworks' source codes. Email / connect with [Yushan](mailto:yhou@a10networks.com) and the aformentioned maintainers to be granted permission.
 
-Or you can post issues to different git repository issue boards, we will answer your questions at first time to get it.
+An alternative is to post your issue(s) to the relevant git repository issue boards; we will answer your questions ASAP.
 
-## Should You Use
+## Should You Use?
 
-This is not an open project by now, only used in A10networks Corp. If you are part of A10networks GUI developer,  welcome to use it, but please don't distribute the source code to outside of A10networks.
+This is currently not an open source project, as it is only used in A10networks Corp. You are welcome to use this framework and code as a A10networks GUI developer, but please don't distribute the source code to anywhere outside of A10networks.
 
 ## Repositories Access Permission
 
-Since it's an A10 GUI internal project, if you have no permission to access the framework repositories outside A10networks Corp.
+As an A10 GUI internal project, you have no permission to access the framework repositories outside A10networks Corp.
 
-To access those frameworks' source code,  you need to be grant permissions, so you need connect [Yushan](mailto:yhou@a10networks.com) and above maintainers.
+To access those frameworks' source code,  you need to be grant permissions, so you need connect [Yushan](mailto:yhou@a10networks.com) and the relevant maintainers mentioned above.
 
 
 
