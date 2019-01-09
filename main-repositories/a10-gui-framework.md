@@ -2,23 +2,23 @@
 
 ## Introduction
 
-A10 GUI Framework is based on modern web design. At the heart of it, we leverage a component based front-end JavaScript framework called React.jsi. Together with Reduxii and our proposals embodied in a set of design patterns, we believe this will go a long way to providing a set of tools to build appealing, modern, and consistent web UI with relative ease and simplicity.
+A10 GUI Framework is based on modern web design. At the heart of it, we leverage a component based front-end JavaScript framework called React.js. Together with Redux and the embodiment of a set of design patterns, we aimed to provide a set of tools that allow for appealing, modern, and consistent web UI to be built with relative ease and simplicity. 
 
-### Repo path: 
+### Repository path: 
 
 #### [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)
 
-### Install
+### Installation
 
 $ npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)
 
 ### How to use
 
- Framework’s main components like A10Provider, A10Root, A10Router and A10Container are used to build a basic scaffolding. 
+ Framework’s main components like A10Provider, A10Root, A10Router and A10Container are used to build basic scaffolding. 
 
-It's easy to use, for example,  `import A10Provider from a10-gui-framework`
+Easy to use! For example, simply write `import A10Provider from a10-gui-framework`
 
-Using it as html tags in the render\(\)
+Using it as html tags in render\(\)
 
 ```jsx
 import { A10Provider} from 'a10-gui-framework'
@@ -41,7 +41,7 @@ ReactDOM.render(
 
 ### A10Provider
 
- A10Provider is a wrapper for React-Redux Provider. We use this wrapper to wire up some global middleware to help system monitor global data \(theme, debug\) or to log critical information.
+ A10Provider is a wrapper for React-Redux Provider. We use this wrapper to wire up some global middleware to help the system monitor global data \(theme, debug\) or to log critical information.
 
 #### Use Case
 
@@ -62,7 +62,7 @@ initState={initState}>
 
 ###  A10Root
 
-A10Root is the place to accept initial configurations defined in a JS file and sent into Redux, and component context so that every descendent can access the global variables.
+A10Root is the place to accept initial configurations defined in a JS file and to send into Redux. A10Root is also the place to have a component context so that every descendent can access the global variables.
 
 #### Use Case
 
@@ -92,7 +92,7 @@ ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
 </A10Provider>, documentRoot)
 ```
 
-In this case, we imported the routes from app/settings/routes.tsx, the file looks like:
+In this case, we imported the routes from app/settings/routes.tsx. The file looks like:
 
 ```jsx
 export default {
@@ -120,11 +120,11 @@ params: [‘ip’, ‘port’]
 }
 ```
 
- On above definition, the ‘slb’, ‘virtual-server’ will combine to a route path /slb/virtual-server, and the path will route to an A10Container called THVirtualServerContainer. params also is a Frameworks preserved option, with the params option, an example virtual-service URL looks may be of the form /slb/virtual-service/:ip/:port.
+ On above definition, the ‘slb’, ‘virtual-server’ will combine to a route path /slb/virtual-server, and the path will route to an A10Container called THVirtualServerContainer. params is also a Frameworks preserved option. With the params option, an example virtual-service URL looks may be of the form /slb/virtual-service/:ip/:port.
 
 ###  A10Container
 
- A10Container is the heavy-hitter. It is a stateful component which is connected to Redux store. A10Container contains page elements, and could include another A10Container, or A10Widgets, or external \(external to this Framework\) React Components.
+ A10Container is the heavy-hitter. It is a stateful component which is connected to the Redux store. A10Container contains page elements, and could include A10Container, or A10Widgets, or external \(external to this Framework\) React Components.
 
 ####  Create Interface
 
