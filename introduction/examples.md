@@ -2,15 +2,180 @@
 
 ## App entry
 
-{% embed url="https://index.tsx" caption="react di" %}
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>React Examples</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+```
+
+```jsx
+// index.tsx
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { A10Provider, A10Router } from 'a10-gui-framework'
+
+import './styles/index.less'
+
+import Root from './Root'
+
+ReactDOM.render(
+  <A10Provider>
+    <A10Router.Browser>
+      <Root />
+    </A10Router.Browser>
+  </A10Provider>,
+  document.getElementById('root') as HTMLElement,
+)
+
+
+```
+
+```jsx
+// Root.tsx
+
+import React from 'react'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+  A10Route,
+} from 'a10-gui-framework'
+
+import HelloWorld from './HelloWorld'
+
+export interface IRootProps extends IA10ContainerDefaultProps { }
+export interface IRootState { }
+
+class Root extends A10Container<IRootProps, IRootState> {
+  render() {
+    return (
+      <>
+        {/* This is the Root Container. */}
+        <A10Route path="/" component={HelloWorld} />
+      </>
+    )
+  }
+}
+
+export default setupA10Container(Root)
+
+```
 
 ## How to create the first hello world page
 
-     A component and container having the component
+```jsx
+// HelloWorld.tsx
+
+import React from 'react'
+import { A10Container, setupA10Container, IA10ContainerDefaultProps } from 'a10-gui-framework'
+
+import InputName from './InputName'
+
+export interface IHelloWorldProps extends IA10ContainerDefaultProps { }
+export interface IHelloWorldState {
+  target: string
+}
+
+class HelloWorld extends A10Container<IHelloWorldProps, IHelloWorldState> {
+  constructor(props: IHelloWorldProps) {
+    super(props)
+
+    this.state = {
+      target: 'World',
+    }
+  }
+
+  changeTarget = (name: string) => {
+    this.setState({
+      target: name,
+    })
+  }
+
+  render() {
+    return (
+      <>
+        <h1>Hello {this.state.target}!</h1>
+        <InputName onOK={this.changeTarget} />
+      </>
+    )
+  }
+}
+
+export default setupA10Container(HelloWorld)
+
+```
+
+```jsx
+// InputName.tsx
+
+import React from 'react'
+import { A10Component } from 'a10-gui-framework'
+
+export interface IInputNameProps {
+  onOK: (name: string) => void
+}
+
+export interface IInputNameState {
+  name: string
+}
+
+export class InputName extends A10Component<IInputNameProps, IInputNameState> {
+  constructor(props: IInputNameProps) {
+    super(props)
+
+    this.state = {
+      name: '',
+    }
+  }
+
+  onNameChanges = (event: any) => {
+    this.setState({
+      name: event.target.value,
+    })
+  }
+
+  onClickOK = () => {
+    const { onOK } = this.props
+    const { name } = this.state
+
+    if (onOK && onOK instanceof Function) {
+      onOK(name)
+    }
+  }
+
+  render() {
+    return (
+      <>
+        <label htmlFor="name"><strong>Input target Name: </strong></label>
+        <input id="name" type="text" onChange={this.onNameChanges} />
+        <button onClick={this.onClickOK} >OK</button>
+      </>
+    )
+  }
+}
+
+export default InputName
+
+```
 
 ## Write the hello world page with Redux
 
-## Introduce a form page. How to setup, import widgets, and hook APIs 
+## Introduce a form page. How to setup, import widgets, and hook APIs
 
 ### Condition 1: without Redux
 
@@ -93,7 +258,7 @@ const response = (httpClient as IAxiosInstance)
 
 ### Condition 2:with Redux
 
-## Show data/table. 
+## Show data/table.
 
 #### How to display it
 
@@ -110,8 +275,8 @@ render() {
       />
     )
   }
-...  
-  
+...
+
 ```
 
 #### Users roles with permission
@@ -195,5 +360,5 @@ export default setupA10Container(LogPage, {
 
 ## How to use A10 App Generator
 
-## Extra: Using the examples above with the A10 Generator 
+## Extra: Using the examples above with the A10 Generator
 
