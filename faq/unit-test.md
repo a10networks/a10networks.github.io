@@ -1,6 +1,6 @@
 # Unit Test
 
-## How to set the values for fields in antform because getFieldsValue is used in the code?
+## How do I set the values for fields in antform because getFieldsValue is used in the code?
 
 Solution: use setFieldsValue to set value for fields in antform
 
@@ -47,7 +47,7 @@ In the function 'onUnAssociateSG', serviceGroup API is `/hccapi/v3/provider/${ge
   })
 ```
 
-## How to test if the code has window.location.href?
+## How  do I test if the code has window.location.href?
 
 1 Add a URL to the jest config
 
@@ -95,11 +95,11 @@ const renderTestComponent = () => {
 }
 ```
 
-## How to prevent a 'Network Issue' error when running unit test code?
+## How do I prevent a 'Network Issue' error when running unit test code?
 
 Use a try cach block for the source code.
 
-## How to find your component in the customized form?
+## How do I find your component in the customized form?
 
 Solution: find it by name inside the moxios.wait function
 
