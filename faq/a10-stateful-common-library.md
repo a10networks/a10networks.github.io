@@ -8,7 +8,7 @@ Auto-generate React GUI form pages using UI JSON schema files provided by the CM
 
 ## Setup Issues
 
-### How to install?
+### How do I install?
 
 1. Add a10-gui-common to your package.json. 
 
