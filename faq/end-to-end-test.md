@@ -31,7 +31,7 @@ You can use .execute\(\) function to run a JavaScript code in browser to show th
     )
 ```
 
-## How to run a specific project?
+## How do I run a specific project?
 
 1. Create a new config file like `nightwatch.config.dashboard.dev.js`
 2. Change the codepath and rootpath
