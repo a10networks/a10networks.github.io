@@ -89,7 +89,7 @@ src/
 
  **IMPORTANT** When partially importing some widgets from our a10-gui-widgets library, please **DO NOT** import the styles/index.less of the widget in index.tsx. We have a script \(npm build\) to collect all less files of all widgets into the root index.less \('~a10-gui-widgets/dist/index.less'\).
 
- _**NOTE**: Please wirte your code in alphabetical order._
+ _**NOTE**: Please write your code in alphabetical order._
 
 #### 2.  Export widget component and props in `src/index.tsx`
 
@@ -167,7 +167,7 @@ createNewWidgetStory(widgetStory)
 
 Run the storybook `npm run storybook` and you will see it at `http://localhost:6006`. __
 
-_**NOTE**: Please wirte the code in alphabetical order._ 
+_**NOTE**: Please write the code in alphabetical order._ 
 
 #### 5.  Git Push and create a PR.
 
