@@ -2,15 +2,15 @@
 
 ## Introduction <a id="introduction"></a>
 
- Widgets are common components that are reused across all A10 apps. This widget library is the extension of `a10-gui-framework` to facilitate the A10 GUI development process. With the sharable widgets under the same framework, different apps are using the same structure and codebase. The consistency, modularity, and maintainability of A10 apps are maximized.
+ Widgets are common components that are reused across all A10 apps. This widget library is an extension of our `a10-gui-framework` that facilitates the A10 GUI development process. With the sharable widgets under the same framework, different apps can utilize the same structure and codebase. The consistency, modularity, and maintainability of A10 apps are maximized.
 
-### Repo path:
+### Repository path:
 
 [https://github.com/a10networks/a10-gui-widgets](https://github.com/a10networks/a10-gui-widgets)
 
 ### Install
 
-1.Add a10-gui-widgets in the dependency of package.json
+1.Add a10-gui-widgets to the dependency of package.json
 
 ```javascript
  "dependencies": {
@@ -20,7 +20,7 @@
 
 2.Install a10-gui-widgets using npm install
 
-3.Using a10-gui-widgets in your app:
+3.To use the a10-gui-widgets in your app:
 
 Take the simple A10Button as an example.
 
@@ -38,7 +38,7 @@ export default Demo
 
 4.Importing widget css style
 
-There is two ways to import the css of a10-gui-widget in your code.
+There are two ways to import the css of a10-gui-widget in your code.
 
 By Less
 
@@ -87,7 +87,7 @@ src/
     +-- README.md     // the README of this widget for using in Storybook
 ```
 
- **IMPORTANT** For partial widgets importing purpose, please **DO NOT** import the styles/index.less of the widget in index.tsx. We have a script \(npm build\) to collect all less files of all widgets into the root index.less \('~a10-gui-widgets/dist/index.less'\).
+ **IMPORTANT** When partially importing some widgets from our a10-gui-widgets library, please **DO NOT** import the styles/index.less of the widget in index.tsx. We have a script \(npm build\) to collect all less files of all widgets into the root index.less \('~a10-gui-widgets/dist/index.less'\).
 
  _**NOTE**: Please wirte your code in alphabetical order._
 
@@ -171,7 +171,7 @@ _**NOTE**: Please wirte the code in alphabetical order._
 
 #### 5.  Git Push and create a PR.
 
- That's it!. Please bear in mind doing `npm build` before submitting your code, and then create a PR for code review at [a10-gui-widgets](https://github.com/a10networks/a10-gui-widgets).
+ That's it! Please bear in mind to call `npm build` before submitting your code, and then create a PR for code review at [a10-gui-widgets](https://github.com/a10networks/a10-gui-widgets).
 
 
 
