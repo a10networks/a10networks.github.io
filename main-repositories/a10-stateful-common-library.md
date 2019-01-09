@@ -2,15 +2,15 @@
 
 ## Introduction <a id="introduction"></a>
 
-A10Container is the abstract class for all A10 containers to implement. It is based on the A10 GUI Framework to maximize modularity and maintainability. 
+A10Container is an abstract class that all A10 containers implement. It is based on A10 GUI Framework for maximizing modularity and maintainability. 
 
-### Repo path: 
+### Repository path: 
 
 [https://github.com/a10networks/a10-gui-common.git](https://github.com/a10networks/a10-gui-common.git)
 
 ### Install
 
- 1. Add `a10-gui-common` into your package.json.
+ 1. Add `a10-gui-common` to your package.json.
 
   "a10-gui-common": "[git+](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-common/null)[https://github.com/a10networks/a10-gui-common.git](https://github.com/a10networks/a10-gui-common.git)"
 
@@ -71,7 +71,7 @@ export default setupA10Container(A10Container)
 
 ### THObjectExplorerContainer
 
-THObjectExplorerContainer extends A10Container and implemented the interface ITHObjectExplorerProps.
+THObjectExplorerContainer extends A10Container and implements the interface ITHObjectExplorerProps.
 
 #### use case
 
@@ -87,7 +87,7 @@ export default Class THObjectExplorerContainer extends A10Container<ITHObjectExp
 
 ### AutoForm
 
-AutoForm has the consistent look and feel cross multiple product line such as Harmony controller and Thunder and development teams. And Auto generate React GUI form pages using UI JSON schema files provided by CM team.
+AutoForm has a consistent look and feel across multiple product line such as Harmony controller, Thunder, and development teams. Auto generate React GUI forms pages using UI JSON schema files provided by the CM team.
 
 #### use case
 
@@ -112,7 +112,7 @@ onClickNewRuleset = (event: React.SyntheticEvent) => {
 
 ### SForm
 
-Auto-config form \(SForm\) is using UI JSON schema to generate React form. The form includes layout, sections, fields, buttons and create/update functionalities. However, comparing to form mockups, certain fields might not exist in UI JSON schema. These fields are called customized fields.
+Auto-config form \(SForm\) uses the UI JSON schema to generate a React form. This form includes layout, sections, fields, buttons and create/update functionalities. However, comparing to form mockups, certain fields might not exist in UI JSON schema. These fields are called customized fields.
 
 #### use case
 
