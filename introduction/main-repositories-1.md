@@ -49,7 +49,7 @@ To setup the bootstrap code, please refer to [ a10-gui-ugf-template bootstrap co
 
 It's a GUI consisting of small buildable widgets; somewhat like a React Component,  but all stateless.
 
-80% of the components are based on [Ant Design](https://ant.design/) widgets. It has integrated Ant style and A10 customized UI style. We added A10 Widget Interface to extend Ant's widgets. 
+80% of the components are based on [Ant Design](https://ant.design/) widgets. It has integrated Ant style and A10 customized UI style. We have added A10 Widget Interface to extend Ant's widgets. 
 
 ### How to make it work?
 
