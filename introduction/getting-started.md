@@ -12,9 +12,9 @@ Here are the key features from our current release:
 
 ## Installation
 
-### Using generator 
+### Using a generator 
 
-To quick start a project, we recommend using a UGF generator--a [Yeoman ]((https://yeoman.io/)generator). 
+To quick a start a project, we recommend using a UGF generator--a [Yeoman ]((https://yeoman.io/)generator). 
 
 Follow these steps:
 
@@ -156,7 +156,7 @@ For debugging React and Redux, we suggest installing the following two extension
 
 ## Examples
 
-\[Jason\] For more examples,  please read [Examples](examples.md) page.
+For more examples,  please read [Examples](examples.md) page.
 
 ## Learn 
 
