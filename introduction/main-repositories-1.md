@@ -4,7 +4,7 @@
 
 ### What is it?
 
-A10 GUI Framework is the base of our framework.
+A10 GUI Framework is the our framework base.
 
 It's also a HOC library for React.js and Redux, where our framework has encapsulated some core concepts like containers, components, widgets, and also some frequently used features like i18n, a feature debugger. 
 
@@ -49,7 +49,7 @@ To setup the bootstrap code, please refer to [ a10-gui-ugf-template bootstrap co
 
 It's a GUI consisting of small buildable widgets; somewhat like a React Component,  but all stateless.
 
-80% of the components are based on [Ant Design](https://ant.design/) widgets. It has integrated Ant style and A10 customized UI style. We have added A10 Widget Interface to extend Ant's widgets. 
+80% of the components are based on [Ant Design](https://ant.design/) widgets. Our widgets have integrated Ant Design's style and A10's customized UI style. We have added A10 Widget Interface to extend Ant's widgets. 
 
 ### How to make it work?
 
