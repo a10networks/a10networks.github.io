@@ -46,11 +46,11 @@ A10 Widgets is a stateless React UI Component library. It is not connected with 
 
 We imported Redux and added the garbage collection. We can easily revoke all garbages from Redux store. Also, to unify the Redux store namespace, we added Action Type Namespace called redux-action-namespacer.
 
-## Redux Observable 
+## Redux Observable
 
 We use it as a middleware of Redux to inject Actions. For example, if we need to handle HTTP request error, we can write Epics to accept the request actions and then have it send out another actions. We use this way to eliminate side effects of Redux.
 
-Detail info see [redux-observable](https://redux-observable.js.org/) official site. 
+Detail info see [redux-observable](https://redux-observable.js.org/) official site.
 
 ## Redux Namespace
 
@@ -74,10 +74,8 @@ export const ACTIONS = createA10ActionTypes(actionTypes);
 
 ## Redux with HTTP Request
 
-1. GUI Framework provides a reusable Redux action for asynchronous HTTP data processing. 
-
+1. GUI Framework provides a reusable Redux action for asynchronous HTTP data processing.
 2. Developers can get a variety of HTTP status actions such as successful HTTP response, HTTP error handling, and gain the ability to cancel previous HTTP requests.
-
 3. GUI Framework manages the life cycle of data in the Redux store for HTTP responses and takes care of their garbage collection when the containers get unmounted.
 
 ## A10 Less CSS

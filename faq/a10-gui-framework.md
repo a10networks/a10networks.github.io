@@ -2,13 +2,13 @@
 
 ## Why do need to use A10's GUI framework
 
-To provide consistency, reusability and cost savings for the construction of web UI across A10’s product portfolio, we need a common set of technologies, design guidelines, and software libraries. 
+To provide consistency, reusability and cost savings for the construction of web UI across A10’s product portfolio, we need a common set of technologies, design guidelines, and software libraries.
 
 ## Setup Issues
 
 ### How do I install?
 
- npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)​
+npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)​
 
 ## Coding issues
 
@@ -105,14 +105,11 @@ export const A10Data = (state = Map(), action: any) => {
       return state
   }
 }
-
-
 ```
 
 ### 3. Store / call the reducer
 
 ```jsx
-
   import {
   Store,
   createStore as reduxCreateStore,
@@ -188,7 +185,6 @@ export interface IA10ProviderProps extends IA10ReduxProps {
 export interface IEpicDependencies {
   httpClient: IGlobalConfig['httpClient']
   HTTPManager: ReturnType<typeof getHTTPManager>
-  [dependency: string]: any
 }
 
 export class A10Provider extends React.Component<IA10ProviderProps> {
@@ -252,7 +248,7 @@ export default A10Provider
 ### 1.install `rxjs` and `redux-observable`.
 
 ```javascript
-npm i -S rxjs redux-observable 
+npm i -S rxjs redux-observable
 ```
 
 ### 2.Create epic functions
@@ -345,7 +341,7 @@ Yes, redux-thunk is an asynchronous action middleware.
 
 ## What are the benefits of using httpRequest?
 
-All React-Redux applications need to communicate with an HTTP server. A set of common problems frequently arise while making HTTP requests: error handling, request cancellation, and state data management.  Here are some proposals for dealing with this problems.
+All React-Redux applications need to communicate with an HTTP server. A set of common problems frequently arise while making HTTP requests: error handling, request cancellation, and state data management. Here are some proposals for dealing with this problems.
 
 ### **Generic Error Handling**
 
@@ -358,6 +354,4 @@ Every HTTP request is able to be aborted as long as developer dispatches out a c
 ### **State Data Management**
 
 Most developers may face issues arising from state data management in Redux store. Redux will not purge unused state data in the store by default, which may introduce unnecessary memory consumption.
-
-
 

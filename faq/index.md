@@ -21,7 +21,7 @@
   * [Using Redux state, ignoring A10Theme issue, but cannot run a10-gui-framework store procedure](https://a10-gui.gitbook.io/ugf/faq/unit-test#use-redux-state-and-ignore-a-10-theme-issue-and-cannot-run-a-10-gui-framework-store-procedure)
   * [How do I prevent a 'Network Issue' error when running unit test code?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-prevent-network-issue-error-when-running-unit-testing-code)
   * [How do I find your component in a customized form?](https://a10-gui.gitbook.io/ugf/faq/unit-test#how-to-find-your-component-in-the-customzied-form)
-* End to End Test (E2E Test)
+* End to End Test \(E2E Test\)
   * [Where is the document for End-to-End test?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#where-is-the-document-for-end-to-end-test)
   * [Why did the DOM element not change after clicking the .click\(\) function to send a click command to WebDriver?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#why-the-dom-element-didnt-change-after-clicking-it-by-using-the-click-function-to-send-a-click-command-to-webdriver)
   * [How do I run a specific project?](https://a10-gui.gitbook.io/ugf/faq/end-to-end-test#how-to-run-a-certain-project-only)

@@ -4,11 +4,11 @@
 
 ### 1.When should I use redux?
 
-**case 1:** 
+**case 1:**
 
 If view needs to get data from more than one data source.
 
-eg: There is a data list that includes three types of data, each with a different data source. 
+eg: There is a data list that includes three types of data, each with a different data source.
 
 **Case2:**
 

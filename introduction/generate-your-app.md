@@ -66,5 +66,3 @@ yo ugf:component my/namespaced/container
 
 To use more of the generator, please read generator-ugf [Readme.md ](https://github.com/a10networks/generator-ugf)
 
-
-

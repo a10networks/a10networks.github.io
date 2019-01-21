@@ -2,8 +2,7 @@
 
 ## App entry
 
-```html
-
+```markup
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,7 +18,6 @@
     <div id="root"></div>
   </body>
 </html>
-
 ```
 
 ```jsx
@@ -41,8 +39,6 @@ ReactDOM.render(
   </A10Provider>,
   document.getElementById('root') as HTMLElement,
 )
-
-
 ```
 
 ```jsx
@@ -73,7 +69,6 @@ class Root extends A10Container<IRootProps, IRootState> {
 }
 
 export default setupA10Container(Root)
-
 ```
 
 ## How to create the first hello world page
@@ -117,7 +112,6 @@ class HelloWorld extends A10Container<IHelloWorldProps, IHelloWorldState> {
 }
 
 export default setupA10Container(HelloWorld)
-
 ```
 
 ```jsx
@@ -170,34 +164,6 @@ export class InputName extends A10Component<IInputNameProps, IInputNameState> {
 }
 
 export default InputName
-
-```
-
-component
-
-```jsx
-import { A10Component } from 'a10-gui-framework'
-class HelloWorld extends A10Component {
-  render() {
-    return <h1>Hello, {this.props.name}</h1>
-  }
-}
-
-export default HelloWorld
-```
-
-container
-
-```jsx
-import {A10Container, setupA10Container} from 'a10-gui-framework'
-class HelloWorldContainer extends A10Containder {
-  render() {
-    return (
-      <HelloWorld name="World" />
-    )
-  }
-}
-export default setupA10Container(HelloWorldContainer)
 ```
 
 ## Write the hello world page with Redux
@@ -303,7 +269,6 @@ render() {
     )
   }
 ...
-
 ```
 
 #### Users roles with permission
@@ -382,7 +347,6 @@ class LogPage extends A10Container<ILogPageProps> {
 export default setupA10Container(LogPage, {
   isWithRouter: true,
 })
-
 ```
 
 ## How to use A10 App Generator

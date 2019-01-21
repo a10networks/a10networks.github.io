@@ -6,7 +6,7 @@
 
 A10 GUI Framework is the our framework base.
 
-It's also a HOC library for React.js and Redux, where our framework has encapsulated some core concepts like containers, components, widgets, and also some frequently used features like i18n, a feature debugger. 
+It's also a HOC library for React.js and Redux, where our framework has encapsulated some core concepts like containers, components, widgets, and also some frequently used features like i18n, a feature debugger.
 
 If you want to write your own component or container, please refer to this repository while including relevant interfaces and examples to contribute to a widget. You can write the code as below.
 
@@ -21,7 +21,7 @@ To read more, please see[ A10 GUI Framework.](../main-repositories/a10-gui-frame
 
 ### How to make it work?
 
-Since this is not a public repository, you have to add the repository git path to your package.json 
+Since this is not a public repository, you have to add the repository git path to your package.json
 
 ```text
  "dependencies": {
@@ -47,14 +47,13 @@ To setup the bootstrap code, please refer to [ a10-gui-ugf-template bootstrap co
 
 ### What is it?
 
-It's a GUI consisting of small buildable widgets; somewhat like a React Component,  but all stateless.
+It's a GUI consisting of small buildable widgets; somewhat like a React Component, but all stateless.
 
-80% of the components are based on [Ant Design](https://ant.design/) widgets. Our widgets have integrated Ant Design's style and A10's customized UI style. We have added A10 Widget Interface to extend Ant's widgets. 
+80% of the components are based on [Ant Design](https://ant.design/) widgets. Our widgets have integrated Ant Design's style and A10's customized UI style. We have added A10 Widget Interface to extend Ant's widgets.
 
 ### How to make it work?
 
-You need to first install it similarly to how you installed a10-gui-framework. 
-Generally these two lines are like fraternal twins. Refer below: 
+You need to first install it similarly to how you installed a10-gui-framework. Generally these two lines are like fraternal twins. Refer below:
 
 ```javascript
   "dependencies": {
@@ -66,7 +65,7 @@ Generally these two lines are like fraternal twins. Refer below:
 
 Then call npm install to install. If you come across any issues during installation, please see [A10 GUI Widgets. ](../faq/a10-gui-widgets.md)'s FAQ
 
-Import the widget to your React Container as follows: 
+Import the widget to your React Container as follows:
 
 ```jsx
 import { A10Form, A10Button, A10Input } from 'a10-gui-widgets'
@@ -106,18 +105,17 @@ export class Form extends A10Container<IFormProps, IFormState> {
 
 ### Widgets List
 
-Please refer to [ A10 GUI Widgets](../main-repositories/a10-gui-widgets.md) to see what widgets we have. 
+Please refer to [ A10 GUI Widgets](../main-repositories/a10-gui-widgets.md) to see what widgets we have.
 
-## A10 GUI Common Library <a id="a10-gui-common-library"></a>
+## A10 GUI Common Library  <a id="a10-gui-common-library"></a>
 
-### What is it? <a id="what-is-it-2"></a>
+### What is it?  <a id="what-is-it-2"></a>
 
-A10 Gui Common Library is a common container library. It's different from our widgets library because it has encapsulated business logic inside of it, and it is also decoupled from the app. 
+A10 Gui Common Library is a common container library. It's different from our widgets library because it has encapsulated business logic inside of it, and it is also decoupled from the app.
 
-For example, we have decoupling in AutoForm. In AutoForm we need to provide a JSON schema as it's meta data, but since it only depends on A10 CM Schema's definition, we can use the same code for any type of production. 
+For example, we have decoupling in AutoForm. In AutoForm we need to provide a JSON schema as it's meta data, but since it only depends on A10 CM Schema's definition, we can use the same code for any type of production.
 
-
-### How to make it work? <a id="how-to-make-it-work-2"></a>
+### How to make it work?  <a id="how-to-make-it-work-2"></a>
 
 Let's take AutoForm as the example:
 
@@ -158,14 +156,14 @@ const yourComponent = () => {
 
 For detailed usage about AutoForm, see the [AutoForm usage document.](https://github.com/a10networks/a10-gui-common)​
 
-### Main Containers <a id="main-containers"></a>
+### Main Containers  <a id="main-containers"></a>
 
-#### Used in production containers <a id="used-in-production-containers"></a>
+#### Used in production containers  <a id="used-in-production-containers"></a>
 
 1. AutoForm: generate form by schema
 2. AutoLog: generate log analysis dashboard
 
-#### To be added <a id="to-be-added"></a>
+#### To be added  <a id="to-be-added"></a>
 
 1. Wizard : generate wizard
 2. Dashboard : generate app dashboard

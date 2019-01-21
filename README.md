@@ -1,6 +1,6 @@
 # A10 Unified GUI Framework
 
-UGF is a GUI framework used to build A10networks GUI projects, and is composed of open source softwares coded in React.js. Our framework promotes for easier debugging, higher performance, and is business-adapted. 
+UGF is a GUI framework used to build A10networks GUI projects, and is composed of open source softwares coded in React.js. Our framework promotes for easier debugging, higher performance, and is business-adapted.
 
 Here are the key features from our current release:
 

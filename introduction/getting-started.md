@@ -2,9 +2,9 @@
 
 ## Installation
 
-### Using a generator 
+### Using a generator
 
-To quick a start a project, we recommend using a UGF generator--a [Yeoman ]((https://yeoman.io/)generator). 
+To quick a start a project, we recommend using a UGF generator--a \[Yeoman \]\(\([https://yeoman.io/\)generator](https://yeoman.io/%29generator)\).
 
 Follow these steps:
 
@@ -16,13 +16,13 @@ If you'd like to learn more, you can add your generated code into your IDE, and 
 
 ### I would like to build blocks
 
-If you would like try to build the whole thing by yourself,  here are the required technologies:
+If you would like try to build the whole thing by yourself, here are the required technologies:
 
 1. Nodejs 8.11+ 
 2. git
 3. create-react-app
 
-After you have acquired the required technologies, follow these steps: 
+After you have acquired the required technologies, follow these steps:
 
 * Initialize a project using create-react-app
 
@@ -30,7 +30,7 @@ After you have acquired the required technologies, follow these steps:
 $ create-react-app my-project
 ```
 
-*  Adding required GUI framework components into [package.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/package.json)
+* Adding required GUI framework components into [package.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/package.json)
 
 ```javascript
 "dependencies": {
@@ -129,13 +129,13 @@ export default setupA10Container(Home)
 
 #### IDE setup
 
-Use any text editor like VSCode, Sublime Text, Hbuilder, Notepad++. 
+Use any text editor like VSCode, Sublime Text, Hbuilder, Notepad++.
 
 A10 Onbox GUI team uses VSCode since it's lightweight , stable, and has higher code performance. In our GUI git repository, we have already setup all the VSCode running environment configurations, so all you need to do is to pull it down, add it into your VSCode editor, and VSCode will help you startup GUI team's dev environment. The VS Code configuration files are under \[your\_project\_root\]/.vscode/
 
-If you have your favorite IDE,  we suggest you install basic plugins such as eslint and tslint. To highlight your code, please install Typescript and ES6 relevant plugin.
+If you have your favorite IDE, we suggest you install basic plugins such as eslint and tslint. To highlight your code, please install Typescript and ES6 relevant plugin.
 
-For coding style, we are using  tslint:recommended and tslint-react. For more information about this topic, please see [tslint.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/tslint.json).
+For coding style, we are using tslint:recommended and tslint-react. For more information about this topic, please see [tslint.json](https://github.com/a10networks/a10-gui-ugf-template/blob/master/tslint.json).
 
 #### Browser extensions recommend
 
@@ -146,9 +146,9 @@ For debugging React and Redux, we suggest installing the following two extension
 
 ## Examples
 
-For more examples,  please read [Examples](examples.md) page.
+For more examples, please read [Examples](examples.md) page.
 
-## Learn 
+## Learn
 
 #### Just the Basics
 
@@ -165,15 +165,15 @@ If you'd like to learn how it works in the real-world , please contact [ax-web-d
 
 ## Help and Discussion
 
-You can send an e-mail to [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) or join our [slack discussion group](https://a10webguiteam.slack.com/messages/CBJH1KJKD), 
+You can send an e-mail to [ax-web-dl@a10networks.com](mailto:ax-web-dl@a10networks.com) or join our [slack discussion group](https://a10webguiteam.slack.com/messages/CBJH1KJKD),
 
-For a10-gui-framework issues, you can directly connect our framework maintainer [Roll ](mailto:stsai@a10networks.com) and [Chris](mailto:christzhusiul@a10networks.com). 
+For a10-gui-framework issues, you can directly connect our framework maintainer [Roll ](mailto:stsai@a10networks.com) and [Chris](mailto:christzhusiul@a10networks.com).
 
 For a10-gui-widgets issues, please connect [Rui](mailto:%20ruiz@a10networks.com).
 
 Permissions needs to be granted in order to access the frameworks' source codes. Email / connect with [Yushan](mailto:yhou@a10networks.com) and the aformentioned maintainers to be granted permission.
 
-An alternative is to post your issue(s) to the relevant git repository issue boards; we will answer your questions ASAP.
+An alternative is to post your issue\(s\) to the relevant git repository issue boards; we will answer your questions ASAP.
 
 ## Should You Use?
 
@@ -183,7 +183,5 @@ This is currently not an open source project, as it is only used in A10networks 
 
 As an A10 GUI internal project, you have no permission to access the framework repositories outside A10networks Corp.
 
-To access those frameworks' source code,  you need to be grant permissions, so you need connect [Yushan](mailto:yhou@a10networks.com) and the relevant maintainers mentioned above.
-
-
+To access those frameworks' source code, you need to be grant permissions, so you need connect [Yushan](mailto:yhou@a10networks.com) and the relevant maintainers mentioned above.
 

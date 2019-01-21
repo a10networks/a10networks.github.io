@@ -2,9 +2,9 @@
 
 ## Introduction
 
-A10 GUI Framework is based on modern web design. At the heart of it, we leverage a component based front-end JavaScript framework called React.js. Together with Redux and the embodiment of a set of design patterns, we aimed to provide a set of tools that allow for appealing, modern, and consistent web UI to be built with relative ease and simplicity. 
+A10 GUI Framework is based on modern web design. At the heart of it, we leverage a component based front-end JavaScript framework called React.js. Together with Redux and the embodiment of a set of design patterns, we aimed to provide a set of tools that allow for appealing, modern, and consistent web UI to be built with relative ease and simplicity.
 
-### Repository path: 
+### Repository path:
 
 #### [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)
 
@@ -14,7 +14,7 @@ $ npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github
 
 ### How to use
 
- Framework’s main components like A10Provider, A10Root, A10Router and A10Container are used to build basic scaffolding. 
+Framework’s main components like A10Provider, A10Root, A10Router and A10Container are used to build basic scaffolding.
 
 Easy to use! For example, simply write `import A10Provider from a10-gui-framework`
 
@@ -35,13 +35,11 @@ ReactDOM.render(
 )
 ```
 
-
-
-## Core components 
+## Core components
 
 ### A10Provider
 
- A10Provider is a wrapper for React-Redux Provider. We use this wrapper to wire up some global middleware to help the system monitor global data \(theme, debug\) or to log critical information.
+A10Provider is a wrapper for React-Redux Provider. We use this wrapper to wire up some global middleware to help the system monitor global data \(theme, debug\) or to log critical information.
 
 #### Use Case
 
@@ -60,7 +58,7 @@ initState={initState}>
 , documentRoot)
 ```
 
-###  A10Root
+### A10Root
 
 A10Root is the place to accept initial configurations defined in a JS file and to send into Redux. A10Root is also the place to have a component context so that every descendent can access the global variables.
 
@@ -74,9 +72,9 @@ ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
 </A10Provider>, documentRoot)
 ```
 
-###  A10Router
+### A10Router
 
- A10Router is a React Router wrapper, simplified from React Router for ease of use.
+A10Router is a React Router wrapper, simplified from React Router for ease of use.
 
 #### Use Case
 
@@ -120,19 +118,19 @@ params: [‘ip’, ‘port’]
 }
 ```
 
- On above definition, the ‘slb’, ‘virtual-server’ will combine to a route path /slb/virtual-server, and the path will route to an A10Container called THVirtualServerContainer. params is also a Frameworks preserved option. With the params option, an example virtual-service URL looks may be of the form /slb/virtual-service/:ip/:port.
+On above definition, the ‘slb’, ‘virtual-server’ will combine to a route path /slb/virtual-server, and the path will route to an A10Container called THVirtualServerContainer. params is also a Frameworks preserved option. With the params option, an example virtual-service URL looks may be of the form /slb/virtual-service/:ip/:port.
 
-###  A10Container
+### A10Container
 
- A10Container is the heavy-hitter. It is a stateful component which is connected to the Redux store. A10Container contains page elements, and could include A10Container, or A10Widgets, or external \(external to this Framework\) React Components.
+A10Container is the heavy-hitter. It is a stateful component which is connected to the Redux store. A10Container contains page elements, and could include A10Container, or A10Widgets, or external \(external to this Framework\) React Components.
 
-####  Create Interface
+#### Create Interface
 
 ```jsx
 setupA10Container(component, mapStateToProps={}, mapDispatchToProps={}, options={}) : function
 ```
 
-####  Create Container
+#### Create Container
 
 ```jsx
 import { setupA10Container } from ‘a10-gui-framework’
@@ -163,7 +161,7 @@ autoPurge: true,
 Export default setupA10Container(LoginContainer, mapStateToProps, mapDispatchToProps, options)
 ```
 
-####  Use Case
+#### Use Case
 
 ```jsx
 import { A10Router, A10Provider, A10Root } from ‘a10-gui-framework’
@@ -178,11 +176,7 @@ ReactDom.render(<A10Provider middlewares={} reducers={} initState={}>
 </A10Provider>, documentRoot)
 ```
 
-###  [A10 Widgets](https://a10-gui.gitbook.io/ugf/~/drafts/-LTvZa0LwJLFk24sVZd1/primary/main-repositories/a10-gui-widgets)
+### [A10 Widgets](https://a10-gui.gitbook.io/ugf/~/drafts/-LTvZa0LwJLFk24sVZd1/primary/main-repositories/a10-gui-widgets)
 
 ## [FAQ](https://a10-gui.gitbook.io/ugf/faq/a10-gui-framework)
-
-### 
-
-
 

@@ -1,24 +1,24 @@
 # A10 GUI Common Library
 
-## Introduction <a id="introduction"></a>
+## Introduction  <a id="introduction"></a>
 
-A10Container is an abstract class that all A10 containers implement. It is based on A10 GUI Framework and aids in maximizing modularity and maintainability. 
+A10Container is an abstract class that all A10 containers implement. It is based on A10 GUI Framework and aids in maximizing modularity and maintainability.
 
-### Repository path: 
+### Repository path:
 
 [https://github.com/a10networks/a10-gui-common.git](https://github.com/a10networks/a10-gui-common.git)
 
 ### Install
 
- 1. Add `a10-gui-common` to your package.json.
+1. Add `a10-gui-common` to your package.json.
 
-  "a10-gui-common": "[git+](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-common/null)[https://github.com/a10networks/a10-gui-common.git](https://github.com/a10networks/a10-gui-common.git)"
+   "a10-gui-common": "[git+](https://git.a10networks.com:8443/projects/GUINEXT/repos/a10-gui-common/null)[https://github.com/a10networks/a10-gui-common.git](https://github.com/a10networks/a10-gui-common.git)"
 
-2. Execute `npm i a10-gui-common` 
+2. Execute `npm i a10-gui-common`
 
- `$ npm i a10-gui-common`
+   `$ npm i a10-gui-common`
 
- _**NOTE:** `a10-gui-common` requires `a10-gui-framework` and `a10-gui-widgets`_
+   _**NOTE:**_ `a10-gui-common` _requires_ `a10-gui-framework` _and_ `a10-gui-widgets`
 
 ### How to use
 
@@ -52,7 +52,7 @@ const yourComponent = () => {
 
 ### A10Container
 
- A10Container is abstract class for all containers. It extends A10Component and implements IA10Container interface.
+A10Container is abstract class for all containers. It extends A10Component and implements IA10Container interface.
 
 #### Use case
 
@@ -66,7 +66,6 @@ export default Class A10Container extends React.Component<IA10Container> {
 
 }
 export default setupA10Container(A10Container)
-
 ```
 
 ### THObjectExplorerContainer
@@ -154,7 +153,5 @@ export default SForm.customize({
 
 ### WAF form
 
-
-
-## ​[FAQ](https://a10-gui.gitbook.io/ugf/faq/a10-gui-framework)​ <a id="faq"></a>
+## ​[FAQ](https://a10-gui.gitbook.io/ugf/faq/a10-gui-framework)​  <a id="faq"></a>
 
