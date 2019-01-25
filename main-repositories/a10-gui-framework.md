@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A10 GUI Framework is based on modern web design. At the heart of it, we leverage a component based front-end JavaScript framework called React.js. Together with Redux and the embodiment of a set of design patterns, we aimed to provide a set of tools that allow for appealing, modern, and consistent web UI to be built with relative ease and simplicity.
+A10 GUI Framework is based  off of modern web design principles. At the heart of it, we leverage a component based front-end JavaScript framework called React.js. Utilizing Redux and design patterns together, we aimed to provide a set of tools that allow for appealing, modern, and consistent web UI to be built with relative ease and simplicity.
 
 ### Repository path:
 
@@ -10,13 +10,15 @@ A10 GUI Framework is based on modern web design. At the heart of it, we leverage
 
 ### Installation
 
-$ npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)
+```bash
+$ npm i -S https://github.com/a10networks/a10-gui-framework.git
+```
 
 ### How to use
 
 Framework’s main components like A10Provider, A10Root, A10Router and A10Container are used to build basic scaffolding.
 
-Easy to use! For example, simply write `import A10Provider from a10-gui-framework`
+Simple to use! For example, write `import A10Provider from a10-gui-framework`
 
 Using it as html tags in render\(\)
 
