@@ -4,7 +4,7 @@
 
 ### Using a generator
 
-To quick a start a project, we recommend using a UGF generator--a \[Yeoman \]\(\([https://yeoman.io/\)generator](https://yeoman.io/%29generator)\).
+To quick a start a project, we recommend using a UGF generator--a \[Yeoman\]\([https://yeoman.io/generator](https://yeoman.io/%29generator)\).
 
 Follow these steps:
 
