@@ -19,7 +19,7 @@ export default createA10Widget(A10Button)
 
 To read more, please see[ A10 GUI Framework.](../main-repositories/a10-gui-framework.md)
 
-### How to make it work?
+### Getting It To Work
 
 Since this is not a public repository, you have to add the repository git path to your package.json
 
@@ -30,11 +30,11 @@ Since this is not a public repository, you have to add the repository git path t
 }
 ```
 
-Then use npm install to install it. If you come across any installation issues, please see the FAQ of [A10 GUI Framework](../faq/a10-gui-framework.md).
+Then install with npm install. If you come across any installation issues, please see the FAQ of [A10 GUI Framework](../faq/a10-gui-framework.md).
 
-To setup the bootstrap code, please refer to [ a10-gui-ugf-template bootstrap code](https://github.com/a10networks/a10-gui-ugf-template/blob/master/src/index.tsx).
+To setup the bootstrap code, please refer to [a10-gui-ugf-template bootstrap code](https://github.com/a10networks/a10-gui-ugf-template/blob/master/src/index.tsx).
 
-### Main features
+### Main Features
 
 1. A10 Root, stores some React context variables
 2. A10 Router, a React Router Wrapper
@@ -47,13 +47,13 @@ To setup the bootstrap code, please refer to [ a10-gui-ugf-template bootstrap co
 
 ### What is it?
 
-It's a GUI consisting of small buildable widgets; somewhat like a React Component, but all stateless.
+A10 GUI Widgets is made up of small buildable widgets; somewhat like a React Component, but all stateless.
 
 80% of the components are based on [Ant Design](https://ant.design/) widgets. Our widgets have integrated Ant Design's style and A10's customized UI style. We have added A10 Widget Interface to extend Ant's widgets.
 
 ### How to make it work?
 
-You need to first install it similarly to how you installed a10-gui-framework. Generally these two lines are like fraternal twins. Refer below:
+You need to first install it similarly to how you installed a10-gui-framework. Generally these two lines are nearly identical. Refer below:
 
 ```javascript
   "dependencies": {
@@ -63,7 +63,7 @@ You need to first install it similarly to how you installed a10-gui-framework. G
   }
 ```
 
-Then call npm install to install. If you come across any issues during installation, please see [A10 GUI Widgets. ](../faq/a10-gui-widgets.md)'s FAQ
+Then install with npm install. If you come across any issues during installation, please see A10 GUI Widgets. 's FAQ
 
 Import the widget to your React Container as follows:
 
