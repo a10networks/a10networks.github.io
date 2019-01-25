@@ -4,11 +4,11 @@
 
 ### Using a generator
 
-To quick a start a project, we recommend using a UGF generator--a \[Yeoman\]\([https://yeoman.io/generator](https://yeoman.io/%29generator)\).
+To quick a start a project, we recommend using a UGF generator--a [Yeoman](https://yeoman.io/generator).
 
 Follow these steps:
 
-1. First install Yeoman tool
+1. First install Yeoman and its related generators [here](https://yeoman.io/learning/index.html). 
 2. Then follow the steps from [Generate Your App](generate-your-app.md) to generate the whole framework and its required items.
 3. Your app should be running! 
 
