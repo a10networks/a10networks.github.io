@@ -97,7 +97,7 @@ const renderTestComponent = () => {
 
 ## How do I prevent a 'Network Issue' error when running unit test code?
 
-Use a try cach block for the source code.
+Use a try cacTh block for the source code.
 
 ## How do I find your component in the customized form?
 

@@ -8,7 +8,9 @@ To provide consistency, reusability and cost savings for the construction of web
 
 ### How do I install?
 
-npm i -S [https://github.com/a10networks/a10-gui-framework.git](https://github.com/a10networks/a10-gui-framework.git)​
+```bash
+npm i -S https://github.com/a10networks/a10-gui-framework.git
+```
 
 ## Coding issues
 
