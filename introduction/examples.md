@@ -25,7 +25,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { A10Provider, A10Router } from 'a10-gui-framework'
+import { A10Provider } from 'a10-gui-framework'
 
 import './styles/index.less'
 
@@ -33,9 +33,7 @@ import Root from './Root'
 
 ReactDOM.render(
   <A10Provider>
-    <A10Router.Browser>
-      <Root />
-    </A10Router.Browser>
+    <Root />
   </A10Provider>,
   document.getElementById('root') as HTMLElement,
 )
@@ -45,10 +43,12 @@ ReactDOM.render(
 // Root.tsx
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {
   A10Container,
   setupA10Container,
   IA10ContainerDefaultProps,
+  A10Router,
   A10Route,
 } from 'a10-gui-framework'
 
@@ -60,10 +60,14 @@ export interface IRootState { }
 class Root extends A10Container<IRootProps, IRootState> {
   render() {
     return (
-      <>
-        {/* This is the Root Container. */}
-        <A10Route path="/" component={HelloWorld} />
-      </>
+      <A10Router.Browser>
+        <div>
+          <Link to="/"> Home </Link>
+          <Link to="/hello-world"> HelloWorld </Link>
+
+          <A10Route path="/hello-world" component={HelloWorld} />
+        </div>
+      </A10Router.Browser>
     )
   }
 }
@@ -71,102 +75,531 @@ class Root extends A10Container<IRootProps, IRootState> {
 export default setupA10Container(Root)
 ```
 
-## How to create the first hello world page
+## How to create a Hello World page
 
 ```jsx
 // HelloWorld.tsx
 
 import React from 'react'
-import { A10Container, setupA10Container, IA10ContainerDefaultProps } from 'a10-gui-framework'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+} from 'a10-gui-framework'
 
-import InputName from './InputName'
+import Description from './Description'
 
 export interface IHelloWorldProps extends IA10ContainerDefaultProps { }
-export interface IHelloWorldState {
-  target: string
-}
+export interface IHelloWorldState { }
 
 class HelloWorld extends A10Container<IHelloWorldProps, IHelloWorldState> {
-  constructor(props: IHelloWorldProps) {
+  render() {
+    return (
+      <>
+        <h1>Hello World!</h1>
+        <Description />
+      </>
+    )
+  }
+}
+export default setupA10Container(HelloWorld)
+```
+
+```jsx
+// Description.tsx
+
+import React from 'react'
+import { A10Component } from 'a10-gui-framework'
+
+export interface IDescriptionProps { }
+export interface IDescriptionState { }
+
+class Description extends A10Component<IDescriptionProps, IDescriptionState> {
+  render() {
+    return (
+      <>
+        <p>This is A10Networks.</p>
+      </>
+    )
+  }
+}
+export default Description
+```
+
+## Enhance the Hello World page
+
+```jsx
+// Root.tsx
+
+import React from 'react'
+import { Link } from 'react-router-dom'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+  A10Router,
+  A10Route,
+} from 'a10-gui-framework'
+
+import HelloWorld from './HelloWorld'
+import HelloTarget from './HelloTarget'
+
+export interface IRootProps extends IA10ContainerDefaultProps { }
+export interface IRootState { }
+
+class Root extends A10Container<IRootProps, IRootState> {
+  render() {
+    return (
+      <A10Router.Browser>
+        <div>
+          <Link to="/"> Home </Link>
+          <Link to="/hello-world"> HelloWorld </Link>
+          <Link to="/hello-target"> HelloTarget </Link>
+
+          <A10Route path="/hello-world" component={HelloWorld} />
+          <A10Route path="/hello-target" component={HelloTarget} />
+        </div>
+      </A10Router.Browser>
+    )
+  }
+}
+
+export default setupA10Container(Root)
+```
+
+```jsx
+// HelloTarget.tsx
+
+import React from 'react'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+} from 'a10-gui-framework'
+
+import SourceDescription from './SourceDescription'
+import InputTargetAndSource from './InputTargetAndSource'
+
+export interface IHelloTargetProps extends IA10ContainerDefaultProps { }
+export interface IHelloTargetState {
+  target: string
+  source: string
+}
+
+class HelloTarget extends A10Container<IHelloTargetProps, IHelloTargetState> {
+  constructor(props: IHelloTargetProps) {
     super(props)
 
     this.state = {
       target: 'World',
+      source: 'A10Networks'
     }
   }
 
-  changeTarget = (name: string) => {
+  changeTarget = (target: string, source: string) => {
     this.setState({
-      target: name,
+      target,
+      source,
     })
   }
 
   render() {
+    const { target, source } = this.state
+
     return (
       <>
-        <h1>Hello {this.state.target}!</h1>
-        <InputName onOK={this.changeTarget} />
+        <h1>Hello {target}!</h1>
+        <SourceDescription source={source} />
+        <InputTargetAndSource
+          defaultTarget={target}
+          defaultSource={source}
+          onClickOK={(newTarget: string, newSource: string) => {
+            this.setState({
+              target: newTarget,
+              source: newSource,
+            })
+          }}
+        />
+      </>
+    )
+  }
+}
+export default setupA10Container(HelloTarget)
+```
+
+```jsx
+// SourceDescription.tsx
+
+import React from 'react'
+import { A10Component } from 'a10-gui-framework'
+
+export interface IDescriptionProps {
+  source: string
+}
+
+export interface IDescriptionState { }
+
+class SourceDescription extends A10Component<IDescriptionProps, IDescriptionState> {
+  render() {
+    const { source } = this.props
+
+    return (
+      <>
+        <p>This is {source}.</p>
+      </>
+    )
+  }
+}
+export default SourceDescription
+```
+
+```jsx
+// InputTargetAndSource.tsx
+
+import React from 'react'
+import { A10Component } from 'a10-gui-framework'
+
+export interface IInputTargetAndSourceProps {
+  defaultTarget?: string
+  defaultSource?: string
+  onClickOK: (target: string, source: string) => void
+}
+
+export interface IInputTargetAndSourceState {
+  target: string
+  source: string
+}
+
+class InputTargetAndSource extends A10Component<IInputTargetAndSourceProps, IInputTargetAndSourceState> {
+  constructor(props: IInputTargetAndSourceProps) {
+    super(props)
+
+    const { defaultTarget, defaultSource } = props
+    this.state = {
+      target: defaultTarget || '',
+      source: defaultSource || '',
+    }
+  }
+
+  onTargetChanges = (event: any) => {
+    this.setState({
+      target: event.target.value,
+    })
+  }
+
+  onSourceChanges = (event: any) => {
+    this.setState({
+      source: event.target.value,
+    })
+  }
+
+  onClickOK = () => {
+    const { onClickOK } = this.props
+    const { target, source } = this.state
+
+    if (onClickOK && onClickOK instanceof Function) {
+      onClickOK(target, source)
+    }
+  }
+
+  render() {
+    const { target, source } = this.state
+
+    return (
+      <>
+        <label htmlFor="source"><strong>From: </strong></label>
+        <input id="source" type="text" value={source} onChange={this.onSourceChanges} />
+        <label htmlFor="target"><strong>To: </strong></label>
+        <input id="target" type="text" value={target} onChange={this.onTargetChanges} />
+        <button onClick={this.onClickOK} >OK</button>
+      </>
+    )
+  }
+}
+export default InputTargetAndSource
+```
+
+## Enhance the Hello World page with Redux
+
+```jsx
+// index.tsx
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { A10Provider } from 'a10-gui-framework'
+
+import './styles/index.less'
+
+import reducers from './reducers'
+import Root from './Root'
+
+ReactDOM.render(
+  <A10Provider
+    initState={{ target: 'World', source: 'A10Networks' }}
+    reducers={reducers}
+  >
+    <Root />
+  </A10Provider>,
+  document.getElementById('root') as HTMLElement,
+)
+```
+
+```jsx
+// reducers.ts
+
+function changeTarget(preState = '', action: IObject) {
+  switch (action.type) {
+    case 'Change Target':
+      return action.newTarget
+    default:
+      return preState
+  }
+}
+
+function changeSource(preState = '', action: IObject) {
+  switch (action.type) {
+    case 'Change Source':
+      return action.newSource
+    default:
+      return preState
+  }
+}
+
+export default {
+  target: changeTarget,
+  source: changeSource,
+}
+```
+
+```jsx
+// Root.tsx
+
+import React from 'react'
+import { Link } from 'react-router-dom'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+  A10Router,
+  A10Route,
+} from 'a10-gui-framework'
+
+import HelloWorld from './HelloWorld'
+import HelloTarget from './HelloTarget'
+import HelloTargetWithRedux from './HelloTargetWithRedux'
+
+export interface IRootProps extends IA10ContainerDefaultProps { }
+export interface IRootState { }
+
+class Root extends A10Container<IRootProps, IRootState> {
+  render() {
+    return (
+      <A10Router.Browser>
+        <div>
+          <Link to="/"> Home </Link>
+          <Link to="/hello-world"> HelloWorld </Link>
+          <Link to="/hello-target"> HelloTarget </Link>
+          <Link to="/hello-target-redux"> HelloTargetWithRedux </Link>
+
+          <A10Route path="/hello-world" component={HelloWorld} />
+          <A10Route path="/hello-target" component={HelloTarget} />
+          <A10Route path="/hello-target-redux" component={HelloTargetWithRedux} />
+        </div>
+      </A10Router.Browser>
+    )
+  }
+}
+
+export default setupA10Container(Root)
+```
+
+```jsx
+// HelloTargetWithRedux.tsx
+
+import React from 'react'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+} from 'a10-gui-framework'
+
+import DescriptionWithRedux from './DescriptionWithRedux'
+import ControlTargetAndSource from './ControlTargetAndSource'
+
+export interface IHelloTargetWithReduxProps extends IA10ContainerDefaultProps {
+  target: string
+}
+
+export interface IHelloTargetWithReduxState { }
+
+class HelloTargetWithRedux extends A10Container<IHelloTargetWithReduxProps, IHelloTargetWithReduxState> {
+  render() {
+    const { target } = this.props
+
+    return (
+      <>
+        <h1>Hello {target || ''}!</h1>
+        <DescriptionWithRedux />
+        <ControlTargetAndSource />
       </>
     )
   }
 }
 
-export default setupA10Container(HelloWorld)
+function mapStateToProps(state: any) {
+  const { target } = state
+  return {
+    target,
+  }
+}
+
+export default setupA10Container(HelloTargetWithRedux, { mapStateToProps })
 ```
 
 ```jsx
-// InputName.tsx
+// DescriptionWithRedux.tsx
 
 import React from 'react'
-import { A10Component } from 'a10-gui-framework'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+} from 'a10-gui-framework'
 
-export interface IInputNameProps {
-  onOK: (name: string) => void
+export interface IDescriptionWithReduxProps extends IA10ContainerDefaultProps {
+  source: string
 }
 
-export interface IInputNameState {
-  name: string
-}
+export interface IDescriptionWithReduxState { }
 
-export class InputName extends A10Component<IInputNameProps, IInputNameState> {
-  constructor(props: IInputNameProps) {
-    super(props)
-
-    this.state = {
-      name: '',
-    }
-  }
-
-  onNameChanges = (event: any) => {
-    this.setState({
-      name: event.target.value,
-    })
-  }
-
-  onClickOK = () => {
-    const { onOK } = this.props
-    const { name } = this.state
-
-    if (onOK && onOK instanceof Function) {
-      onOK(name)
-    }
-  }
-
+class DescriptionWithRedux extends A10Container<IDescriptionWithReduxProps, IDescriptionWithReduxState> {
   render() {
     return (
       <>
-        <label htmlFor="name"><strong>Input target Name: </strong></label>
-        <input id="name" type="text" onChange={this.onNameChanges} />
+        <p>This is {this.props.source || ''}.</p>
+      </>
+    )
+  }
+}
+
+function mapStateToProps(state: any) {
+  const { source } = state
+  return {
+    source,
+  }
+}
+
+export default setupA10Container(DescriptionWithRedux, { mapStateToProps })
+```
+
+```jsx
+// ControlTargetAndSource.tsx
+
+import React from 'react'
+import {
+  A10Container,
+  setupA10Container,
+  IA10ContainerDefaultProps,
+} from 'a10-gui-framework'
+
+import { changeTarget, changeSource } from './actions'
+
+export interface IControlTargetAndSourceProps extends IA10ContainerDefaultProps {
+  target: string
+  source: string
+  onChangeTarget: (t: string) => {}
+  onChangeSource: (s: string) => {}
+}
+
+export interface IControlTargetAndSourceState {
+  newTarget: string
+  newSource: string
+}
+
+class ControlTargetAndSource extends A10Container<IControlTargetAndSourceProps, IControlTargetAndSourceState> {
+  constructor(props: IControlTargetAndSourceProps) {
+    super(props)
+
+    const { target, source } = this.props
+    this.state = {
+      newTarget: target || '',
+      newSource: source || '',
+    }
+  }
+
+  onClickOK = () => {
+    const { onChangeTarget, onChangeSource } = this.props
+    const { newTarget, newSource } = this.state
+    onChangeTarget(newTarget)
+    onChangeSource(newSource)
+  }
+
+  onInputTarget = (event: any) => {
+    this.setState({
+      newTarget: event.target.value,
+    })
+  }
+
+  onInputSource = (event: any) => {
+    this.setState({
+      newSource: event.target.value,
+    })
+  }
+
+  render() {
+    const { newTarget, newSource } = this.state
+
+    return (
+      <>
+        <label htmlFor="source"><strong>From: </strong></label>
+        <input id="source" type="text" value={newSource} onChange={this.onInputSource} />
+        <label htmlFor="target"><strong>To: </strong></label>
+        <input id="target" type="text" value={newTarget} onChange={this.onInputTarget} />
         <button onClick={this.onClickOK} >OK</button>
       </>
     )
   }
 }
 
-export default InputName
+function mapStateToProps(state: any) {
+  const { target, source } = state
+  return {
+    target,
+    source,
+  }
+}
+
+function mapDispatchToProps(dispatch: any) {
+  return {
+    onChangeTarget: (target: string) => {
+      dispatch(changeTarget(target))
+    },
+    onChangeSource: (source: string) => {
+      dispatch(changeSource(source))
+    },
+  }
+}
+
+export default setupA10Container(ControlTargetAndSource, { mapStateToProps, mapDispatchToProps })
 ```
 
-## Write the hello world page with Redux
+```jsx
+// actions.ts
+
+export function changeTarget(target: string) {
+  return {
+    type: 'Change Target',
+    newTarget: target,
+  }
+}
+
+export function changeSource(source: string) {
+  return {
+    type: 'Change Source',
+    newSource: source,
+  }
+}
+```
 
 ## Introduce a form page. How to setup, import widgets, and hook up APIs
 
